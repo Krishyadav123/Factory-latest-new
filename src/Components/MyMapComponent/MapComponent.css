@@ -1,0 +1,9 @@
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+hr {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}

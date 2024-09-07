@@ -1,0 +1,24 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Outfit;
+  /* scroll-behavior: smooth; */
+}
+a{
+   text-decoration: none;
+   color: inherit;
+ }
+ /* .app{
+   width: 80%;
+   margin: auto;
+ } */
+ #root{
+  background:#F8F8F8;
+ }
+ 
+ @media(max-width:1200px){
+  /* .app{
+    width: 95%;
+  } */
+ }

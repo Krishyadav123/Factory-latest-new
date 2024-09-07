@@ -1,0 +1,52 @@
+{
+  "id" : 4,
+    "productName": "Shreeinsul Ceramic Fiber Cloth And Tape",
+    "image" : "src/assets/Ceramic-Fiber-Cloth.webp",
+    "image01" : "src/assets/ceramic-fiber-cloth.jpeg",
+    "description": "Shreeinsul Ceramic Fiber Tape is woven from ceramic fiber yarn, reinforced by a core of glass filament or stainless steel wire for high strength retention at elevated temperatures. Cloth and Tapes have high temperature resistance. Shreeinsul Ceramic Fiber Tape and Cloth can be laminated with aluminum foil or coated on one side or both the sides with a variety of compounds including Vermiculite.",
+    "standardDimensions": {
+      "cloth": [
+      {
+        "length_mm": [10000],
+        "width_mm": [1000],
+        "thickness_mm": 3,
+        "density_kg_m3": [400, 600]
+      }],
+      "tape": [{
+        "length_mm": [25000],
+        "width_mm": [25, 300],
+        "thickness_mm": 3,
+        "density_kg_m3": [400, 600]
+      }]
+    },
+    "otherSizes": "Other sizes can be manufactured on specific request.",
+    "additionalOptions": "Shreeinsul Ceramic Fiber cloth and tape with vermiculate coating is also available.",
+    "applications": [
+      "Coke oven door seal preventing gas leakage.",
+      "Between refractory and door jamb.",
+      "Piping insulation.",
+      "Hot top seal.",
+      "Welding curtains.",
+      "Insulation between anode buss and box.",
+      "Asbestos free and ideal replacement for asbestos.",
+      "Furnace doors and radiant tube seals.",
+      "Blast furnace stove expansion joint.",
+      "Coke oven ascension pipe seal, preventing fume emission on exhaust collection system."
+    ],
+    "Chemical_Composition": {
+      "SiO2%": "49-58%",
+      "LOI (%)": "< 16",
+      "ZrO2%": "Max 0.1%",
+      "Fe2O3%": "0.12",
+      "Al2O3%": "41-49%"
+    },
+    "Properties": {
+      "Grade Density (Kg/m3)": "400-600",
+      "Linear Shrinkage (%) 1200oC for 24 Hrs": "0-7%",
+      "Thermal Conductivity (W/moK) at 550°C Mean Temp": "< 3.5",
+      "Cloth & Tape": "> 0.4",
+      "Chemical Composition 1260°C": "1260°C",
+      "Tensile Strength (Kg/cm2)": "< 16"
+    }
+  }
+  

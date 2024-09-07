@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id" : 7,
+    "name": "Shreeinsul Ceramic Fiber Ropes",
+    "image" : "src/assets/ceramic-fiber-rope.png",
+    "description": "Shreeinsul Ceramic Fiber Round and Square Braided Ropes are dense and fabricated from high performance ceramic fiber yarn material braided around a core of ceramic fiber to form a packing in round or square shape. Shreeinsul is manufacturing a variety of Ceramic fiber ropes to meet the requirement of our valued customers. These ropes are manufactured from high performance ceramic fibers. Shreeinsul ropes are lightweight and have high temperature resistance. Shreeinsul ropes are designed to improve the strength for pulling and connecting. The twisted rope contains 15% organic carrier which helps to establish physical formation of products which burn out at about 400 °C.",
+    "features": [
+      "High performance ceramic fiber yarn material",
+      "Dense and fabricated for high temperature resistance",
+      "Available in round and square braided shapes",
+      "Lightweight with high strength",
+      "Contains 15% organic carrier for physical formation",
+      "Burn out at approximately 400 °C"
+    ],
+    "categories": [
+      {
+        "name": "Ceramic Fiber Yarn Braided Rope",
+        "description": "Made from Ceramic fiber Yarn braided in round, square, or rectangular shapes with an inner core of CF Blanket strip reinforced with fiber glass / SS wire for additional strength.",
+        "types": [
+          "Round",
+          "Square",
+          "Rectangular"
+        ]
+      },
+      {
+        "name": "Ceramic Fiber SS Wire Braided Rope",
+        "description": "Made from ceramic fiber enclosed in a SS wire braid for excellent handling strength."
+      },
+      {
+        "name": "Ceramic Fiber Yarn Twisted Rope",
+        "description": "Made from Ceramic fiber yarn and reinforced with fiber glass or SS wire or both SS wire & fiber glass yarn."
+      },
+      {
+        "name": "Ceramic Fiber Yarn Braided with Fiber Glass",
+        "description": "Made from Ceramic fiber Yarn braided with fiber glass for additional strength."
+      },
+      {
+        "name": "Lagging Rope with Inner Core of Ceramic Fiber Blanket",
+        "description": "Braided with Ceramic Fiber Yarn, this rope has an inner core of Ceramic Fiber Blanket."
+      }
+    ],
+    "specifications": {
+      "standard_dimensions": {
+        "diameter_thickness_mm": {
+          "min": 6,
+          "max": 100
+        },
+        "density_kg_per_m3": {
+          "min": 240,
+          "max": 800
+        }
+      },
+      "temperature_resistance": "Up to 650 °C"
+    },
+    "applications": [
+      "Furnace & Boilers door insulation",
+      "Expansion joints",
+      "Cable or Pipe wrapping",
+      "High temperature seals or Gaskets",
+      "High temperature casketing and packing in foundries",
+      "Refineries, Power plants, and steel plants"
+    ],
+    "chemicalComposition": {
+        "product": "Shreeinsul Rope",
+        "temperature": "1260 Deg C",
+        "components": {
+          "SiO2": "49-58%",
+          "Al2O3": "41-49%",
+          "ZrO2": "0-7%",
+          "Fe2O3": "Max 0.1%"
+        }
+      },
+      "propertiesAndChemicalComposition": {
+        "baseFiber": {
+          "grade": "1260oC",
+          "type": "Metalic and Non-metalic",
+          "densityKgPerM3": "240 - 800",
+          "linearShrinkagePercent": "< 3.5",
+          "shrinkageTemperature": "1200oC for 24 Hrs",
+          "thermalConductivityWPerMok": "0.13 at 550oC Mean Temp",
+          "lengthMm": "5 - 25 mtrs",
+          "loiPercent": "<20",
+          "tensileStrengthKgPerCm2": "> 0.4"
+        }
+      }
+    }
+    
+  }

@@ -1,0 +1,107 @@
+.product {
+  /* border: 1px solid red; */
+  background:#F8F8F8;
+  padding: 50px 0px 50px 0px;
+}
+.product-main-container{
+  width: 80%;
+  margin: auto;
+}
+.product-title {
+  text-align: center;
+  background:#F8F8F8;
+}
+.product-title p {
+  font-family: sans-serif;
+  color: blue;
+  /* margin-top: 20px; */
+  /* background:#F8F8F8; */
+}
+.product-title h1 {
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+.product-cards {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 50px;
+  
+}
+.product-card-one {
+  width: 335px;
+  border-radius: 25px;
+  background: #ffffff;
+  -webkit-box-shadow: -1px 1px 18px -4px rgba(0,0,0,0.49);
+-moz-box-shadow: -1px 1px 18px -4px rgba(0,0,0,0.49);
+box-shadow: -1px 1px 18px -4px rgba(0,0,0,0.49);
+  /* border: 1px solid red; */
+}
+.product-card-one:hover {
+  /* background: rgb(255, 166, 0); */
+  transition: 0.5s;
+  scale: 1.01;
+  opacity: 5;
+}
+.card-btn{
+  padding: 10px 20px;
+  display: none;
+  
+}
+.product-card-one img {
+  width: 100%;
+  height: 280px;
+  border-radius: 25px 25px 0px 0px;
+  /* border: 1px solid red; */
+  object-fit: cover;
+}
+.product-card-text {
+  padding: 20px;
+}
+.product-card-text h2 {
+  font-family: sans-serif;
+  color: #082d53;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.product-card-text p {
+  font-family: sans-serif;
+  color: rgb(167, 161, 161);
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+.product-card-text hr {
+  margin-top: 20px;
+  color: orange;
+}
+.product-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.products-page-countdown{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media(max-width:1200px){
+  .product-main-container{
+  width: 95%;
+  margin: auto;
+ }
+ .product-card-one {
+  width: 300px;
+  border-radius: 25px;
+  background: #ffffff;
+  -webkit-box-shadow: -1px 1px 18px -4px rgba(0,0,0,0.49);
+-moz-box-shadow: -1px 1px 18px -4px rgba(0,0,0,0.49);
+box-shadow: -1px 1px 18px -4px rgba(0,0,0,0.49);
+  /* border: 1px solid red; */
+}
+}

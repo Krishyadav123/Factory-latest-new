@@ -1,0 +1,118 @@
+{
+      "product": {
+        "id" : 6,
+        "name": "Shreeinsul PUF/PIR Products",
+        "image" : "src/assets/PufAndPirPipe.png",
+        "description": {
+          "PUF": "Polyurethane (PUF) foam has outstanding insulation properties to maintain temperature in cold / hot environments. PUF Materials are suitable for temperature range between -180°C to +110°C.",
+          "PIR": "Polyisocyanurate (PIR) foam slabs and pipe sections are suitable for use between -200°C to +150°C. It has low thermal conductivity value of maximum 0.021 W/mk at 10°C. It is not easily ignitable and has negligible water permeability, making it most suited for cold/chilled pipelines & equipment. PIR is the recommended insulation material for LNG pipe insulation."
+        },  
+        "features": {
+          "PUF": [
+            "Easy to install",
+            "Water proof",
+            "Light Weight",
+            "Excellent thermal insulation properties",
+            "Low maintenance",
+            "CFC Free",
+            "Environment Friendly",
+            "Excellent dimensional and thermal insulation properties",
+            "Compressive strength"
+          ],
+          "PIR": [
+            "Tailor made and construction friendly",
+            "Low Thermal Conductivity",
+            "Available in varied densities and thickness",
+            "Light Weight",
+            "Fire Resistant",
+            "Water Resistant",
+            "Low Maintenance",
+            "Cost Efficient",
+            "Low smoke emission",
+            "Higher hot surface performance up to 150°C",
+            "Not melt or drip in a fire"
+          ]
+        },
+        "PUFSupport": {
+          "description": "“Shreeinsul” offers a wide range of PUF Supports. The normal density of PUF support ranges from 80 kg/m³ to 350 kg/m³ but higher density PUF supports can be made available against specific customer requirements.",
+          "salientFeatures": [
+            "Durable,",
+            "Available in varied density and dimensions as per customer requirement,",
+            "Pre-fabricated and ready to use. Sawing and shaping not required,",
+            "Water Resistant no wet or dry rot,",
+            "Fire retardant, hence safer,",
+            "Construction Friendly."
+          ],
+          "types": ["PUF Pipe Support- Block", "Pipe Saddle", "Shiplap"]
+        },
+        "technicalSpecifications": {
+          "PUF": {
+            "temperatureLimit": "-180°C to +110°C",
+            "density": "36 ± 2 Kg/m³",
+            "availableSizes": [
+              "Boards: 1m x 0.5m",
+              "Pipe Section: 50 to 250 mm NB x 1m long",
+              "Other sizes available on demand",
+              "Custom moulded shapes for Horton spheres & shiplap pipe-section.",
+              "Thickness from 25 mm to 100 mm & Cast-in-Situ."
+            ],
+            "thermalConductivity": "Max. 0.021 W/mk (initial) at 10°C (0.15 BTU-in/hr.sft.degF)",
+            "fireResistance": {
+              "surfaceSpreadFlame": "Class - I (BS:476 Part-7, 1987)",
+              "ignitability": "Class ‘P’ (Not Easily Ignitable) (BS:476 Part-5, 1968)",
+              "meanExtentOfBurn": "Less than 25 mm (BS: 4735 Part-7, 1971)"
+            },
+            "toxicity": 1.0142,
+            "smoke": 780.89,
+            "oxygen": 25,
+            "waterVaporTransmission": "5.84 x 10^-3 mg-m/sN (BS:4370 Part-2, 1972)",
+            "closedCellContent": "90% (Min.)",
+            "compressionStrength": "172 KN/m² (1.75 Kgf/cm²) in direction of rise"
+          },
+          "PIR": {
+            "temperatureLimit": "-200°C to +150°C",
+            "density": "36 ± 2 Kg/m³",
+            "availableSizes": [
+              "Boards: 1m x 0.5m",
+              "Pipe Section: 50 to 250 mm NB x 1m long",
+              "Other sizes available on demand",
+              "Custom moulded shapes for Horton spheres & shiplap pipe-section.",
+              "Thickness from 25 mm to 100 mm & Cast in Situ."
+            ],
+            "thermalConductivity": "Max. 0.021 W/mk (initial) at 10°C (0.15 BTU-in/hr.sft.degF)",
+            "fireResistance": {
+              "surfaceSpreadFlame": "Class - I (BS:476 Part-7, 1987)",
+              "ignitability": "Class ‘P’ (Not Easily Ignitable) (BS:476 Part-5, 1968)",
+              "meanExtentOfBurn": "Less than 25 mm (BS: 4735 Part-7, 1971)"
+            },
+            "toxicity": 1.0142,
+            "smoke": 780.89,
+            "oxygen": 25,
+            "waterVaporTransmission": "5.84 x 10^-3 mg-m/sN (BS:4370 Part-2, 1972)",
+            "closedCellContent": "90% (Min.)",
+            "compressionStrength": "172 KN/m² (1.75 Kgf/cm²) in direction of rise"
+            
+          }
+        },
+        "properties": [
+            "Excellent 'k' value",
+            "Closed Dimensional Tolerances",
+            "Wide Density Range",
+            "Good Fire Resistance",
+            "Closed Cell Structure",
+            "Factory Pre-Engineered",
+            "Supplied in assembled condition, completed with all metal attachments",
+            "Special sizes, Shapes and Finishes"
+          ],
+          "advantages": [
+            "Provides much superior insulation as compared to timber and other materials. No condensation at support point. So no drips, puddles or energy wastage.",
+            "Pipe Support thickness is in perfect alignment with insulation thickness, resulting in smooth finish at support location.",
+            "Higher densities enable higher loads without increase in surface area.",
+            "Better Safety at site. Durable compared to other material.",
+            "Closed cell structure does not permit water penetration. No dry and wet rot.",
+            "Sawing and shaping at site not required. The support matches pipe's OD precisely. Drastic reduction of installation time.",
+            "Faster installations. Joint-free in the load bearing area, even for larger diameters of pipe.",
+            "On customers requirement, non standard sizes & shapes can be manufacturers to suit specifications. Supports can be supplied with a factory-applied coat of fire-resistive mastic, which also serves as a vapour barrier, on the exposed surface."
+     ]
+  }
+}

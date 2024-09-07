@@ -1,0 +1,85 @@
+{
+  "id": 1,
+  "title": "Shreeinsul Stone Wool Blanket Specifications",
+  "product": {
+    "name": "SHREEINSUL STONE WOOL BLANKET (LRB MATTRESS)",
+    "image": "src/assets/Shreeinsul Final.jpg",
+    "description": "Shreeinsul Stone Wool Blankets are designed to meet rigorous industry standards, ensuring superior performance across various applications. These lightly resin-bonded blankets are available with different facings, including Galvanized Wire Mesh, Stainless Steel Wire Mesh, and Aluminum Foil, providing flexibility and customization based on specific needs."
+  },
+  "properties": {
+    "physicalProperties": "Shreeinsul Stone Wool Blankets conform to IS: 8183:93, ASTM C 592, BS:3958 (Part:3), EN: 14303:2013, BS EN 13162 are Lightly Resin Bonded Blankets supplied without or with facings like Galvanized Wire Mesh or Stainless Steel Wire Mesh or Aluminum Foil or Kra",
+    "soundAbsorptionCoefficient": "“Shreeinsul” Stone Wool Blankets always have appreciable sound absorption coefficient",
+    "serviceTemperature": "Shreeinsul Stone Wool Blankets can withstand temperature up to 750°C subject to the lower service temperature in case of lower densities. It may also be noted that the facings and glue or adhesives used in lamination of the products may have lower operating temperature capacities than the insulation products",
+    "phNeutrality": "“Shreeinsul” Stone Wool Blankets are chemically inert and hence compatible with any industrial equipment or building material or ings “Shreeinsul” Stone Wool Blankets are neutral or slightly alkaline with pH 7-8. ",
+    "corrosionResistance": "The presence of sodium and silicate ions in the stone wool has noticed to be inhabit to the external stress corrosion cracking caused by chloride and fluorideions. “Shreeinsul” Stone Wool Blankets are engineered in such a way that the products contain chloride and fluorideions are at bare minimum levels and the products do not cause or initiate or promote corrosion when tested as per specication",
+    "combustibility": "“Shreeinsul” Stone Wool Blankets are non-combustible as per specification. The Blankets conform to Euro class Fire Classification-A1 non-combustible and are fire protective. The melting point of the Stone wool is 1000°C. The thermosetting binders used in the product for bonding properties may evaporate when the operating temperature reaches a level of 250°C or more and may develop little smoke temporarily. But the fibers remain intact and will not disintegrate or deteriorate from their shape. The blanket remains rigid and ensures thermal performance and protects the equipment being affected by fire.",
+    "biologicalProperties": "Stone Wool Blankets do not encourage growth of bacteria and cause fungus as they are rot-proof and hydrophobic. “Shreeinsul” Stone Wool Blankets deter spreading vermin.",
+    "easyHandlingCuttingInstallation": "“Shreeinsul” Stone Wool Blankets are manufactured in various densities starting from 70 to 160 kg/m³ according to the customer demand and requirements but within the tolerance limits specified in the specification. The products are engineered with high technology and hence are user friendly, easy to handle, easy to cut, and easy to install."
+  },
+  "thermalConductivity": {
+    "description": "Shreeinsul Stone Wool Blankets always have low Thermal Conductivity values.",
+    "typicalValues": [
+      {"density": "100 kg/m³", "temperature": "50°C", "value": "0.037 W/m·K"},
+      {"density": "100 kg/m³", "temperature": "100°C", "value": "0.043 W/m·K"},
+      {"density": "100 kg/m³", "temperature": "150°C", "value": "0.051 W/m·K"},
+      {"density": "100 kg/m³", "temperature": "200°C", "value": "0.060 W/m·K"},
+      {"density": "100 kg/m³", "temperature": "300°C", "value": "0.085 W/m·K"}
+    ],
+    "note": "Values for other densities are available on request"
+  },
+  "thermalResistance": {
+    "description": "R” Value (m² K/W) of 50 mm thick blankets at following Mean Temperature °C",
+    "typicalValues": [
+      {"density": "100 kg/m³", "temperature": "50°C", "value": "1.35 m² K/W"},
+      {"density": "100 kg/m³", "temperature": "100°C", "value": "1.16 m² K/W"},
+      {"density": "100 kg/m³", "temperature": "150°C", "value": "0.98 m² K/W"},
+      {"density": "100 kg/m³", "temperature": "200°C", "value": "0.83 m² K/W"},
+      {"density": "100 kg/m³", "temperature": "300°C", "value": "0.59 m² K/W"}
+    ],
+    "note": "Values for other densities, temperatures, and thicknesses are available on request"
+  },
+  "dimensions": {
+    "standardSize": "1220 x 4000 to 8000 mm/in roll form",
+    "standardThickness": ["25 mm", "40 mm", "50 mm", "60 mm", "75 mm", "80 mm", "100 mm", "120 mm"],
+    "standardDensity": ["70 kg/m³", "80 kg/m³", "100 kg/m³", "120 kg/m³", "128 kg/m³", "140 kg/m³", "144 kg/m³", "150 kg/m³", "160 kg/m³"],
+    "note": "Other sizes, thickness, & densities are available on request"
+  },
+  "soundAbsorption": {
+    "description": "Sound absorption coefficients at various frequencies for different densities",
+    "values": [
+      {
+        "density": "80 kg/m³",
+        "frequencies": [
+          {"frequency": "125 Hz", "value": "0.23"},
+          {"frequency": "250 Hz", "value": "0.30"},
+          {"frequency": "1000 Hz", "value": "0.95"},
+          {"frequency": "2000 Hz", "value": "0.96"},
+          {"frequency": "4000 Hz", "value": "0.95"},
+          {"NRC": "0.64"}
+        ]
+      },
+      {
+        "density": "100 kg/m³",
+        "frequencies": [
+          {"frequency": "125 Hz", "value": "0.23"},
+          {"frequency": "250 Hz", "value": "0.33"},
+          {"frequency": "1000 Hz", "value": "1.05"},
+          {"frequency": "2000 Hz", "value": "1.07"},
+          {"frequency": "4000 Hz", "value": "1.01"},
+          {"NRC": "0.66"}
+        ]
+      },
+      {
+        "density": "120 kg/m³",
+        "frequencies": [
+          {"frequency": "125 Hz", "value": "0.22"},
+          {"frequency": "250 Hz", "value": "0.35"},
+          {"frequency": "1000 Hz", "value": "1.05"},
+          {"frequency": "2000 Hz", "value": "1.03"},
+          {"frequency": "4000 Hz", "value": "0.97"},
+          {"NRC": "0.66"}
+        ]
+      }
+    ],
+    "note": "Sound absorption values are measured for standard 50 mm thickness and can vary with different thicknesses and densities."
+  }}

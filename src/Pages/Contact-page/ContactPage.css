@@ -1,0 +1,16 @@
+.map{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+.map-1{
+    width: 50%;
+}
+.map-img{
+    width: 100%;
+    /* height: 400px; */
+    object-fit: cover;
+}

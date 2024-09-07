@@ -1,0 +1,51 @@
+{
+  "product": {
+    "name": "Shreeinsul CERAMIC FIBER TEXTILES",
+    "image" : "src/assets/ceramic-fiber-yarn.png",
+    "fiberFabrics" : "Shreeinsul Ceramic Fiber Fabrics are manufactured using ceramic fiber yarn reinforced with fiberglass filament or stainless steel wire. These fabrics are ideal for many high temperature applications",
+    "fiberYarn": "Shreeinsul Ceramic Fiber Yarn is made from high quality Alumino silicate fibers with reinforcement of SS wire/continuous fiberglass filament to increase handling strength during installation and enhance fiber durability. The fiberglass reinforcement has a temperature rating of 650°C. These yarns contain 15% organic carrier which helps to establish the physical formation of products. Shreeinsul Ceramic Fiber Yarn is manufactured using advanced technology and machinery of carding, spinning, and doubling system.",
+    "features": [
+      "High quality Alumino silicate fibers",
+      "Advanced mechanical twist for strength",
+      "Metallic & Non-metallic yarns with higher tensile strength",
+      "High temperature resistance",
+      "Asbestos free",
+      "Low thermal conductivity"
+    ],
+    "technicalSpecifications": {
+      "standardSize": [{
+        "tex": "1800 to 2400",
+        "diameter": ["2 mm", "3 mm"]
+      }],
+      "grade": "1260°C",
+      "LOI": [{
+        "value": "< 16",
+        "description": "Loss on Ignition"
+      }],
+      "tensileLoad": [{
+        "value": "> 5 kg",
+        "description": "Minimum tensile load"
+      }],
+      "chemicalComposition": [{
+        "SiO2": "49-58%",
+        "Al2O3": "41-49%",
+        "ZrO2": "0-7%",
+        "Fe2O3": "Max 0.1%"
+      }]
+    },
+    "temperatureRating": "650°C",
+    "composition": [{
+      "fiberType": "Alumino silicate fibers",
+      "reinforcements": "SS wire,Continuous fiberglass filament",
+      "organicCarrier": "15% organic carrier"
+    }],
+    "manufacturingDetails": {
+      "technology": [
+        "Carding",
+        "Spinning",
+        "Doubling"
+      ],
+      "advancements": "Advanced technology and machinery used"
+}
+}
+}

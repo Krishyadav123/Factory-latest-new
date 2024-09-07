@@ -1,0 +1,94 @@
+{
+  "id" : 3,
+  "productName": "STONE WOOL SECTIONAL PIPE INSULATION",
+  "image" : "src/assets/facebook_icon.png",
+  "image02" : "src/assets/pipeInsulation02.png",
+  "description": "Shreeinsul Stone Wool Sectional Pipe Insulation is designed for effective thermal and acoustic insulation of pipes in various applications. The product offers high performance in terms of temperature resistance, fire safety, and ease of installation.",
+  "shortDescription": "Shreeinsul Stone Wool Sectional Pipe Insulation offers superior thermal and acoustic insulation with high energy performance. Conforming to IS: 9842:1994, ASTM C 547, BS:3958 (Part – 4), and EN 14303 standards, these pipe covers feature a split and hinged design for easy Snap-On application. They are easy to cut and handle, providing robust insulation solutions for a wide range of industrial and commercial applications.",
+  "physicalProperties": {
+    "description": "Conforms to international standards and is available in various sizes and thicknesses. Suitable for both high-temperature and standard pipe insulation applications.",
+    "sizes": "Available in a range of pipe diameters and sectional thicknesses to fit different insulation needs."
+  },
+  "thermalConductivity": {
+      "description": "Stone Wool Pipe Covers has the excellent thermal performance which reduces heat losses consistently due to their high mechanical strengths and durability.The Thermal Conductivity values of “Shreeinsul” Pipe Covers are as under.",
+      "values": [
+        {"density": "144 kg/m³","temperature": "50°C", "value": 0.040},
+        {"density": "144 kg/m³","temperature": "100°C", "value": 0.043},
+        {"density": "144 kg/m³","temperature": "150°C", "value": 0.051},
+        {"density": "144 kg/m³","temperature": "200°C", "value": 0.060},
+        {"density": "144 kg/m³","temperature": "300°C", "value": 0.0885}
+      ]
+    },
+  "thermalResistance": {
+      "description": "High thermal resistance providing effective insulation across various temperature ranges.",
+      "values": [
+        {"density": "144 kg/m³", "temperature": "50°C", "value": 1.25},
+        {"density": "144 kg/m³", "temperature": "100°C", "value": 1.16},
+        {"density": "144 kg/m³", "temperature": "150°C", "value": 0.98},
+        {"density": "144 kg/m³", "temperature": "200°C", "value": 0.83},
+        {"density": "144 kg/m³", "temperature": "300°C", "value": 0.59}
+      ]
+    },
+  "waterAbsorption" : " Stone Wool Resin Bonded Pipe Covers of water repellent grade are non-hygroscopic and non-capillary. The products do not absorb water > 1 kg/m². The products do not absorb moisture from the atmosphere as specifiedin the specifications.",
+  "serviceTemperature": {
+    "description": "Shreeinsul Stone Wool Pipe Covers can withstand temperatures up to 750°C. It is important to consider that facings and adhesives used in lamination may have different temperature limits compared to the insulation material itself.",
+    "temperatureLimit": "Up to 750°C",
+    "note": "The actual service temperature might be limited by the facings and adhesives used, which may have lower temperature capacities."
+  },
+  "phNeutrality": {
+    "description": "Chemically inert and compatible with industrial equipment and building materials. Neutral to slightly alkaline pH range.",
+    "phRange": "7-8"
+  },
+  "combustibility": {
+      "Description": "Stone Wool Resin Pipe Covers are non-combustible as per specification.",
+      "FireClassification": "Conforms to Euro Class Fire Classification - A1 non-combustible",
+      "FireResistance": "Resistant to fire and protective",
+      "MeltingPoint": "1000°C",
+      "ThermosealBinders": {
+        "Evaporation": "Thermoseal binders may evaporate at temperatures of 250°C or higher, producing a slight smoke temporarily.",
+        "BinderProperties": "Binders remain intact and do not disintegrate or deteriorate from their shape."
+      },
+      "Performance": "Shreeinsul Stone Wool Resin Bonded Pipe Covers remain rigid, ensure thermal performance, and protect lines from fire."
+    },
+  "corrosionResistance": {
+    "description": "The presence of sodium and silicate ions in the stone wool has noticed to be inhabit to the external stress corrosion cracking caused by chloride and  uorideions. “Shreeinsul”Stone Wool Resin Bonded Pipe Covers are engineered in such a way that the products contain chloride and  uorideions are at bare minimum levels and the products do not cause or initiate or promote corrosion when tested as per specication."
+  },
+  "biologicalProperties": {
+    "description": " Stone Wool Resin Bonded Pipe Covers do not encourage growth of bacteria and cause fungus as are of rot proof and hydrophobic. “Shreeinsul” Stone Wool Resin Bonded Pipe Covers deter spreading vermin."
+  
+  },
+  "applications": {
+    "description":"The pipe covers are used for thermal insulation,acoustic treatment,  e safety and personnel protection while transporting liquids of either cold or hot pipelines at diferent temperatures and steam pipelines in industrial set ups, power plants, petroleum re neries,chemical processing industries, metro rail stations etc. An efective pipe insulation can help maintain the process temperatures and reduce heat gain or loss to their minimum levels. The “Shreeinsul” pipe covers also has the versatility to be used in heating and ventilating or other non-industrial applications." 
+  },
+  "handlingAndInstallation": {
+    "description": "Easy to handle, cut, and install. Maintenance-free and designed for durability under varying conditions."
+  },
+  "physicalPropertiesDetailed": {
+    "description": "Detailed specifications of the product’s physical properties including density, thickness, and dimensions.",
+    "density": "40-160 kg/m³",
+    "thicknesses": "Available in various thicknesses to meet different insulation requirements.",
+    "dimensions": "Customized sizes available based on project specifications."
+  },
+  "Dimensions": {
+      "StandardSize": [
+        {
+          "Unit": "mm",
+          "Width": 15,
+          "Length": 350
+        }
+      ],
+      "StandardThickness": [
+        {
+          "Unit": "mm",
+          "Values": [25, 120]
+        }
+      ],
+      "StandardDensity": [
+        {
+          "Unit": "kg/m³",
+          "Values": [100, 140, 144, 150, 160]
+        }
+      ],
+      "Note": "Other sizes, thickness, & densities are available on request."
+    }
+  }
