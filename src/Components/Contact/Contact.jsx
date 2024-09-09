@@ -2,9 +2,13 @@ import React, { useState } from 'react';
 import './Contact.css'; // Make sure to import your CSS file
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import { FaFacebook, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-
+import instagram from './../Contact/instagram.png';
+import facebook from './../Contact/facebook.png';
+import whatsapp from './../Contact/whatsapp.png';
+import linkedin from './../Contact/linkedin.png';
+import call from './../Contact/call.png';
 const Contact = () => {
     // Create state to handle form data
     const [formData, setFormData] = useState({
@@ -24,18 +28,18 @@ const Contact = () => {
                 trigger: '.contact-page-main-container',
                 start: '20% bottom',
                 end: '10% top',
-                markers: true,
+                // markers: true,
             },
             opacity: 0,
             x: -100,
             duration: 0.5,
-            stagger: 0.8,
+            stagger: 0.5,
         });
         gsap.from('.main', {
             scrollTrigger: {
                 trigger: '.contact-page-main-container',
                 start: '20% bottom',
-                markers: true,
+                // markers: true,
             },
             opacity: 0,
             x: 100,
@@ -101,7 +105,7 @@ const Contact = () => {
                         <div className="contact-page-left-info1">
                             <div className="contact-page-left-info">
                                 <div className="contact-page-left-info-img">
-                                    <FaPhoneAlt className="call-icon" />
+                                    <img src={call} alt="" />
                                 </div>
                                 <div className="contact-page-left-info-text">
                                     <h2>Phone Number:</h2>
@@ -113,7 +117,7 @@ const Contact = () => {
                         <div className="contact-page-left-info2">
                             <div className="contact-page-left-info">
                                 <div className="contact-page-left-info-img">
-                                    <FaInstagram className="call-icon" />
+                                    <img src={instagram} alt="" />
                                 </div>
                                 <div className="contact-page-left-info-text">
                                     <h2>Instagram</h2>
@@ -122,7 +126,7 @@ const Contact = () => {
                             </div>
                             <div className="contact-page-left-info">
                                 <div className="contact-page-left-info-img">
-                                    <FaFacebook className="call-icon" />
+                                <img src={facebook} alt="" />
                                 </div>
                                 <div className="contact-page-left-info-text">
                                     <h2>Facebook</h2>
@@ -131,10 +135,19 @@ const Contact = () => {
                             </div>
                             <div className="contact-page-left-info">
                                 <div className="contact-page-left-info-img">
-                                    <FaWhatsapp className="call-icon" />
+                                    <img src={whatsapp} alt="" />
                                 </div>
                                 <div className="contact-page-left-info-text">
                                     <h2>Whatsapp</h2>
+                                    <p>+011 948-5481</p>
+                                </div>
+                            </div>
+                            <div className="contact-page-left-info">
+                                <div className="contact-page-left-info-img">
+                                    <img src={linkedin} alt="" />
+                                </div>
+                                <div className="contact-page-left-info-text">
+                                    <h2>Linkedin</h2>
                                     <p>+011 948-5481</p>
                                 </div>
                             </div>
@@ -181,7 +194,7 @@ const Contact = () => {
                                     value={formData.message}
                                     onChange={handleInputChange}
                                 />
-                                <button type="submit">SUBMIT MESSAGE</button>
+                                <button id='form-btn' type="submit">SUBMIT MESSAGE</button>
                             </form>
                             {status && <p className="form-status">{status}</p>}
                         </div>

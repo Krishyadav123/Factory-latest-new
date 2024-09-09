@@ -22,7 +22,7 @@ const News = () => {
           scrollTrigger: {
             trigger: '.news h1',
             start: '20% bottom',
-            markers: true
+            // markers: true
           },
           opacity: 0,
           // scale: 2,
@@ -38,7 +38,7 @@ const News = () => {
           scrollTrigger: {
             trigger: '.news-artical',
             start: '15% bottom',
-            markers: true
+            // markers: true
           },
           opacity: 0,
           // y: 100,

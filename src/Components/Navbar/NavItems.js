@@ -24,4 +24,8 @@ export const NavItems = [
         label: "Achievement",
         to: "/achievement"
     },
+    {
+        label: "Contact",
+        to: "/contact"
+    },
 ];

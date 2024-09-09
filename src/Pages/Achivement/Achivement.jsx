@@ -58,7 +58,7 @@ const Achivement = () => {
                 scrollTrigger: {
                     trigger: '.parent-gallary',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -71,7 +71,7 @@ const Achivement = () => {
                 scrollTrigger: {
                     trigger: '.tabs',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,

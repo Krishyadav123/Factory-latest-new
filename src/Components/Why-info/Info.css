@@ -18,7 +18,7 @@
     width: 50%;
 }
 .info-text span{
-    color: orange;
+    color: rgb(255, 115, 0);
     font-size: 18px;
 }
 .info-text h2{
@@ -44,7 +44,7 @@
 }
 .info-boxs span{
     font-size: 60px;
-    color: orange;
+    color: rgb(255, 115, 0);
 }
 .info-boxs h4{
     font-size: 20px;

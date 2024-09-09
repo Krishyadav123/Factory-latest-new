@@ -18,7 +18,7 @@ const About = () => {
                 scrollTrigger: {
                     trigger: '.about-img-4, .about-img-5',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -34,7 +34,7 @@ const About = () => {
                 scrollTrigger: {
                     trigger: '.first-img, .mid-img, .last-img',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -52,7 +52,7 @@ const About = () => {
                 scrollTrigger: {
                     trigger: '.about-title, .about-contain, .about-main-img-container-1h1',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -70,7 +70,7 @@ const About = () => {
                 scrollTrigger: {
                     trigger: '.about-correct',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,

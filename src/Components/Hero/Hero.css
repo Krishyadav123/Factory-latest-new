@@ -102,12 +102,13 @@
   font-weight: 500;
 }
 #btn-animation{
-    background: rgb(255, 177, 32);
+    background: rgb(255, 115, 0);
     color: #ffffff;
     padding: 10px 20px;
     width: 180px;
     margin-top: 20px;
     border-radius: 10px;
+    border: none;
 }
 #btn-animation:hover{
     background: rgb(255, 166, 0);
@@ -126,7 +127,7 @@
     font-weight: 800px;
     float: left;
     /* border: 1px solid red; */
-    color: #e46803;
+    color: rgb(255, 255, 255);
   }
 }
 @media (max-width: 800px) {

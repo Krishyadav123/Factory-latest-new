@@ -16,6 +16,7 @@ import product10new from '../../assets/product10new.jpg'
 import Phome from '../../Components/Producthome/Phome'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import Slider from '../../Components/Slider/Slider'
 
 const ProductPage = () => {
 
@@ -26,7 +27,7 @@ const ProductPage = () => {
             scrollTrigger: {
                 trigger: '.product-title',
                 start: '20% bottom',
-                markers: true
+                // markers: true
             },
             opacity: 0,
             // scale: 2,
@@ -39,13 +40,13 @@ const ProductPage = () => {
             scrollTrigger: {
                 trigger: '.product',
                 start: '10% bottom',
-                markers: true,
+                // markers: true,
             },
             opacity: 0,
             scale: 0.8,
             // y: -60,
             duration: 1,
-            stagger: 0.2,
+            stagger: 0.3,
             // ease: 'power2.inOut'
         });
     },);
@@ -150,10 +151,11 @@ const ProductPage = () => {
           </Link> */}
 
         </div>
-        <div className="products-page-countdown">
-          <CounterSection />
-        </div>
       </div>
+        <div className="products-page-countdown">
+          {/* <CounterSection /> */}
+          <Slider/>
+        </div>
     </div>
     </>
   )

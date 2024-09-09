@@ -62,24 +62,27 @@
     height:150px;
     width: 450px;
     background: #ffffff;
-    border: 1px solid gray;
+    box-shadow: 0px 7px 12px 4px rgba(110, 110, 110, 0.17);
+    /* box-shadow: ; */
+    /* border: 1px solid gray; */
     border-radius: 10px;
     padding: 30px;
 }
 .contact-page-left-info2{
     padding: 30px;
     border-radius: 10px;
-    height:300px;
+    height:350px;
     cursor: pointer;
     width: 450px;
     background: #ffffff;
-    border: 1px solid gray;
+    box-shadow: 0px 7px 12px 4px rgba(110, 110, 110, 0.17);
+    /* border: 1px solid gray; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     /* align-items: center; */
     /* justify-content: center; */
-    gap: 20px;
+    gap: 15px;
 }
 .contact-page-left-info-text p{
     margin-top: 5px;
@@ -132,7 +135,7 @@
 input[type="text"], input[type="email"], textarea {
     width: calc(50% - 10px);
     padding: 15px;
-    border: 1px solid #ffae00;
+    border: 1px solid rgb(255, 115, 0);
     /* border: 1px solid #969696; */
     border-radius: 25px;
     /* background-color: #f7f7f7; */
@@ -152,7 +155,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-button {
+#form-btn{
     padding: 15px 20px;
     border: none;
     border-radius: 25px;
@@ -162,7 +165,7 @@ button {
     color: #ffffff;
     /* border: 1px solid rgb(218, 218, 218); */
     display: flex;
-    background: rgb(255, 174, 25);
+    background: rgb(255, 115, 0);
     align-items: center;
     justify-content: center;
 }
@@ -220,27 +223,6 @@ button:hover {
     align-items: center;
     gap: 30px;
     /* margin-top: 20px; */
-}
-.contact-page-left-info1{
-    height:150px;
-    width: 400px;
-    background: #ffffff;
-    border: 1px solid gray;
-    border-radius: 10px;
-    padding: 30px;
-}
-.contact-page-left-info2{
-    padding: 30px;
-    border-radius: 10px;
-    height:350px;
-    width: 400px;
-    background: #ffffff;
-    border: 1px solid gray;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
-    gap: 20px;
 }
     .contact-page-left-title h1{
         font-size: 23px;
@@ -333,17 +315,17 @@ button:hover {
         height:150px;
         width: 380px;
         background: #ffffff;
-        border: 1px solid gray;
+        /* border: 1px solid gray; */
         border-radius: 10px;
         padding: 30px;
     }
     .contact-page-left-info2{
         padding: 30px;
         border-radius: 10px;
-        height:350px;
+        height:450px;
         width: 380px;
         background: #ffffff;
-        border: 1px solid gray;
+        /* border: 1px solid gray; */
         display: flex;
         flex-direction: column;
         /* align-items: center; */

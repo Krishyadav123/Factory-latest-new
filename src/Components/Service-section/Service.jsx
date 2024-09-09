@@ -18,7 +18,7 @@ const Service = () => {
                 scrollTrigger: {
                     trigger: '.service-container',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -31,7 +31,7 @@ const Service = () => {
                 scrollTrigger: {
                     trigger: '.service-container',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -44,7 +44,7 @@ const Service = () => {
                 scrollTrigger: {
                     trigger: '.service-container',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,

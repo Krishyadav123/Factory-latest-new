@@ -20,7 +20,7 @@ const Info = () => {
                 scrollTrigger: {
                   trigger: '.info-main-container',
                   start: '20% bottom',
-                  markers: true
+                //   markers: true
                 },
                 opacity: 0,
                 // scale: 2,  
@@ -38,7 +38,7 @@ const Info = () => {
                 scrollTrigger: {
                   trigger: '.info-box-1',
                   start: '20% bottom',
-                  markers: true
+                //   markers: true
                 },
                 opacity: 0,
                 // scale: 2,  

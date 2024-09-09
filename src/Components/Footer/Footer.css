@@ -1,13 +1,14 @@
 .footer {
-  color: #ffffff;
-  background-color: #110a3e;
+  color: #110a3e;
+  background-color: #fff;
+  /* background-color: #110a3e; */
   /* background: #95d7ff; */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   padding: 20px 8vw;
-  padding-top: 80px;
+  /* padding-top: 80px; */
   width: 100%;
   /* margin-top: 80px; */
 }
@@ -29,7 +30,7 @@
   gap: 20px;
 }
 .footer-content-left{
-  margin-top: 60px;
+  margin-top: 20px;
 }
 .footer-content-left,
 .footer-content-right,
@@ -45,33 +46,36 @@
   list-style: none;
   cursor: pointer;
   text-align: start;
-  color: #dbdbdb;
+  color: #110a3e;
 }
 .footer-content-left p {
   width: 80%;
-  color: #ffffff;
+  color: #110a3e;
   /* margin-top: 20px; */
 }
 .footer-logo {
   width: 100%;
-  background: white;
-  border-radius: 15px;
+  background: #fff;
+  /* background: #110a3e; */
+  /* border-radius: 15px; */
+  border-top: 5px solid #110a3e;
   display: flex;
   align-items: center;
-  padding: 10px 100px;
+  padding: 10px 80px;
   justify-content: space-between;
 }
 .footer-logo img{
   width: 150px;
 }
 .footer-logo h1{
-  color: orange;
-  font-size: 60px;
+  color: #110a3e;
+  font-size: 80px;
+  /* font-family: sans-serif; */
 }
 .footer-content-right h2,
 .footer-content-center h2 {
-  color: rgb(255, 255, 255);
-  margin-top: 60px;
+  color: #110a3e;
+  margin-top: 20px;
 }
 .footer-social-icon img {
   width: 40px;
@@ -98,13 +102,10 @@
     justify-content: center;
     gap: 20px;
     padding: 20px 8vw;
-    padding-top: 80px;
+    /* padding-top: 80px; */
     margin-top: 0px;
   }
-  .footer-content-main{
-    border: 1px solid red;
-
-  }
+  
   .footer-content {
     display: flex;
     flex-direction: column;
@@ -112,22 +113,22 @@
   }
   .footer-copyright {
     text-align: center;
-    color: #ffffff;
+    color: #110a3e;
   }
   .footer-content-left p {
     width: 80%;
-    color: #ffffff;
+    color: #110a3e;
     margin-top: 20px;
   }
   .footer-content-right h2,
   .footer-content-center h2 {
-    color: rgb(255, 255, 255);
+    color: #110a3e;
     margin-top: 0px;
   }
   .footer-logo {
     width: 100%;
     background: white;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,7 +139,7 @@
     width: 150px;
   }
   .footer-logo h1{
-    color: orange;
+    color: #110a3e;
     font-size: 40px;
   }
 }

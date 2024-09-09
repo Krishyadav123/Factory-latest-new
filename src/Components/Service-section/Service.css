@@ -27,7 +27,7 @@
     width: 50%;
 }
 .info-text span{
-    color: orange;
+    color: rgb(255, 115, 0);
     font-size: 18px;
 }
 .info-text h2{
@@ -61,7 +61,7 @@
     align-items: center;
     justify-content: center;
     font-size: 45px;
-    color: orange;
+    color: rgb(255, 115, 0);
 }
 .service-main-two{
     margin-top: 40px;
@@ -95,7 +95,7 @@
 .service-btn button{
     padding: 10px 20px;
     font-size: 15px;
-    background: orange;
+    background: rgb(255, 115, 0);
     color: white;
     border: none;
     border-radius: 5px;

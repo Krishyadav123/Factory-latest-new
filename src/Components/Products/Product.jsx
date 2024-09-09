@@ -20,7 +20,7 @@ const Product = () => {
           scrollTrigger: {
             trigger: '.product-title p',
             start: '20% bottom',
-            markers: true
+            // markers: true
           },
           opacity: 0,
           // scale: 2,  
@@ -38,13 +38,13 @@ const Product = () => {
           scrollTrigger: {
             trigger: '.product-card-one',
             start: '20% bottom',
-            markers: true
+            // markers: true
           },
           opacity: 0,
-          scale: 0.5,  
+          scale: 0.8,  
           // y: -30,
           duration: 1,
-          // stagger: 0.2,
+          stagger: 0.3,
           // ease: 'power2.inOut'
       });
     },);
@@ -56,7 +56,7 @@ const Product = () => {
           scrollTrigger: {
             trigger: '.product-btn',
             start: '20% bottom',
-            markers: true
+            // markers: true
           },
           opacity: 0,
           scale: 0,  

@@ -56,7 +56,7 @@ const CounterSection = () => {
           scrollTrigger: {
             trigger: '.counter-section',
             start: '20% bottom',
-            markers: true
+            // markers: true
           },
           opacity: 0,
           // scale: 2,  

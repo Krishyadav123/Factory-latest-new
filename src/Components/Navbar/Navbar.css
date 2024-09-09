@@ -69,15 +69,16 @@
 .navbar li {
   cursor: pointer;
 }
-.nav-right-btn{
-  background: rgb(255, 178, 34);
+#nav-right-btn{
+  background: rgb(255, 115, 0);
   color: #fff;
   padding: 10px 20px;
   cursor: pointer;
   font-family: sans-serif;
   border-radius: 10px;
+  border: none;
 }
-.nav-right-btn:hover{
+#nav-right-btn:hover{
   background: rgb(255, 166, 0);
   color: #fff;
   padding: 10px 20px;
@@ -97,11 +98,18 @@
   height: 2rem;
 }
 
-.menu span {
+/* .menu span {
   height: 0.4rem;
   width: 100%;
   background-color: #030021;
   border-radius: 0.2rem;
+} */
+.only-contact{
+  display: none;
+}
+.active-nav {
+  color: #007bff; /* Example: change text color for active link */
+  font-weight: bold;
 }
 
 @media (max-width: 1200px) {
@@ -109,6 +117,9 @@
     display: inline-block;
     width: 100%;
   }
+  .only-contact{
+  display: block;
+}
   .navbar-right {
     display: none;
   }
@@ -119,6 +130,13 @@
   .menu {
     margin-top: 10px;
     margin-right: 40px;
+  }
+  
+  .menu .menu-icon{
+    color: rgb(0, 0, 0);
+    /* width: 10px; */
+    font-size: 40px;
+    font-weight: 700;
   }
   
 
@@ -155,18 +173,19 @@
   }
 }
 @media (max-width: 800px) {
-  .menu span {
-    height: 0.2rem;
-    width: 90%;
-    /* margin-top: 10px; */
-    background-color: #190338;
-    border-radius: 0.2rem;
-    transition: 0.5s;
-  }
+ 
   .menu {
     height: 25px;
     /* margin-top: 20px; */
   }
+  .menu .menu-icon{
+    color: rgb(0, 0, 0);
+    /* width: 10px; */
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
   .navbar {
     padding: 10px;
   }

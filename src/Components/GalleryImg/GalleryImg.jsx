@@ -62,7 +62,7 @@ const GalleryImg = () => {
             scrollTrigger: {
                 trigger: '.parent-gallary',
                 start: '20% bottom',
-                markers: true
+                // markers: true
             },
             opacity: 0,
             // scale: 2,
@@ -75,7 +75,7 @@ const GalleryImg = () => {
             scrollTrigger: {
                 trigger: '.tabs',
                 start: '20% bottom',
-                markers: true
+                // markers: true
             },
             opacity: 0,
             // scale: 2,
@@ -95,12 +95,12 @@ const GalleryImg = () => {
       </div>
       <div className="tabs">
         <button 
-        style={{ backgroundColor: activeTab === 'image' ? 'orange' : '' }} 
+        style={{ backgroundColor: activeTab === 'image' ? 'rgb(255, 115, 0)' : '' }} 
         onClick={() => setActiveTab('image')}
         className={activeTab === 'image' ? 'active-tab' : ''}>Images</button>
 
         <button
-        style={{ backgroundColor: activeTab === 'video' ? 'orange' : '' }}
+        style={{ backgroundColor: activeTab === 'video' ? 'rgb(255, 115, 0)' : '' }}
         onClick={() => setActiveTab('video')} 
         className={activeTab === 'video' ? 'active-tab' : ''}>Videos</button>
       </div>

@@ -10,6 +10,7 @@ import Parelax from '../../Components/ParelaxEffect/Parelax'
 
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import Slider from '../../Components/Slider/Slider'
 
 
 const AboutPage = () => {
@@ -21,7 +22,7 @@ const AboutPage = () => {
                 scrollTrigger: {
                     trigger: '.aboutpage',
                     start: '10% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -34,7 +35,7 @@ const AboutPage = () => {
                 scrollTrigger: {
                     trigger: '.aboutpage',
                     start: '15% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 scale: 0,
@@ -47,7 +48,7 @@ const AboutPage = () => {
                 scrollTrigger: {
                     trigger: '.about-page-content-one',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -60,7 +61,7 @@ const AboutPage = () => {
                 scrollTrigger: {
                     trigger: '.about-page-content-one',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -73,7 +74,7 @@ const AboutPage = () => {
                 scrollTrigger: {
                     trigger: '.about-page-content-two',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -86,7 +87,7 @@ const AboutPage = () => {
                 scrollTrigger: {
                     trigger: '.about-page-content-two',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -99,7 +100,7 @@ const AboutPage = () => {
                 scrollTrigger: {
                     trigger: '.about-page-content-three',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -112,7 +113,7 @@ const AboutPage = () => {
                 scrollTrigger: {
                     trigger: '.about-page-content-three',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -125,7 +126,7 @@ const AboutPage = () => {
                 scrollTrigger: {
                     trigger: '.about-page-content-four',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -138,7 +139,7 @@ const AboutPage = () => {
                 scrollTrigger: {
                     trigger: '.about-page-content-four',
                     start: '20% bottom',
-                    markers: true
+                    // markers: true
                 },
                 opacity: 0,
                 // scale: 2,
@@ -170,7 +171,7 @@ const AboutPage = () => {
                     <div className="about-page-content">
                         <div className="about-page-content-one">
                             <div className="about-page-content-one-img about-page-content-1-img">
-                                <img src={image01} alt="" />
+                                <video src={video} autoPlay muted loop></video>
                             </div>
                             <div className="about-page-content-one-text about-page-content-1-text">
                                 <h2>Lorem ipsum dolor sit amet.
@@ -185,12 +186,12 @@ const AboutPage = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dolorum eum quo eveniet quibusdam architecto, minus ipsum maxime molestiae accusamus doloribus, deleniti excepturi non provident! Non id hic eaque obcaecati autem earum nemo natus voluptatum sapiente ipsam ex, deleniti exercitationem nulla dignissimos illo eum reiciendis, sint perspiciatis aperiam officia nisi.</p>
                             </div>
                             <div className="about-page-content-one-img about-page-content-2-img">
-                                <img src={image02} alt="" />
+                                <video src={video} autoPlay muted loop></video>
                             </div>
                         </div>
                         <div className="about-page-content-one about-page-content-three">
                             <div className="about-page-content-one-img about-page-content-3-img">
-                                <img src={image03} alt="" />
+                                <video src={video} autoPlay muted loop></video>
                             </div>
                             <div className="about-page-content-one-text about-page-content-3-text">
                                 <h2>Lorem ipsum dolor sit amet.
@@ -205,13 +206,14 @@ const AboutPage = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dolorum eum quo eveniet quibusdam architecto, minus ipsum maxime molestiae accusamus doloribus, deleniti excepturi non provident! Non id hic eaque obcaecati autem earum nemo natus voluptatum sapiente ipsam ex, deleniti exercitationem nulla dignissimos illo eum reiciendis, sint perspiciatis aperiam officia nisi.</p>
                             </div>
                             <div className="about-page-content-one-img about-page-content-4-img">
-                                <img src={image02} alt="" />
+                                <video src={video} autoPlay muted loop></video>
                             </div>
                         </div>
                     </div>
-                    <div className="about-page-countdown">
-                        <CounterSection />
-                    </div>
+                </div>
+                <div className="about-page-countdown">
+                    {/* <CounterSection /> */}
+                    <Slider />
                 </div>
 
             </div>
