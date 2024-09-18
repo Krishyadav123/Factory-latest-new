@@ -95,16 +95,17 @@ table {
 th {
   background: #e8e8e8;
   color: #333;
-  padding: 10px;
+  padding: 5px;
   /* text-align: left; */
   border: 2px solid #ddd;
   text-align: center;
   width: 115px;
 }
 
+
 /* Body cell styling */
 td {
-  padding: 10px;
+  padding: 10px 5px;
   border-bottom: 1px solid #ddd;
   text-align: center;
 }
@@ -184,6 +185,10 @@ td {
 .heading-product-page{
  margin-top: 30px;
 }
+.table-container {
+  overflow-x: auto;
+}
+
 
 @media (max-width: 1200px) {
   .separate-product-main-container {
@@ -282,10 +287,19 @@ td {
     gap: 30px;
     padding: 50px 0px;
   }
-  .scroll-table{
-    overflow-x: scroll;
-  }
+ 
   .separate-product li{
     text-align: start;
+  }
+}
+
+@media (max-width: 700px) {
+  .table-container {
+      -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+  }
+  .scroll-table {
+      min-width: 600px;
+      
+      /* Adjust this value based on your table's content */
   }
 }
