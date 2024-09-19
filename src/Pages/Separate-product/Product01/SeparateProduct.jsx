@@ -3,7 +3,11 @@ import '../ProductsCss.css'
 import productData from '../../../Data/ProductDetail/product01.json'
 // import data from "./products01.json"
 import product01new from '../../../assets/product01new.jpg'
-
+import Parelax from '../../../Components/ParelaxEffect/Parelax'
+// import parelax from '../../../Components/ParelaxEffect/Parelax'
+import image03 from '../../../assets/AboutPageimg/image03.jpg'
+import { FaRegFilePdf } from "react-icons/fa6";
+import { Link } from 'react-router-dom'
 const SeparateProduct = () => {
 
   const ProductDetails = () => {
@@ -13,23 +17,51 @@ const SeparateProduct = () => {
 
   // console.log(productData)
   return (
-    <div className='separate-product'>
-      <div className="separate-product-main-container">
-        <div className="separate-product-card">
-          <div className="separate-product-img">
-            <img src={product01new} alt="" />
+    <>
+      <Parelax heading={"About Shree Engineers"} backgroundImage={image03} />
+      <div className='separate-product'>
+        <div className="separate-product-main-container">
+          <div className="separate-product-card">
+            <div className="separate-product-img">
+              <img src={product01new} alt="" />
+            </div>
+            <div className="separate-product-text">
+              {/* <p className='separate-product-title'>{productData.title}</p> */}
+              <h1>HD Blanket</h1>
+              <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
+              <a href="/path/to/your/file.pdf" download="filename.pdf">
+                <div className='download-pdf'>
+                  <FaRegFilePdf className='download-pdf-icon' />
+                  <p>Download PDF</p>
+                </div>
+
+              </a>
+            </div>
           </div>
-          <div className="separate-product-text">
-            {/* <p className='separate-product-title'>{productData.title}</p> */}
-            <h1>LRB</h1>
+          <div>
             <p className='separate-product-desc'>Shreeinsul Lightly Resin Bonded (LRB) Blankets offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made using molten spun fibers bonded by a suitable resin and then stiching a GI wire mesh with the help of a GI wire. This material complies to ASTM C592 & IS 8183
             </p>
-            <a href="/path/to/your/file.pdf" download="filename.pdf">
-    <button className='separate-product-button'>Download PDF</button>
-  </a>
           </div>
-        </div>
-        {/* <div className="separate-product-detail">
+          <hr className='separate-product-hr' />
+          <div>
+            <div class="key-features">
+              <h3>Key Features:</h3>
+              <ul>
+                <li><span>Superior Thermal Resistance:</span> Maintains temperature stability in extreme conditions, reducing energy costs.</li>
+                <li><span>Acoustic Insulation:</span> Offers significant sound absorption, contributing to quieter, more comfortable spaces.</li>
+                <li><span>Durability:</span> Features non-corrosive, stable physical properties, and is chemically inert, ensuring long-term performance.</li>
+                <li><span>Safety:</span> Boasts the highest fire rating, is non-combustible, and asbestos-free, prioritizing health and safety in all settings.</li>
+                <li><span>Water Repellent:</span> Protects against moisture, extending the lifespan of the insulated structures.</li>
+              </ul>
+            </div>
+            <div className='back-to-products-div'>
+              <Link to="/products">
+                <button className='separate-product-button'>Back to Products</button>
+              </Link>
+            </div>
+
+          </div>
+          {/* <div className="separate-product-detail">
           <div className="detail-text">
             <div className="detail-text-one">
               <h2>Combustibility</h2>
@@ -54,7 +86,7 @@ const SeparateProduct = () => {
 
           </div>
         </div> */}
-        {/* <div className="separate-product-detail">
+          {/* <div className="separate-product-detail">
           <div className="detail-text">
             <div className="detail-text-one">
               <h2>CuttingInstallation</h2>
@@ -156,7 +188,7 @@ const SeparateProduct = () => {
         </div> */}
 
 
-        {/* <div >
+          {/* <div >
 
           <h2 className='heading-product-page'>Thermal Conductivity</h2>
           <div className='sroll-table'>
@@ -232,7 +264,7 @@ const SeparateProduct = () => {
         </div> */}
 
 
-        <div className='table-container'>
+          {/* <div className='table-container'>
           <table className='scroll-table' border="1" cellPadding="10" cellSpacing="0" style={{ width: '100%', borderCollapse: 'collapse' }}>
             <thead>
               <tr>
@@ -351,9 +383,10 @@ const SeparateProduct = () => {
               </tr>
             </tbody>
           </table>
+        </div> */}
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

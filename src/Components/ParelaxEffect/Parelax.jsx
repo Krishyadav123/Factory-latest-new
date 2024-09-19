@@ -20,7 +20,7 @@ const Parelax = ({ heading, backgroundImage }) => {
                 // },
                 opacity: 0,
                 // scale: 2,
-                y: -500,
+                // y: -500,
                 duration: 1,
                 // scale: 0,
                 // stagger: 0.5,

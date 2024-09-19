@@ -22,122 +22,122 @@ const ProductPage = () => {
 
   useGSAP(
     () => {
-        // gsap code here...
-        gsap.from('.product-title p , .product-title h1', {
-            scrollTrigger: {
-                trigger: '.product-title',
-                start: '20% bottom',
-                // markers: true
-            },
-            opacity: 0,
-            // scale: 2,
-            y:-30,
-            duration: 1,
-            stagger: 0.5,
-            // ease: 'power2.inOut'
-        });
-        gsap.from('.product-card-one', {
-            scrollTrigger: {
-                trigger: '.product',
-                start: '10% bottom',
-                // markers: true,
-            },
-            opacity: 0,
-            scale: 0.8,
-            // y: -60,
-            duration: 1,
-            stagger: 0.3,
-            // ease: 'power2.inOut'
-        });
+      // gsap code here...
+      gsap.from('.product-title p , .product-title h1', {
+        scrollTrigger: {
+          trigger: '.product-title',
+          start: '20% bottom',
+          // markers: true
+        },
+        opacity: 0,
+        // scale: 2,
+        y: -30,
+        duration: 1,
+        stagger: 0.5,
+        // ease: 'power2.inOut'
+      });
+      gsap.from('.product-card-one', {
+        scrollTrigger: {
+          trigger: '.product',
+          start: '10% bottom',
+          // markers: true,
+        },
+        opacity: 0,
+        scale: 0.8,
+        // y: -60,
+        duration: 1,
+        stagger: 0.3,
+        // ease: 'power2.inOut'
+      });
     },);
 
   return (
     <>
-    <Phome />
-    <div className="product">
-      <div className="product-main-container">
+      <Phome />
+      <div className="product">
+        <div className="product-main-container">
 
-        <div className="product-title">
-          <p>--LATEST--</p>
-          <h1>Lorem ipsum dolor sit amet.</h1>
-        </div>
-        <div className="product-cards">
-          <Link to='/products/1'>
-            <div className="product-card-one">
-              <div className="product-card-img">
-                <img src={product01new} alt="" />
+          <div className="product-title">
+            <p>--LATEST--</p>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+          </div>
+          <div className="product-cards">
+            <Link to='/products/1'>
+              <div className="product-card-one">
+                <div className="product-card-img">
+                  <img src={product01new} alt="" />
+                </div>
+                {/* <hr /> */}
+                <div className="product-card-text">
+                  <h2>LRB</h2>
+                  <p>Shreeinsul Lightly Resin Bonded (LRB) Blankets offers an advanced solution for insulation needs, combining exceptional....</p>
+                  <button className='card-btn'>Click</button>
+                  <hr />
+                </div>
               </div>
-              {/* <hr /> */}
-              <div className="product-card-text">
-                <h2>STONE WOOL BLANKET (LRB MATTRESS)</h2>
-                <p>Shreeinsul Stone Wool Blankets are designed to meet rigorous industry standards, ensuring superior performance across various...</p>
-                <button className='card-btn'>Click</button>
-                <hr />
+            </Link>
+            <Link to='/products/2'>
+              <div className="product-card-one">
+                <div className="product-card-img">
+                  <img src={product02new} alt="" />
+                </div>
+                <div className="product-card-text">
+                  <h2>RWPS</h2>
+                  <p>Shreeinsul Sectional Pipe Covers (SPC) offers a quick solution for insulation needs, combining exceptional dimensional stability with....</p>
+                  <hr />
+                </div>
               </div>
-            </div>
-          </Link>
-          <Link to='/products/2'>
-            <div className="product-card-one">
-              <div className="product-card-img">
-                <img src={product02new} alt="" />
+            </Link>
+            <Link to='/products/3'>
+              <div className="product-card-one">
+                <div className="product-card-img">
+                  <img src={product03new} alt="" />
+                </div>
+                <div className="product-card-text">
+                  <h2>
+                    CFC and HCFC</h2>
+                  <p>ShreeFoam PIR CFC and HCFC free rigid insulationfoam product having operating temperature range from -200°C to +150°C. ShreeFoam....</p>
+                  <hr />
+                </div>
               </div>
-              <div className="product-card-text">
-                <h2>STONE WOOL RESIN BONDED BOARDS OR SLABS</h2>
-                <p>Discover the superior performance of Shreeinsul Stone Wool Resin Bonded Boards! Ideal for thermal insulation, acoustic treatment, and fire protection...</p>
-                <hr />
+            </Link>
+            <Link to='/products/4'>
+              <div className="product-card-one">
+                <div className="product-card-img">
+                  <img src={product04new} alt="" />
+                </div>
+                <div className="product-card-text">
+                  <h2>PUF PIPE SUPPORT</h2>
+                  <p>Shree Foam offers a wide range of PUF supports. The normal density of PUF support ranges from 80 kg/m3 to 500 kg/m3. The higher....</p>
+                  <hr />
+                </div>
               </div>
-            </div>
-          </Link>
-          <Link to='/products/3'>
-            <div className="product-card-one">
-              <div className="product-card-img">
-                <img src={product03new} alt="" />
+            </Link>
+            <Link to='/products/5'>
+              <div className="product-card-one">
+                <div className="product-card-img">
+                  <img src={product05new} alt="" />
+                </div>
+                <div className="product-card-text">
+                  <h2>Polyurethane foams</h2>
+                  <p>Shree Foam offers a wide range of PUF supports. The normal density of PUF support ranges from 80 kg/m3 to 500 kg/m3. The higher density....</p>
+                  <hr />
+                </div>
               </div>
-              <div className="product-card-text">
-                <h2>
-                STONE WOOL SECTIONAL PIPE INSULATION.</h2>
-                <p>Shreeinsul Stone Wool Sectional Pipe Insulation is designed for effective thermal and acoustic insulation of pipes in various applications... </p>
-                <hr />
+            </Link>
+            <Link to='/products/6'>
+              <div className="product-card-one">
+                <div className="product-card-img">
+                  <img src={midimg} alt="" />
+                </div>
+                <div className="product-card-text">
+                  <h2>Shreeinsul PUF/PIR Products.</h2>
+                  <p>Polyisocyanurate (PIR) foam slabs and pipe sections are suitable for use between -200°C to +150°C. It has low thermal conductivity value of maximum 0.021 W/mk at 10°C...</p>
+                  <hr />
+                </div>
               </div>
-            </div>
-          </Link>
-          <Link to='/products/4'>
-            <div className="product-card-one">
-              <div className="product-card-img">
-                <img src={product04new} alt="" />
-              </div>
-              <div className="product-card-text">
-                <h2>Shreeinsul Ceramic Fiber Cloth And Tape.</h2>
-                <p>Shreeinsul Ceramic Fiber Tape is woven from ceramic fiber yarn, reinforced by a core of glass filament or stainless steel wire for high strength retention...</p>
-                <hr />
-              </div>
-            </div>
-          </Link>
-          <Link to='/products/5'>
-            <div className="product-card-one">
-              <div className="product-card-img">
-                <img src={product05new} alt="" />
-              </div>
-              <div className="product-card-text">
-                <h2>Shreeinsul CERAMIC FIBER TEXTILES.</h2>
-                <p>Shreeinsul Ceramic Fiber Fabrics are manufactured using ceramic fiber yarn reinforced with fiberglass filament or stainless steel wire...</p>
-                <hr />
-              </div>
-            </div>
-          </Link>
-          <Link to='/products/6'>
-            <div className="product-card-one">
-              <div className="product-card-img">
-                <img src={midimg} alt="" />
-              </div>
-              <div className="product-card-text">
-                <h2>Shreeinsul PUF/PIR Products.</h2>
-                <p>Polyisocyanurate (PIR) foam slabs and pipe sections are suitable for use between -200°C to +150°C. It has low thermal conductivity value of maximum 0.021 W/mk at 10°C...</p>
-                <hr />
-              </div>
-            </div>
-          </Link>
-          {/* <Link to='/products/7'>
+            </Link>
+            {/* <Link to='/products/7'>
             <div className="product-card-one">
               <div className="product-card-img">
                 <img src={midimg} alt="" />
@@ -150,13 +150,13 @@ const ProductPage = () => {
             </div>
           </Link> */}
 
+          </div>
         </div>
-      </div>
         <div className="products-page-countdown">
           {/* <CounterSection /> */}
-          <Slider/>
+          <Slider />
         </div>
-    </div>
+      </div>
     </>
   )
 }

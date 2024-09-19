@@ -1,5 +1,6 @@
 .separate-product {
   padding: 50px 0px;
+  background: white;
 }
 
 .separate-product-main-container {
@@ -28,8 +29,13 @@
   margin-top: 10px;
   width: 50%;
 }
+.back-to-products-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .separate-product-button{
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 10px 20px;
   background: orange;
   border: none;
@@ -40,15 +46,82 @@
 .separate-product-text h1 {
   margin-top: 10px;
   font-family: sans-serif;
-  font-size: 28px;
+  font-size: 40px;
+}
+.separate-product-text h2 {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.download-pdf{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 700;
+  /* color: orange; */
+}
+.download-pdf-icon{
+  font-size: 40px;
+  color: orange;
 }
 .separate-product-desc {
-  margin-top: 15px;
+  margin-top: 25px;
   font-family: sans-serif;
-  line-height: 22px;
+  line-height: 25px;
   letter-spacing: 0.5px;
-  color: gray;
+  font-size: 17px;
+  /* color: gray; */
 }
+.separate-product-hr{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.key-features {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.key-features h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.key-features ul {
+    /* list-style: none; */
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.key-features ul li {
+    /* position: relative; */
+    /* padding-left: 25px; */
+    margin-left: 18px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    
+    color: black;
+}
+
+/* .key-features li::before {
+    content: "\2022";
+    color: #f1c40f; 
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1;
+} */
+
+.key-features li span {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
 .separate-product-title {
   color: blue;
   font-family: sans-serif;
