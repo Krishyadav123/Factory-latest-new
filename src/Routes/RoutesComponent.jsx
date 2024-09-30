@@ -1,8 +1,11 @@
-import React, { lazy } from 'react';
+import { lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import ServicePage from '../Pages/Service-page/ServicePage';
 import Scrollup from './Scrollup';
 import Achivement from '../Pages/Achivement/Achivement';
+import Lrb from '../Pages/Separate-product/LRB/Lrb';
+import SlabsAndBoard from '../Pages/Separate-product/SlabsAndBoard/SlabsAndBoard';
+import SectionalPipeCover from '../Pages/Separate-product/SectionalPipeCover/SectionalPipeCover';
 // import ContactPage from '../Pages/Contact-page/ContactPage';
 
 const ContactPage = lazy(() => import('../Pages/Contact-page/ContactPage'));
@@ -15,7 +18,7 @@ const SeparateProduct04 = lazy(() => import('../Pages/Separate-product/Product04
 const SeparateProduct05 = lazy(() => import('../Pages/Separate-product/Product05/SeparateProduct05'));
 const SeparateProduct06 = lazy(() => import('../Pages/Separate-product/Product06/SeparateProduct06'));
 const AboutPage = lazy(() => import('../Pages/About-page/AboutPage'));
-const Contact = lazy(() => import('../Pages/Contact-page/ContactPage'));
+// const Contact = lazy(() => import('../Pages/Contact-page/ContactPage'));
 const Gallary = lazy(() => import('../Components/Gallary/Gallary'));
 
 const RoutesComponent = () => {
@@ -36,6 +39,9 @@ const RoutesComponent = () => {
         <Route path='/products/4' element={<SeparateProduct04 />} />
         <Route path='/products/5' element={<SeparateProduct05 />} />
         <Route path='/products/6' element={<SeparateProduct06 />} />
+        <Route path='/products/lrb' element={<Lrb />} />
+        <Route path='/products/slabs-and-boards' element={<SlabsAndBoard />} />
+        <Route path='/products/sectional-pipe-covers' element={<SectionalPipeCover />} />
       </Routes>
     </>
   );
