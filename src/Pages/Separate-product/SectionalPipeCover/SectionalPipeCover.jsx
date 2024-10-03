@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import '../ProductsCss.css'
 // import data from "./products01.json"
-import product01new from '../../../assets/product01new.jpg'
+// import product01new from '../../../assets/product01new.jpg'
 import Parelax from '../../../Components/ParelaxEffect/Parelax'
 // import parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
@@ -9,6 +9,9 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 
 function SectionalPipeCover() {
+
+  let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg'
+
     return (
         <>
         <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundImage={image03} />
@@ -16,7 +19,7 @@ function SectionalPipeCover() {
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">
                     <div className="separate-product-img">
-                      <img src={product01new} alt="" />
+                      <img src={image} alt="" />
                     </div>
                     <div className="separate-product-text">
                       {/* <p className='separate-product-title'>{productData.title}</p> */}

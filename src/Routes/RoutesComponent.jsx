@@ -63,7 +63,7 @@ const RoutesComponent = () => {
         <Route path='/products/lamella-batts' element={<LamellaBatts/>} />
         <Route path='/products/cloth-tape' element={<ClothTape/>} />
         <Route path='/products/yarn-braided-ropes' element={<YarnBraidedRopes/>} />   
-        <Route path='/products/twisted-rope' element={<TwistedRope/>} />   
+        <Route path='/products/twisted-ropes' element={<TwistedRope/>} />   
         <Route path='/products/yarn' element={<Yarn/>} />   
         <Route path='/products/pir' element={<PIR/>} />   
         <Route path='/products/puf' element={<PUF/>} />   

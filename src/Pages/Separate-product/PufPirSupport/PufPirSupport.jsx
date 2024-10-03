@@ -8,6 +8,7 @@ import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 const PufPirSupport = () => {
+  let image = "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727950930/shreeinsul/products/High%20Density%20PUFPIR%20Supports/ompddtbhi4tacwxdvuup.jpg"
     return (
         <>
         <Parelax heading={"Shree Foam PIR /PUF Products"} backgroundImage={image03} />
@@ -15,7 +16,7 @@ const PufPirSupport = () => {
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">
                     <div className="separate-product-img">
-                      <img src={product01new} alt="" />
+                      <img src={image} alt="" />
                     </div>
                     <div className="separate-product-text">
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
