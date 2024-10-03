@@ -20,7 +20,7 @@ const ClothTape = () => {
                 <div className="separate-product-text">
                   {/* <p className='separate-product-title'>{productData.title}</p> */}
                   <h1>    ShreeCera Textile Products</h1>
-                  <h2>Shreeinsul Ceramic Cloth & tape </h2>
+                  <h2>Shreeinsul Ceramic Cloth & tape </h2>
                   <a href="/path/to/your/file.pdf" download="filename.pdf">
                     <div className='download-pdf'>
                       <FaRegFilePdf className='download-pdf-icon' />
@@ -38,14 +38,25 @@ const ClothTape = () => {
               <hr className='separate-product-hr' />
               <div>
                 <div className="key-features">
-                  <h3>Key Features:</h3>
+                  <h3>Applications:</h3>
+                  <b><h4>Metalic Textile </h4></b>
                   <ul>
-                    <li><span>No Key feathures</span></li>
-                    {/* <li><span>Sound absorption</span> </li>
-                    <li><span>Fire protection</span> </li>
-                    <li><span>Outstanding biological properties, as they are rot-proof</span> </li>
-                    <li><span>No fungi growth</span> </li>
-                    <li><span>Reusable and recyclable products</span> </li> */}
+                    <li><span>Coke oven door seal preventing gas leakage</span></li>
+                    <li><span>Between refractory and door jamb.</span> </li>
+                    <li><span>Piping insulation</span> </li>
+                    <li><span>Hot top seal</span> </li>
+                    <li><span>Coke oven ascension pipe seal, preventing fume</span> </li>
+                    <li><span>Turbine insulation - Ceramic pads and make a jacket</span> </li>
+                    <li><span>emission on exhaust collection system </span> </li>
+                  </ul>
+
+                  <b><h4>Non Metalic</h4></b>
+                  <ul>
+                    <li><span>Insulation between anode buss and box </span></li>
+                    <li><span>Asbestos free and ideal replacement for asbestos.</span> </li>
+                    <li><span>Furnace doors and radiant tube seals </span> </li>
+                    <li><span>Blast furnace stove expansion joint </span> </li>
+                    <li><span>Welding curtains </span> </li>
                   </ul>
                 </div>
                 <div className='back-to-products-div'>

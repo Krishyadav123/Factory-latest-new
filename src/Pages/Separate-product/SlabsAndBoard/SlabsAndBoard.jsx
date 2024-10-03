@@ -20,7 +20,7 @@ function SlabsAndBoard() {
                 <div className="separate-product-text">
                   {/* <p className='separate-product-title'>{productData.title}</p> */}
                   <h1>Shreeinsul Stone Wool Products</h1>
-                  <h2>Shreeinsul Slabs & Boards </h2>
+                  <h2>Shreeinsul Boards</h2>
                   <a href="/path/to/your/file.pdf" download="filename.pdf">
                     <div className='download-pdf'>
                       <FaRegFilePdf className='download-pdf-icon' />

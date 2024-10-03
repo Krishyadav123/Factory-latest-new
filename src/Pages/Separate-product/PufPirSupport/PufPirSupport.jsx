@@ -7,7 +7,7 @@ import Parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
-const PUFPIR = () => {
+const PufPirSupport = () => {
     return (
         <>
         <Parelax heading={"Shree Foam PIR /PUF Products"} backgroundImage={image03} />
@@ -66,4 +66,4 @@ const PUFPIR = () => {
       )
 }
 
-export default PUFPIR
+export default PufPirSupport

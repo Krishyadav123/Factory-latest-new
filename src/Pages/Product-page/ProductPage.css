@@ -30,6 +30,15 @@
   gap: 50px;
   
 }
+
+.product-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4; /* Limit to 3 lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .product-card-one {
   width: 335px;
   border-radius: 25px;
