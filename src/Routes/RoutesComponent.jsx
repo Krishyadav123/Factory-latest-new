@@ -18,6 +18,9 @@ import Yarn from '../Pages/Separate-product/Yarn/Yarn';
 import PUF from '../Pages/Separate-product/PUF/PUF';
 import PIR from '../Pages/Separate-product/PIR/PIR.jsx';
 import PufPirSupport from '../Pages/Separate-product/PufPirSupport/PufPirSupport.jsx';
+import PolySurlynLamination from '../Pages/Separate-product/PolySurlynLamination/PolySurlynLamination.jsx';
+import PolykraftLamination from '../Pages/Separate-product/PolykraftLamination/PolykraftLamination.jsx';
+import ProfiledWeatherProtectionJacketing from '../Pages/Separate-product/ProfiledWeatherProtectionJacketing/ProfiledWeatherProtectionJacketing.jsx';
 // import PIR from '../Pages/Separate-product/PIR/PIR.jsx';
 // import ContactPage from '../Pages/Contact-page/ContactPage';
 
@@ -65,8 +68,10 @@ const RoutesComponent = () => {
         <Route path='/products/pir' element={<PIR/>} />   
         <Route path='/products/puf' element={<PUF/>} />   
         <Route path='/products/puf-pir-support' element={<PufPirSupport/>} />   
-        
-               </Routes>
+        <Route path='/products/polySurlyn-lamination' element={<PolySurlynLamination />} />
+        <Route path='/products/polykraft-lamination' element={<PolykraftLamination/>} />
+        <Route path='/products/profiled-weather-protection-jacketing' element={<ProfiledWeatherProtectionJacketing />} />
+        </Routes>
     </>
   );
 };

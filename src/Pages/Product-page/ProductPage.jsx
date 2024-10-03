@@ -58,7 +58,7 @@ const ProductPage = () => {
       categoryProducts: [
         {
           id: 1,
-          image: product01new,
+          image: 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg',
           name: 'Shreeinsul Blanket',
           description: 'Shreeinsul Lightly Resin Bonded (LRB) Blankets offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made  of molten stone wool fibres bonded by a suitable resin and then stitching with GI wire mesh. This material complies to ASTM C592 & IS 8183',
           link: '/products/lrb'
@@ -159,6 +159,33 @@ const ProductPage = () => {
           description: 'ShreeFoam offers a wide range of PUF supports. The density of PUF support ranges from 80 kg/m3 to 500 kg/m3. The higher density PUF supports can be made available against specific customer requirements. Shree Foam high density supports enable higher loads without increase in surface area. Shree Foam supports do not require sawing and shaping at site, the supports designed to suit exact pipe OD. Shree Foam supports are having excellent closed cell structure and it does not permit water / water vapour penetration.',
           link: '/products/puf-pir-support'
         },
+      ]
+    },
+    {
+      categoryId: 4,
+      categoryName: "Moisture Barrier Lamination ",
+      categoryProducts: [
+        {
+          id: 1,
+          image: product01new,
+          name: 'PolySurlyn Lamination ',
+          description: 'We Provide heat sealed 3-mil thick PolySurlyn Laminated Weather Protection Jacketing in accordance with EIL specifications and conforming to ASTM C1729. PolySurlyn Lamination acts as a brilliant moisture barrier and prevents corrosion on the inner surface of the cladding and onto the insulated surface.',
+          link: '/products/polySurlyn-lamination'
+        },
+        {
+          id: 2,
+          image: product01new,
+          name: 'Polykraft Lamination',
+          description: 'We also provide Polykraft moisture barrier consisting of one layer of 1 mil high density polyethylene film with a protective layer of 40-pound minimum virgin Kraft paper heat laminated on the weather protection cladding inside our factory. This product compiles with EIL specifications and provides excellent protection to the cladding material.',
+          link: '/products/polykraft-lamination'
+        },
+        {
+          id: 3,
+          image: product01new,
+          name: 'Profiled Weather Protection Jacketing',
+          description: 'Our State-of-the-art facility can provide Corrugated Aluminium, SS & GI sheets with 32/5 & 76/19 profiles. Lengths of the corrugated material can be customised as per the customer\'s requirements. We are capable to do profiling on thicknesses varying from 0.4 mm to 1.22 mm depending upon the nature of the material. Profiled sheets are also available with moisture barrier protective laminations.',
+          link: '/products/profiled-weather-protection-jacketing'
+        }
       ]
     }
   ]
