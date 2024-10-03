@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import '../ProductsCss.css'
 // import data from "./products01.json"
 import product01new from '../../../assets/product01new.jpg'
@@ -8,7 +7,7 @@ import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 
-function SectionalPipeCover() {
+const LamellaBatts = () => {
     return (
         <>
         <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundImage={image03} />
@@ -21,7 +20,7 @@ function SectionalPipeCover() {
                     <div className="separate-product-text">
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
                       <h1>Shreeinsul Stone Wool Products</h1>
-                      <h2>Shreeinsul Sectional Pipe Covers</h2>
+                      <h2>Shreeinsul Lamella Batts </h2>
                       <a href="/path/to/your/file.pdf" download="filename.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
@@ -31,7 +30,9 @@ function SectionalPipeCover() {
                     </div>
                   </div>
                   <div>
-                    <p className='separate-product-desc'>Shreeinsul Sectional Pipe Covers (SPC) offers a quick solution for insulation needs, combining exceptional dimensional stability with durability and tuffness. These SPCs are made from long non-combustible rock fibres bonded with thermosetting resin binders. The SPC's are available plain or with FSK facings. This material conforms to ASTM C547 & IS 9842
+                    <p className='separate-product-desc'>Shreeinsul Lamella Batts are used in sandwich panels, sandwich Doors for thermal insulation and pressure resistance. Lamella Batts are placed between two metal sheets for used in the partitions, Roof panels. These are also used in cold storage rooms. Lamella Batts conforming to IS:8183:1993, ASTM C 612, BS:3958 (Part - 4) & EN:14303:2013. <br /> NOTE:  Water repellent boards are available on request
+
+
                     </p>
                   </div>
                   <hr className='separate-product-hr' />
@@ -39,11 +40,12 @@ function SectionalPipeCover() {
                     <div className="key-features">
                       <h3>Key Features:</h3>
                       <ul>
-                        <li><span>High-temperature insulation</span></li>
-                        <li><span>Corrosion resistance</span> </li>
-                        <li><span>Cable or Pipe wrapping </span> </li>
-                        <li><span>Lightweight</span> </li>
-                        <li><span>Good compressive strength</span> </li>
+                        <li><span>Excellent compressive strength and resistance</span></li>
+                        <li><span>Excellent thermal, acoustic, and fire properties</span> </li>
+                        <li><span>Outstanding biological properties, as they are rot-proof</span> </li>
+                        <li><span>No fungi growth</span> </li>
+                        <li><span>Reusable and recyclable products</span> </li>
+                        {/* <li><span>Reusable and recyclable products</span> </li> */}
                       </ul>
                     </div>
                     <div className='back-to-products-div'>
@@ -59,4 +61,4 @@ function SectionalPipeCover() {
       )
 }
 
-export default SectionalPipeCover
+export default LamellaBatts

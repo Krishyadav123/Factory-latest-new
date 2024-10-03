@@ -7,10 +7,10 @@ import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 
-function SlabsAndBoard() {
+const ClothTape = () => {
   return (
     <>
-    <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundImage={image03} />
+    <Parelax heading={"ShreeCera Textile Products"} backgroundImage={image03} />
           <div className='separate-product'>
             <div className="separate-product-main-container">
               <div className="separate-product-card">
@@ -19,8 +19,8 @@ function SlabsAndBoard() {
                 </div>
                 <div className="separate-product-text">
                   {/* <p className='separate-product-title'>{productData.title}</p> */}
-                  <h1>Shreeinsul Stone Wool Products</h1>
-                  <h2>Shreeinsul Slabs & Boards </h2>
+                  <h1>    ShreeCera Textile Products</h1>
+                  <h2>Shreeinsul Ceramic Cloth & tape </h2>
                   <a href="/path/to/your/file.pdf" download="filename.pdf">
                     <div className='download-pdf'>
                       <FaRegFilePdf className='download-pdf-icon' />
@@ -30,7 +30,9 @@ function SlabsAndBoard() {
                 </div>
               </div>
               <div>
-                <p className='separate-product-desc'>Shreeinsul Lightly Resin Bonded (LRB) Blankets offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made  of molten stone wool bonded by a suitable resin and then stitching with GI wire mesh. This material complies to ASTM C592 & IS 8183
+                <p className='separate-product-desc'>Shreecera Cloth/Tape are woven from Superior Quality ceramic fiber yarn and reinforced with Fiberglass/SS wire.  Cloth and Tapes have high temperature resistance. These cloths contain specific quantum of organic carrier which helps to establish physical formation of products which charred out at higher temperature. The continuous withstand temperature of the cloth & Tape is 1000° C 
+
+
                 </p>
               </div>
               <hr className='separate-product-hr' />
@@ -38,11 +40,12 @@ function SlabsAndBoard() {
                 <div className="key-features">
                   <h3>Key Features:</h3>
                   <ul>
-                    <li><span>Versatile applicability</span></li>
-                    <li><span>Excellent thermal insulation</span> </li>
-                    <li><span>Fire resistance</span> </li>
-                    <li><span>Sound absorption</span> </li>
-                    <li><span>Moisture resistance</span> </li>
+                    <li><span>No Key feathures</span></li>
+                    {/* <li><span>Sound absorption</span> </li>
+                    <li><span>Fire protection</span> </li>
+                    <li><span>Outstanding biological properties, as they are rot-proof</span> </li>
+                    <li><span>No fungi growth</span> </li>
+                    <li><span>Reusable and recyclable products</span> </li> */}
                   </ul>
                 </div>
                 <div className='back-to-products-div'>
@@ -58,4 +61,4 @@ function SlabsAndBoard() {
   )
 }
 
-export default SlabsAndBoard
+export default ClothTape

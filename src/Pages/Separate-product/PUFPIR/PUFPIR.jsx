@@ -7,11 +7,10 @@ import Parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
-
-function SectionalPipeCover() {
+const PUFPIR = () => {
     return (
         <>
-        <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundImage={image03} />
+        <Parelax heading={"Shree Foam PIR /PUF Products"} backgroundImage={image03} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">
@@ -20,8 +19,8 @@ function SectionalPipeCover() {
                     </div>
                     <div className="separate-product-text">
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
-                      <h1>Shreeinsul Stone Wool Products</h1>
-                      <h2>Shreeinsul Sectional Pipe Covers</h2>
+                      <h1>Shreeinsul Foam PIR /PUF Products</h1>
+                      <h2>High Density PUF/PIR Supports</h2>
                       <a href="/path/to/your/file.pdf" download="filename.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
@@ -31,7 +30,9 @@ function SectionalPipeCover() {
                     </div>
                   </div>
                   <div>
-                    <p className='separate-product-desc'>Shreeinsul Sectional Pipe Covers (SPC) offers a quick solution for insulation needs, combining exceptional dimensional stability with durability and tuffness. These SPCs are made from long non-combustible rock fibres bonded with thermosetting resin binders. The SPC's are available plain or with FSK facings. This material conforms to ASTM C547 & IS 9842
+                    <p className='separate-product-desc'>ShreeFoam offers a wide range of PUF supports. The density of PUF support ranges from 80 kg/m3 to 500 kg/m3. The higher density PUF supports can be made available against specific customer requirements. Shree Foam high density supports enable higher loads without increase in surface area. Shree Foam supports do not require sawing and shaping at site, the supports designed to suit exact pipe OD. Shree Foam supports are having excellent closed cell structure and it does not permit water / water vapour penetration.
+
+
                     </p>
                   </div>
                   <hr className='separate-product-hr' />
@@ -39,11 +40,17 @@ function SectionalPipeCover() {
                     <div className="key-features">
                       <h3>Key Features:</h3>
                       <ul>
-                        <li><span>High-temperature insulation</span></li>
-                        <li><span>Corrosion resistance</span> </li>
-                        <li><span>Cable or Pipe wrapping </span> </li>
-                        <li><span>Lightweight</span> </li>
-                        <li><span>Good compressive strength</span> </li>
+                        <li><span>  Durable</span></li>
+                        <li><span>Pre-Fabricated and ready to use
+                        </span> </li>
+                        <li><span> Sawing and shaping not required at site</span> </li>
+                        <li><span>Available in various density and dimensionsas per customer requirement
+                        </span> </li>
+                        <li><span>Excellent Thermal conductivity</span> </li>
+                        <li><span>CFC free chemical system</span> </li>
+                        <li><span> Leak proof </span> </li>
+                        <li><span> Temperature ranges from -  200°C to max +100°C  </span> </li>
+                        <li><span> Excellent dimensional density</span> </li>
                       </ul>
                     </div>
                     <div className='back-to-products-div'>
@@ -59,4 +66,4 @@ function SectionalPipeCover() {
       )
 }
 
-export default SectionalPipeCover
+export default PUFPIR

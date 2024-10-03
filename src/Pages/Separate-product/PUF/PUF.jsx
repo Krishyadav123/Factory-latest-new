@@ -8,10 +8,10 @@ import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 
-function SectionalPipeCover() {
+const PUF = () => {
     return (
         <>
-        <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundImage={image03} />
+        <Parelax heading={"Shree Foam PIR /PUF Products"} backgroundImage={image03} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">
@@ -20,8 +20,8 @@ function SectionalPipeCover() {
                     </div>
                     <div className="separate-product-text">
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
-                      <h1>Shreeinsul Stone Wool Products</h1>
-                      <h2>Shreeinsul Sectional Pipe Covers</h2>
+                      <h1>Shreeinsul Foam PIR /PUF Products</h1>
+                      <h2>Polyisocyanurate Foam (PUF)</h2>
                       <a href="/path/to/your/file.pdf" download="filename.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
@@ -31,19 +31,26 @@ function SectionalPipeCover() {
                     </div>
                   </div>
                   <div>
-                    <p className='separate-product-desc'>Shreeinsul Sectional Pipe Covers (SPC) offers a quick solution for insulation needs, combining exceptional dimensional stability with durability and tuffness. These SPCs are made from long non-combustible rock fibres bonded with thermosetting resin binders. The SPC's are available plain or with FSK facings. This material conforms to ASTM C547 & IS 9842
+                    <p className='separate-product-desc'>ShreeFoam rigid polyurethane foams have been successfully used for many years in the oil and gas industry for service temperatures of up to 110°C. This material is resistant to water ingress, provides much better insulation values than many other insulation materials and also offers structural support of the pipeline due to its high compressive strength. A polyurethane is polymer composed of a chain of organic units joined by carbamate (urethane) links.
+
+
                     </p>
+                
                   </div>
                   <hr className='separate-product-hr' />
                   <div>
                     <div className="key-features">
                       <h3>Key Features:</h3>
                       <ul>
-                        <li><span>High-temperature insulation</span></li>
-                        <li><span>Corrosion resistance</span> </li>
-                        <li><span>Cable or Pipe wrapping </span> </li>
-                        <li><span>Lightweight</span> </li>
-                        <li><span>Good compressive strength</span> </li>
+                        <li><span>  Durable</span></li>
+                        <li><span>Pre-Fabricated and ready to use
+                        </span> </li>
+                        <li><span>Fire retardant </span> </li>
+                        <li><span>Construction friendly
+                        </span> </li>
+                        <li><span>Sawing and Shaping not required at site</span> </li>
+                        <li><span>Available in various density and dimensions as per customer requirement</span> </li>
+                        <li><span>Excellent Thermal conductivity </span> </li>
                       </ul>
                     </div>
                     <div className='back-to-products-div'>
@@ -59,4 +66,4 @@ function SectionalPipeCover() {
       )
 }
 
-export default SectionalPipeCover
+export default PUF

@@ -8,7 +8,7 @@ import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 
-function SectionalPipeCover() {
+function LooseWool() {
     return (
         <>
         <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundImage={image03} />
@@ -21,7 +21,7 @@ function SectionalPipeCover() {
                     <div className="separate-product-text">
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
                       <h1>Shreeinsul Stone Wool Products</h1>
-                      <h2>Shreeinsul Sectional Pipe Covers</h2>
+                      <h2>Shree Insul Loose Wool</h2>
                       <a href="/path/to/your/file.pdf" download="filename.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
@@ -31,7 +31,9 @@ function SectionalPipeCover() {
                     </div>
                   </div>
                   <div>
-                    <p className='separate-product-desc'>Shreeinsul Sectional Pipe Covers (SPC) offers a quick solution for insulation needs, combining exceptional dimensional stability with durability and tuffness. These SPCs are made from long non-combustible rock fibres bonded with thermosetting resin binders. The SPC's are available plain or with FSK facings. This material conforms to ASTM C547 & IS 9842
+                    <p className='separate-product-desc'>Loose wool insulation, also known as loose-fill wool insulation, is an eco-friendly insulation material made from natural rocks like basalt. Provides excellent thermal resistance, sound absorption, fire-resistant and ideal for filling cavity and un-even surface
+
+
                     </p>
                   </div>
                   <hr className='separate-product-hr' />
@@ -39,11 +41,14 @@ function SectionalPipeCover() {
                     <div className="key-features">
                       <h3>Key Features:</h3>
                       <ul>
-                        <li><span>High-temperature insulation</span></li>
-                        <li><span>Corrosion resistance</span> </li>
-                        <li><span>Cable or Pipe wrapping </span> </li>
+                        <li><span>Excellent thermal insulation</span></li>
+                        <li><span>Fire resistance
+                        </span> </li>
+                        <li><span>Sound absorption </span> </li>
+                        <li><span>Moisture resistance
+                        </span> </li>
                         <li><span>Lightweight</span> </li>
-                        <li><span>Good compressive strength</span> </li>
+                        <li><span>Dimensionally stable</span> </li>
                       </ul>
                     </div>
                     <div className='back-to-products-div'>
@@ -59,4 +64,4 @@ function SectionalPipeCover() {
       )
 }
 
-export default SectionalPipeCover
+export default LooseWool
