@@ -14,21 +14,21 @@ const Product = () => {
   const ProductList = [
     {
       id: 1,
-      image: 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg',
+      image: 'https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg',
       name: 'Shreeinsul Blanket',
       description: 'Shreeinsul Lightly Resin Bonded (LRB) Blankets offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made  of molten stone wool fibres bonded by a suitable resin and then stitching with GI wire mesh. This material complies to ASTM C592 & IS 8183',
       link: '/products/lrb'
     },
     {
       id: 2,
-      image: 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg',
+      image: 'https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg',
       name: 'Shreeinsul Sectional Pipe Covers',
       description: 'Shreeinsul Sectional Pipe Covers (SPC) offers a quick solution for insulation needs, combining exceptional dimensional stability..',
       link: '/products/sectional-pipe-covers'
     },
     {
       id: 6,
-      image: 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727947920/shreeinsul/products/Shreeinsul%20Loose%20Wool/cqidur47sqctnipotnbq.jpg',
+      image: 'https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947920/shreeinsul/products/Shreeinsul%20Loose%20Wool/cqidur47sqctnipotnbq.jpg',
       name: 'Shreeinsul Loose Wool',
       description: 'Loose wool insulation, also known as loose-fill wool insulation, is an eco-friendly insulation material made from natural rocks like basalt. Provides excellent thermal resistance, sound absorption, fire-resistant and ideal for filling cavity and un-even surface',
       link: '/products/loose-wool'
@@ -114,8 +114,8 @@ useGSAP(
     <div className="product">
       <div className="product-main-container">
         <div className="product-title">
-          <p>--LATEST--</p>
-          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p className="latest">--LATEST--</p>
+          <h1 className="category-heading">Lorem ipsum dolor sit amet.</h1>
         </div>
         <div className="product-cards">
           {ProductList.map((product) => (

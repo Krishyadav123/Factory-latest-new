@@ -163,7 +163,8 @@ const ProductPage = () => {
                   <h1 className="product-category-name">{category.categoryName}</h1>
                   <div className="product-cards">
                     {category.categoryProducts.map((product, index) => (
-                      <Link to={product.link} key={index} className="product-card-one">
+                      <>
+                      {/* <Link to={product.link} key={index} className="product-card-one"> */}
                         <div className="product-card-one">
                           <div className="product-card-img">
                             <LazyLoad height={200} offset={100} once>
@@ -181,7 +182,8 @@ const ProductPage = () => {
                             <hr />
                           </div>
                         </div>
-                      </Link>
+                      {/* </Link> */}
+                      </>
                     ))}
                   </div>
                 </div>
