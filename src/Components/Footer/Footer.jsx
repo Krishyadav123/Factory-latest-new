@@ -4,6 +4,7 @@ import './Footer.css'
 import twi from '../../assets/twitter_icon.png'
 import linke from '../../assets/linkedin_icon.png'
 import logo from '../../assets/logo shreeinsul.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -28,13 +29,19 @@ const Footer = () => {
                             <h2>Quick Links</h2>
 
                             <ul>
-                                <li>👉🏻 Home</li>
-                                <li>👉🏻 About us</li>
+                                <Link to={"/"}><li>👉🏻 Home</li></Link>
+                                <Link to={"/about"}><li>👉🏻 About</li></Link>
+                                {/* <Link to={"/services"}><li>👉🏻 Services</li></Link> */}
+                                <Link to={"/products"}><li>👉🏻 Products</li></Link>
+                                <Link to={"/contact"}><li>👉🏻 Contact</li></Link>
+                                <Link to={"/gallery"}><li>👉🏻 Gallery</li></Link>
+                                <Link to={"/achievement "}><li>👉🏻 Achievement</li></Link>
+                                {/* <li>👉🏻 About us</li>
                                 <li>👉🏻 service</li>
                                 <li>👉🏻 Privacy policy</li>
                                 <li>👉🏻 contact</li>
                                 <li>👉🏻 gallery</li>
-                                <li>👉🏻 Clientele</li>
+                                <li>👉🏻 Clientele</li> */}
                             </ul>
                         </div>
                         <div className="footer-content-center">

@@ -59,7 +59,7 @@ const ProductPage = () => {
         {
           id: 1,
           image: 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg',
-          name: 'Shreeinsul Blanket',
+          name: 'Shreeinsul Blanket ',
           description: 'Shreeinsul Lightly Resin Bonded (LRB) Blankets offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made  of molten stone wool fibres bonded by a suitable resin and then stitching with GI wire mesh. This material complies to ASTM C592 & IS 8183',
           link: '/products/lrb'
         },
@@ -201,7 +201,7 @@ const ProductPage = () => {
             <div>
               {productList.map((category) => (
                 <div key={category.categoryId}>
-                  <h1>{category.categoryName}</h1>
+                  <h1 className='product-category-name'>{category.categoryName}</h1>
                   <div className="product-cards">
                     {category.categoryProducts.map((product, index) => (
                       <Link to={product.link} key={index} className="product-card-one">

@@ -70,6 +70,7 @@
 .footer-logo h1{
   color: #110a3e;
   font-size: 80px;
+  font-family: none;
   /* font-family: sans-serif; */
 }
 .footer-content-right h2,

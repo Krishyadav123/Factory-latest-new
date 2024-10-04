@@ -57,19 +57,6 @@ const Slideshow = () => {
     setSlideIndex(newIndex);
   };
 
-  // useGSAP(
-  //   () => {
-  //     // gsap code here...
-  //     gsap.from('.slideshow-container', {
-  //       opacity: 0,
-  //       scale: 0,
-  //       // y: -50,
-  //       duration: 1,
-  //       stagger: 0.5,
-  //       // ease: 'power2.inOut'
-  //     });
-  //   },);
-
   return (
     <div className="slideshow-container">
       <div className="mySlides fade">
