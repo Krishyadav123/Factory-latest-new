@@ -4,7 +4,7 @@ import Parelax from '../../Components/ParelaxEffect/Parelax';
 import image03 from '../../assets/AboutPageimg/image03.jpg'
 import MapComponent from '../../Components/MyMapComponent/MapComponent';
 import Contact from '../../Components/Contact/Contact';
-import map from '../../assets/map.png'
+// import map from '../../assets/map.png'
 const ContactPage = () => {
     return (
         <>
@@ -16,10 +16,7 @@ const ContactPage = () => {
                 <div className='map-1'>
                     <MapComponent />
                 </div>
-                <div className='map-1'>
-                    <img className='map-img' src={map} alt="" />
-                </div>
-
+                
             </div>
             <div>
                 <Contact />

@@ -3,7 +3,26 @@
   width: 100%;
 }
 
-hr {
-  margin-top: 20px;
-  border: 1px solid #ccc;
+#map iframe {
+  height: 100%;
+  width: 100%;
+}
+
+
+#map .leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+.row{
+  margin: 0;
+  padding: 10px;
+  width: 200%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20%;
+  border: 1px solid red;
 }
