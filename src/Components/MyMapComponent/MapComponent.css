@@ -1,28 +1,43 @@
-#map {
-  height: 400px;
-  width: 100%;
-}
-
-#map iframe {
-  height: 100%;
-  width: 100%;
-}
-
-
-#map .leaflet-container {
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-}
 .row{
-  margin: 0;
-  padding: 10px;
-  width: 200%;
-  height: 100%;
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  gap: 20%;
-  border: 1px solid red;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+.rounded iframe{
+  width: 600px;
+  height: 500px;
+  border: 2px solid rgb(255, 149, 0);
+  border-radius: 20px;
+}
+
+
+@media (max-width: 1200px){
+  .row{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  .rounded iframe{
+    width: 600px;
+    height: 500px;
+    border: 2px solid rgb(255, 149, 0);
+    border-radius: 20px;
+  }
+  
+}
+@media (max-width: 800px){
+  .rounded iframe{
+    width: 350px;
+    height: 300px;
+    border: 2px solid rgb(255, 149, 0);
+    border-radius: 20px;
+  }
+  
 }

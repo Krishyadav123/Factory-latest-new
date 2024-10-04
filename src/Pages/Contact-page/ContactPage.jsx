@@ -12,11 +12,8 @@ const ContactPage = () => {
             <div>
                 <Parelax heading={"Contact Us"} backgroundImage={image03} />
             </div>
-            <div className='map'>
-                <div className='map-1'>
-                    <MapComponent />
-                </div>
-                
+            <div>
+               <MapComponent />                
             </div>
             <div>
                 <Contact />
