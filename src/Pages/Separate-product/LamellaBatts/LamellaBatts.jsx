@@ -6,6 +6,7 @@ import Parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
+import LamellaBattsPDF from '../../../assets/shree pdf/LamellaBatts.pdf';
 
 const LamellaBatts = () => {
   let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727948209/shreeinsul/products/Shreeinsul%20Lamella%20Batts/c7rcnjdyurwk2upmloqk.png'
@@ -22,7 +23,7 @@ const LamellaBatts = () => {
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
                       <h1>Shreeinsul Stone Wool Products</h1>
                       <h2>Shreeinsul Lamella Batts </h2>
-                      <a href="/path/to/your/file.pdf" download="filename.pdf">
+                      <a href={LamellaBattsPDF} download="LamellaBatts.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
                           <p>Download PDF</p>

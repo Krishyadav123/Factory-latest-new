@@ -27,12 +27,6 @@ import ProfiledWeatherProtectionJacketing from '../Pages/Separate-product/Profil
 const ContactPage = lazy(() => import('../Pages/Contact-page/ContactPage'));
 const Home = lazy(() => import('../Pages/Home/Home'));
 const ProductPage = lazy(() => import('../Pages/Product-page/ProductPage'));
-const SeparateProduct = lazy(() => import('../Pages/Separate-product/Product01/SeparateProduct'));
-const SeparateProduct02 = lazy(() => import('../Pages/Separate-product/Product02/SeparateProduct02'));
-const SeparateProduct03 = lazy(() => import('../Pages/Separate-product/Product03/SeparateProduct03'));
-const SeparateProduct04 = lazy(() => import('../Pages/Separate-product/Product04/SeparateProduct04'));
-const SeparateProduct05 = lazy(() => import('../Pages/Separate-product/Product05/SeparateProduct05'));
-const SeparateProduct06 = lazy(() => import('../Pages/Separate-product/Product06/SeparateProduct06'));
 const AboutPage = lazy(() => import('../Pages/About-page/AboutPage'));
 // const Contact = lazy(() => import('../Pages/Contact-page/ContactPage'));
 const Gallary = lazy(() => import('../Components/Gallary/Gallary'));
@@ -49,12 +43,6 @@ const RoutesComponent = () => {
         <Route path='/gallery' element={<Gallary />} />
         <Route path='/products' element={<ProductPage />} />
         <Route path='/achievement' element={<Achivement />} />
-        <Route path='/products/1' element={<SeparateProduct />} />
-        <Route path='/products/2' element={<SeparateProduct02 />} />
-        <Route path='/products/3' element={<SeparateProduct03 />} />
-        <Route path='/products/4' element={<SeparateProduct04 />} />
-        <Route path='/products/5' element={<SeparateProduct05 />} />
-        <Route path='/products/6' element={<SeparateProduct06 />} />
         <Route path='/products/lrb' element={<Lrb />} />
         <Route path='/products/slabs-and-boards' element={<SlabsAndBoard />} />
         <Route path='/products/sectional-pipe-covers' element={<SectionalPipeCover />} />
@@ -64,7 +52,7 @@ const RoutesComponent = () => {
         <Route path='/products/cloth-tape' element={<ClothTape/>} />
         <Route path='/products/yarn-braided-ropes' element={<YarnBraidedRopes/>} />   
         <Route path='/products/twisted-ropes' element={<TwistedRope/>} />   
-        <Route path='/products/yarn' element={<Yarn/>} />   
+        <Route path='/products/yarns' element={<Yarn/>} />   
         <Route path='/products/pir' element={<PIR/>} />   
         <Route path='/products/puf' element={<PUF/>} />   
         <Route path='/products/puf-pir-support' element={<PufPirSupport/>} />   

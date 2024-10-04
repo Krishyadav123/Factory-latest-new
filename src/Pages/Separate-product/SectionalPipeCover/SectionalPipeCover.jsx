@@ -7,6 +7,7 @@ import Parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
+import SectionalPipeCoverPDF from '../../../assets/shree pdf/PipeCovers.pdf';
 
 function SectionalPipeCover() {
 
@@ -25,7 +26,7 @@ function SectionalPipeCover() {
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
                       <h1>Shreeinsul Stone Wool Products</h1>
                       <h2>Shreeinsul Sectional Pipe Covers</h2>
-                      <a href="/path/to/your/file.pdf" download="filename.pdf">
+                      <a href={SectionalPipeCoverPDF} download="SectionalPipeCover.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
                           <p>Download PDF</p>

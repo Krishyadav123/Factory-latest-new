@@ -7,6 +7,7 @@ import Parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
+import PirPdf from '../../../assets/shree pdf/PIR.pdf';
 
 const PIR = () => {
   let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727938749/shreeinsul/products/PUF-PIR%20Products/ymtzfkmvj2jnihbv17ut.webp'
@@ -23,7 +24,7 @@ const PIR = () => {
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
                       <h1>Shreeinsul Foam PIR /PUF Products</h1>
                       <h2>Polyisocyanurate Foam (PIR)</h2>
-                      <a href="/path/to/your/file.pdf" download="filename.pdf">
+                      <a href={PirPdf} download="Pir.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
                           <p>Download PDF</p>

@@ -7,6 +7,7 @@ import Parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
+import BarierLaminationPDF from '../../../assets/shree pdf/BarrierLamination.pdf';
 
 function ProfiledWeatherProtectionJacketing() {
   let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727951679/shreeinsul/products/Profiled%20Weather%20Protection%20Jacketing/vq7kkuy84agfil2t7p8f.png'
@@ -23,7 +24,7 @@ function ProfiledWeatherProtectionJacketing() {
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
                       <h1>Moisture Barrier Lamination</h1>
                       <h2>Profiled Weather Protection Jacketing</h2>
-                      <a href="/path/to/your/file.pdf" download="filename.pdf">
+                      <a href={BarierLaminationPDF} download="BarierLamination.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
                           <p>Download PDF</p>

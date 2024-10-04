@@ -7,6 +7,8 @@ import Parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
+import BarrierLaminationPDF from '../../../assets/shree pdf/BarrierLamination.pdf';
+
 function PolySurlynLamination() {
   let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727951577/shreeinsul/products/PolySurlyn%20Lamination/glmvothaoz0fxc4f86ev.webp'
     return (
@@ -22,7 +24,7 @@ function PolySurlynLamination() {
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
                       <h1>Moisture Barrier Lamination</h1>
                       <h2>PolySurlyn Lamination </h2>
-                      <a href="/path/to/your/file.pdf" download="filename.pdf">
+                      <a href={BarrierLaminationPDF} download="BarrierLamination.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
                           <p>Download PDF</p>

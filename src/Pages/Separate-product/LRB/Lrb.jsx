@@ -6,6 +6,7 @@ import Parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
+import LrbPDF from '../../../assets/shree pdf/Shree Form.pdf';
 
 function Lrb() {
 
@@ -24,7 +25,7 @@ function Lrb() {
                   {/* <p className='separate-product-title'>{productData.title}</p> */}
                   <h1>LRB</h1>
                   <h2>Shreeinsul Lightly Resin Bonded Blanket</h2>
-                  <a href="/path/to/your/file.pdf" download="filename.pdf">
+                  <a href={LrbPDF} download="Lrb.pdf">
                     <div className='download-pdf'>
                       <FaRegFilePdf className='download-pdf-icon' />
                       <p>Download PDF</p>

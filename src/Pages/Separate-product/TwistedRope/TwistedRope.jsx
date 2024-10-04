@@ -6,7 +6,7 @@ import Parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
-
+import TwistedRopePDF from '../../../assets/shree pdf/TwistedRope.pdf';
 const TwistedRope = () => {
   let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727949488/shreeinsul/products/Shreeinsul%20Ceramic%20twisted%20Rope/sz0w29ptnzctfddq0bsb.jpg'
     return (
@@ -22,7 +22,7 @@ const TwistedRope = () => {
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
                       <h1>ShreeCera Textile Products</h1>
                       <h2>Shreeinsul Ceramic Textile Products</h2>
-                      <a href="/path/to/your/file.pdf" download="filename.pdf">
+                      <a href={TwistedRopePDF} download="TwistedRope.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
                           <p>Download PDF</p>
