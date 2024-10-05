@@ -1,15 +1,26 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './Contact.css'; // Make sure to import your CSS file
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import { FaFacebook, FaLinkedin, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+// import { FaFacebook, FaLinkedin, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
 import instagram from './../Contact/instagram.png';
 import facebook from './../Contact/facebook.png';
 import whatsapp from './../Contact/whatsapp.png';
 import linkedin from './../Contact/linkedin.png';
 import call from './../Contact/call.png';
 const Contact = () => {
+
+    const facebookLink = "https://www.facebook.com/profile.php?id=61566026194334"
+
+    const whatsappNumber = "87188 12605"
+
+    const whatsappLink = `https://api.whatsapp.com/send/?phone=${whatsappNumber}&text=I+am+interested+in+your+products.+Please+share+the+details.&type=phone_number&app_absent=0`
+
+    const linkedinLink = "https://www.linkedin.com/company/shree-insulation/about/?viewAsMember=true"
+
+    const instagramLink = "https://www.instagram.com/shree.insul/"
+
     // Create state to handle form data
     const [formData, setFormData] = useState({
         name: '',
@@ -114,7 +125,10 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="contact-page-left-info2">
+
+                            <a href={instagramLink} target="_blank">
                             <div className="contact-page-left-info">
                                 <div className="contact-page-left-info-img">
                                     <img src={instagram} alt="" />
@@ -124,33 +138,47 @@ const Contact = () => {
                                     <p>@instagram.com</p>
                                 </div>
                             </div>
-                            <div className="contact-page-left-info">
-                                <div className="contact-page-left-info-img">
-                                <img src={facebook} alt="" />
+                            </a>
+
+                            <a href={facebookLink} target="_blank">
+                                <div className="contact-page-left-info">
+                            
+                                    <div className="contact-page-left-info-img">
+                                    <img src={facebook} alt="" />
+                                    </div>
+                                
+                                    <div className="contact-page-left-info-text">
+                                        <h2>Facebook</h2>
+                                        <p>@facebook.com</p>
+                                    </div>
+                                
                                 </div>
-                                <div className="contact-page-left-info-text">
-                                    <h2>Facebook</h2>
-                                    <p>@facebook.com</p>
+                            </a>
+
+
+                            <a href={whatsappLink} target="_blank">
+                                <div className="contact-page-left-info">
+                                    <div className="contact-page-left-info-img">
+                                        <img src={whatsapp} alt="" />
+                                    </div>
+                                    <div className="contact-page-left-info-text">
+                                        <h2>Whatsapp</h2>
+                                        <p>+91 {whatsappNumber}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="contact-page-left-info">
-                                <div className="contact-page-left-info-img">
-                                    <img src={whatsapp} alt="" />
+                            </a>
+
+                            <a href={linkedinLink} target="_blank">
+                                <div className="contact-page-left-info">
+                                    <div className="contact-page-left-info-img">
+                                        <img src={linkedin} alt="" />
+                                    </div>
+                                    <div className="contact-page-left-info-text">
+                                        <h2>Linkedin</h2>
+                                        <p>+011 948-5481</p>
+                                    </div>
                                 </div>
-                                <div className="contact-page-left-info-text">
-                                    <h2>Whatsapp</h2>
-                                    <p>+011 948-5481</p>
-                                </div>
-                            </div>
-                            <div className="contact-page-left-info">
-                                <div className="contact-page-left-info-img">
-                                    <img src={linkedin} alt="" />
-                                </div>
-                                <div className="contact-page-left-info-text">
-                                    <h2>Linkedin</h2>
-                                    <p>+011 948-5481</p>
-                                </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div className="main">
