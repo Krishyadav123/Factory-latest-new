@@ -1,6 +1,5 @@
 import React from 'react';
 import './Hero.css';
-import hero from '../../assets/hero.mp4';
 import backround from '../../assets/backround.png';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
@@ -22,13 +21,17 @@ const Hero = () => {
          delay: 2
       }); // <-- automatically reverted
     },);
+
+    const heroVideo = "https://res.cloudinary.com/dwvxuesrd/video/upload/v1728118257/shreeinsul/Hero%20Header%20Video/o284uxy4ixw58lhegukl.mp4"
+
+    const backgroundImage = "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1728118933/shreeinsul/Hero%20Header%20Video/ytajb6kr7ayjhzgtdhsj.jpg"
  
     
   // <-- automatically reverted
   return (
     <div className="hero">
       <div className="hero-overlay"></div>
-      <video className="hero-video" src={hero} autoPlay loop muted>
+      <video className="hero-video" src={heroVideo} autoPlay loop muted >
         
       </video>
       <div className="hero-main">
