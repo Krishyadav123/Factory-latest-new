@@ -1,12 +1,7 @@
 import React from 'react'
 import './About.css'
 import { FiCheckCircle } from "react-icons/fi";
-import image02 from '../../assets/AboutPageimg/image02.jpg'
-import product01new from '../../assets/product01new.jpg'
-import product02new from '../../assets/product02new.jpg'
-import product03new from '../../assets/product03new.jpg'
-import product04new from '../../assets/product04new.png'
-import product05new from '../../assets/product05new.png'
+import ProductList from '../../Data/ProductList/productList.json'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 const About = () => {
@@ -87,19 +82,19 @@ const About = () => {
             <div className="about-main">
                 <div className="about-main-img">
                     <div className="images first-img">
-                        <img src={product01new} alt="" />
+                        <img src={`https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg`} alt="" />
                     </div>
                     <div className="images mid-img">
-                    <img src={product02new} alt="" />
+                    <img src={`https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg`} alt="" />
                     </div>
                     <div className="images last-img">
-                    <img src={product03new} alt="" />
+                    <img src={`https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727948560/shreeinsul/products/Shreeinsul%20Building%20Rolls/ix8wc0puozai93eyfppr.webp`} alt="" />
                     </div>
                 </div>
                 <div className="about-main-img-container">
                     <div className="about-main-img-container-1">
                         <div className='about-img-4'>
-                        <img src={product04new} alt="" />
+                        <img src={`https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947920/shreeinsul/products/Shreeinsul%20Loose%20Wool/cqidur47sqctnipotnbq.jpg`} alt="" />
                         </div>
                         <div>
                             <p className='about-title'>--INTRODUCTION OF US</p>
@@ -109,7 +104,7 @@ const About = () => {
                     </div>
                     <div className="about-main-img-container-2">
                         <div className='about-img-5'>
-                        <img src={product05new} alt="" />
+                        <img src={`https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947390/shreeinsul/products/Shreeinsul%20Boards/euue7goxjeddg4sv1zdu.jpg`} alt="" />
                         </div>
                         <div>
                             <div className="about-correct">

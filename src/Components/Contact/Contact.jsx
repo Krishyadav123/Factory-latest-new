@@ -21,6 +21,10 @@ const Contact = () => {
 
     const instagramLink = "https://www.instagram.com/shree.insul/"
 
+    const headOfficeNumber = '0731-4266310'
+
+    const BranchOfficeNumber = "87188-12605"
+
     // Create state to handle form data
     const [formData, setFormData] = useState({
         name: '',
@@ -120,8 +124,8 @@ const Contact = () => {
                                 </div>
                                 <div className="contact-page-left-info-text">
                                     <h2>Phone Number:</h2>
-                                    <p>Head-Office : (+011) 948-5481</p>
-                                    <p>Branch-Office : (+011) 948-56487</p>
+                                    <p>Head-Office : {headOfficeNumber}</p>
+                                    <p>Branch-Office : {BranchOfficeNumber}</p>
                                 </div>
                             </div>
                         </div>
