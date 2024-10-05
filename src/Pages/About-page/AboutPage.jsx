@@ -38,7 +38,7 @@ const AboutPage = () => {
                     // markers: true
                 },
                 opacity: 0,
-                scale: 0,
+                scale: 0.5,
                 // y: -50,
                 duration: 1.2,
                 stagger: 0.5,

@@ -31,6 +31,12 @@
     hsl(0 0% 0% / 0)
   );
 }
+.mar img{
+  width:150px;
+  height:100px;
+  margin-left: 50px;
+  /* object-fit: cover; */
+}
 @media(max-width:1200px){
 .slider-main {
   width: 95%;
@@ -43,6 +49,7 @@
     margin-top: 40px;
   }
   .mar img{
-    width: 200px;
+    width: 100px;
+    height: 70px;
 }
 }
