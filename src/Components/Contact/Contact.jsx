@@ -175,7 +175,7 @@ const Contact = () => {
                                     </div>
                                     <div className="contact-page-left-info-text">
                                         <h2>Linkedin</h2>
-                                        <p>+011 948-5481</p>
+                                        <p>@linkedin.com</p>
                                     </div>
                                 </div>
                             </a>
