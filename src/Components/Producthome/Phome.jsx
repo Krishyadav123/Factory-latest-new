@@ -1,55 +1,89 @@
 
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import './Phome.css'
-import product01new from '../../assets/product01new.jpg'
-import product02new from '../../assets/product02new.jpg'
-import product03new from '../../assets/product03new.jpg'
-import product04new from '../../assets/product04new.png'
-import product05new from '../../assets/product05new.png'
+import Lrb from '../../assets/ProductAnimationImages/LRB.jpg'
+import Pipe from '../../assets/ProductAnimationImages/Pipe.jpg'
+import Bords from '../../assets/ProductAnimationImages/Bords.jpg'
+import Rope from '../../assets/ProductAnimationImages/Rope.avif'
+import Yarn from '../../assets/ProductAnimationImages/yarn.jpg'
 import gsap from 'gsap/all';
 import { useGSAP } from '@gsap/react';
 
 const Phome = () => {
-    useEffect(() => {
-        const stack = document.querySelector(".stack");
-        const cards = Array.from(stack.children)
-          .reverse()
-          .filter((child) => child.classList.contains("productCard"));
-    
-        cards.forEach((productCard) => stack.appendChild(productCard));
-    
-        function moveCard() {
-          const lastCard = stack.lastElementChild;
-          if (lastCard.classList.contains("productCard")) {
-            lastCard.classList.add("swap");
-    
-            setTimeout(() => {
-              lastCard.classList.remove("swap");
-              stack.insertBefore(lastCard, stack.firstElementChild);
-            }, 1200);
-          }
-        }
-    
-        let autoplayInterval = setInterval(moveCard, 4000);
-    
-        stack.addEventListener("click", function (e) {
-          const productCard = e.target.closest(".productCard");
-          if (productCard && productCard === stack.lastElementChild) {
-            productCard.classList.add("swap");
-    
-            setTimeout(() => {
-              productCard.classList.remove("swap");
-              stack.insertBefore(productCard, stack.firstElementChild);
-            }, 1200);
-          }
-        });
-    
-        return () => {
-          clearInterval(autoplayInterval);
-          stack.removeEventListener("click", moveCard);
-        };
-      
-      }, []);
+  useEffect(() => {
+    const stack = document.querySelector(".stack");
+    const cards = Array.from(stack.children)
+      .reverse()
+      .filter((child) => child.classList.contains("productCard"));
+
+    cards.forEach((productCard) => stack.appendChild(productCard));
+
+    // Define a single variable for animation time
+    const animationTime = 1200; // Animation time in milliseconds
+    const autoplayIntervalTime = 3000; // Autoplay interval time in milliseconds
+
+    function moveCard() {
+      const lastCard = stack.lastElementChild;
+      if (lastCard.classList.contains("productCard")) {
+        lastCard.classList.add("swap");
+
+        setTimeout(() => {
+          lastCard.classList.remove("swap");
+          stack.insertBefore(lastCard, stack.firstElementChild);
+        }, animationTime);
+      }
+    }
+
+    let autoplayInterval = setInterval(moveCard, autoplayIntervalTime);
+
+    stack.addEventListener("click", function (e) {
+      const productCard = e.target.closest(".productCard");
+      if (productCard && productCard === stack.lastElementChild) {
+        productCard.classList.add("swap");
+
+        setTimeout(() => {
+          productCard.classList.remove("swap");
+          stack.insertBefore(productCard, stack.firstElementChild);
+        }, animationTime);
+      }
+    });
+
+    return () => {
+      clearInterval(autoplayInterval);
+      stack.removeEventListener("click", moveCard);
+    };
+
+  }, []);
+
+  // const ProductImages = [
+  //   {
+  //     id: 1,
+  //     name: "Lrb",
+  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg"
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "PipeCover",
+  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg"
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "Slab",
+  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727947390/shreeinsul/products/Shreeinsul%20Boards/euue7goxjeddg4sv1zdu.jpg"
+  //   },
+  //   {
+  //     id: 4,
+  //     name: "BraidedRopes",
+  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727949297/shreeinsul/products/Shreeinsul%20Ceramic%20Yarn%20Braided%20Rope/tltrhylic1333ooex8hw.avif"
+  //   },
+  //   {
+  //     id: 5,
+  //     name: "yarn",
+  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727938255/shreeinsul/products/Ceramic%20Fiber%20Yarn/yabr5zcpyys4kfh7lllm.jpg"
+  //   },
+
+  // ]
+
 
 
       useGSAP(
@@ -91,33 +125,51 @@ const Phome = () => {
             <div className="productCard">
               <img
               className='productImg'
-                src={product01new}
-                alt="" />
+                src={Lrb}
+                alt="" 
+                loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={product02new}
-                alt="" />
+                src={Pipe}
+                alt="" 
+                loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={product03new}
-                alt="" />
+                src={Bords}
+                alt="" 
+                loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={product04new}
-                alt="" />
+                src={Rope}
+                alt="" 
+                loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-               src={product05new}
-                alt="" />
-            </div>
+               src={Yarn}
+                alt="" 
+                loading='lazy'/>
+            </div> 
+
+            {/* {
+              ProductImages.map((item, key) => {
+                return (
+                  <div className="productCard" key={key}>
+                    <img
+                    className='productImg'
+                      src={item.image}
+                      alt="" />
+                  </div>
+                )
+              })
+            } */}
             {/* <div className="productCard">
               <img
                 src={product01new}

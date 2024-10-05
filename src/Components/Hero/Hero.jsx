@@ -31,7 +31,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-overlay"></div>
-      <video className="hero-video" src={heroVideo} autoPlay loop muted >
+      <video className="hero-video" src={heroVideo} autoPlay loop muted poster={backgroundImage}>
         
       </video>
       <div className="hero-main">

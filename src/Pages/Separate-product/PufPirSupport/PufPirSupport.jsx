@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import '../ProductsCss.css'
 // import data from "./products01.json"
-import product01new from '../../../assets/product01new.jpg'
 import Parelax from '../../../Components/ParelaxEffect/Parelax'
 // import parelax from '../../../Components/ParelaxEffect/Parelax'
 import image03 from '../../../assets/AboutPageimg/image03.jpg'
