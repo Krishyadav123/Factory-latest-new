@@ -9,10 +9,14 @@ import gsap from 'gsap';
 const Achivement = () => {
 
     const media = [
-        { type: 'image', src: 'https://shreeengineers.in/images2/gallery/1.jpg' },
-        { type: 'image', src: 'https://shreeengineers.in/images2/gallery/2.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729848259/shreeInsul/achivment/t4wtcvagchjvx4hc7n0p.pdf' },
+
+        { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/v1729848258/shreeInsul/achivment/vvjfztxordziveyebbq5.pdf' },
+
         { type: 'image', src: 'https://shreeengineers.in/images2/gallery/3.jpg' },
+
         { type: 'image', src: 'https://shreeengineers.in/images2/gallery/4.jpg' },
+
         { type: 'image', src: 'https://shreeengineers.in/images2/gallery/5.jpg' },
         { type: 'image', src: 'https://shreeengineers.in/images2/gallery/6.jpg' },
         { type: 'image', src: 'https://shreeengineers.in/images2/gallery/7.jpg' },

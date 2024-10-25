@@ -63,6 +63,7 @@
 .product-card-text {
   padding: 20px;
   background-color: #ffffff;
+
 }
 .product-card-text h2 {
   font-family: sans-serif;
@@ -79,9 +80,11 @@
   line-height: 20px;
   letter-spacing: 0.5px;
 }
-.product-card-text hr {
+.product-card-hr {
   margin-top: 20px;
-  /* color: orange; */
+  color: #000;
+  height: 1px;
+ 
 }
 .product-btn {
   display: flex;

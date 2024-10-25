@@ -118,7 +118,7 @@ const Product = () => {
         <div className="product-card-text">
           <h2>{product.name}</h2>
           <p className="product-description">{product.description}</p>
-          <hr />
+          <hr className="product-hr"/>
         </div>
       </div>
     </>

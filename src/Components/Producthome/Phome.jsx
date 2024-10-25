@@ -1,11 +1,11 @@
 
 import { useEffect } from 'react';
 import './Phome.css'
-import Lrb from '../../assets/ProductAnimationImages/LRB.jpg'
-import Pipe from '../../assets/ProductAnimationImages/Pipe.jpg'
-import Bords from '../../assets/ProductAnimationImages/Bords.jpg'
-import Rope from '../../assets/ProductAnimationImages/Rope.avif'
-import Yarn from '../../assets/ProductAnimationImages/yarn.jpg'
+// import Lrb from '../../assets/ProductAnimationImages/LRB.jpg'
+// import Pipe from '../../assets/ProductAnimationImages/Pipe.jpg'
+// import Bords from '../../assets/ProductAnimationImages/Bords.jpg'
+// import Rope from '../../assets/ProductAnimationImages/Rope.avif'
+// import Yarn from '../../assets/ProductAnimationImages/yarn.jpg'
 import gsap from 'gsap/all';
 import { useGSAP } from '@gsap/react';
 
@@ -59,27 +59,27 @@ const Phome = () => {
   //   {
   //     id: 1,
   //     name: "Lrb",
-  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg"
+  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg"
   //   },
   //   {
   //     id: 2,
   //     name: "PipeCover",
-  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg"
+  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg"
   //   },
   //   {
   //     id: 3,
   //     name: "Slab",
-  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727947390/shreeinsul/products/Shreeinsul%20Boards/euue7goxjeddg4sv1zdu.jpg"
+  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947390/shreeinsul/products/Shreeinsul%20Boards/euue7goxjeddg4sv1zdu.jpg"
   //   },
   //   {
   //     id: 4,
   //     name: "BraidedRopes",
-  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727949297/shreeinsul/products/Shreeinsul%20Ceramic%20Yarn%20Braided%20Rope/tltrhylic1333ooex8hw.avif"
+  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727949297/shreeinsul/products/Shreeinsul%20Ceramic%20Yarn%20Braided%20Rope/tltrhylic1333ooex8hw.avif"
   //   },
   //   {
   //     id: 5,
   //     name: "yarn",
-  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727938255/shreeinsul/products/Ceramic%20Fiber%20Yarn/yabr5zcpyys4kfh7lllm.jpg"
+  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727938255/shreeinsul/products/Ceramic%20Fiber%20Yarn/yabr5zcpyys4kfh7lllm.jpg"
   //   },
 
   // ]
@@ -125,35 +125,35 @@ const Phome = () => {
             <div className="productCard">
               <img
               className='productImg'
-                src={Lrb}
+                src={"https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={Pipe}
+                src={"https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={Bords}
+                src={"https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947390/shreeinsul/products/Shreeinsul%20Boards/euue7goxjeddg4sv1zdu.jpg"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={Rope}
+                src={"https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727949297/shreeinsul/products/Shreeinsul%20Ceramic%20Yarn%20Braided%20Rope/tltrhylic1333ooex8hw.avif"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-               src={Yarn}
+               src={"https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727938255/shreeinsul/products/Ceramic%20Fiber%20Yarn/yabr5zcpyys4kfh7lllm.jpg"}
                 alt="" 
                 loading='lazy'/>
             </div> 

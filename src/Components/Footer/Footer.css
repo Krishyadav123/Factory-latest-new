@@ -87,7 +87,7 @@
 .footer-social-icon img:hover {
   transform: scale(1.09);
 }
-.footer hr {
+.footer .footer-hr {
   width: 100%;
   height: 1px;
   margin: 20px 0;

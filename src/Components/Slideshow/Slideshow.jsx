@@ -61,19 +61,19 @@ const Slideshow = () => {
     <div className="slideshow-container">
       <div className="mySlides fade">
         <div className="numbertext">1 / 3</div>
-        <img src="https://www.deskera.com/blog/content/images/2022/03/Untitled-design--22-.png" alt="Slide 1" style={{ width: '100%' }} />
+        <img src="https://res.cloudinary.com/dcsentl2f/image/upload/q_auto,f_auto/v1729837212/shreeInsul/images/nlvfwkmlesamtjls0yp3.jpg" alt="Slide 1" style={{ width: '100%' }} />
         {/* <div className="text"><h1>WE ARE AN EXPERIENCED THERAML INSUL GROUP</h1></div> */}
       </div>
 
       <div className="mySlides fade">
         <div className="numbertext">2 / 3</div>
-        <img src="https://miro.medium.com/v2/resize:fit:1400/1*k1JMbEHOp81h5B1w05kf0Q.jpeg" alt="Slide 2" style={{ width: '100%' }} />
+        <img src="https://res.cloudinary.com/dcsentl2f/image/upload/q_auto,f_auto/v1729849698/shreeInsul/images/ghmfmianlxxoytnrrgvu.jpg" alt="Slide 2" style={{ width: '100%' }} />
         {/* <div className="text"><h1>WANT TO MAKE PRODUCTS? WE HAVE THE ANSWERS</h1></div> */}
       </div>
 
       <div className="mySlides fade">
         <div className="numbertext">3 / 3</div>
-        <img src="https://i.ytimg.com/vi/9EdCSlGdQAY/maxresdefault.jpg" alt="Slide 3" style={{ width: '100%' }} />
+        <img src="https://res.cloudinary.com/dcsentl2f/image/upload/c_scale,q_auto,f_auto/v1729837188/shreeInsul/images/xkqm6xeg9otf73s1zvcv.jpg" alt="Slide 3" style={{ width: '100%' }} />
         {/* <div className="text"><h1>WE ARE AN EXPERIENCED THERAML INSUL GROUP</h1></div> */}
       </div>
 
