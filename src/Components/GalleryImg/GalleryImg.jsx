@@ -105,11 +105,27 @@ const GalleryImg = () => {
 
   const changeMedia = (direction) => {
     let newIndex = currentIndex + direction;
-    if (newIndex >= media.length) {
+
+    let images = media.filter(item => item.type === 'image');
+    let videos = media.filter(item => item.type === 'video');
+
+    console.log("Images: ", images.length, "Videos: ", videos.length);
+
+    if(activeTab === 'image' && newIndex >= images.length) {
       newIndex = 0;
-    } else if (newIndex < 0) {
-      newIndex = media.length - 1;
+    } else if(activeTab === 'image' && newIndex < 0) {
+      newIndex = images.length - 1;
+    } else if(activeTab === 'video' && newIndex >= videos.length) {
+      newIndex = 0;
+    } else if(activeTab === 'video' && newIndex < 0) {
+      newIndex = videos.length - 1;
     }
+    
+    // if (newIndex >= media.length) {
+    //   newIndex = 0;
+    // } else if (newIndex < 0) {
+    //   newIndex = media.length - 1;
+    // }
     setCurrentIndex(newIndex);
   };
 
