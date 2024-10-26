@@ -1,77 +1,74 @@
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  /* border: 1px solid red; */
   overflow: hidden;
-  /* filter: grayscale(50%); */
-  
   margin: auto;
 }
 
-/* Hide the images by default */
+/* Slide styles */
 .mySlides {
   display: none;
-}
-.mySlides img {
-box-sizing: content-box;
-width: 100%;
-height: 100vh;
+  position: relative;
 }
 
-/* Next & previous buttons */
+.mySlides img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Overlay effect to darken the image */
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black overlay */
+  z-index: 1;
+}
+
+/* Caption styling */
+.caption {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 52px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  z-index: 2; /* Ensure caption is above the overlay */
+}
+
+/* Navigation buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 1s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
+  z-index: 3; /* Ensure buttons are above everything */
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
-.text {
-  color: rgb(255, 166, 0);
-  font-size: 40px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  /* border: 1px solid #fc0202; */
-
-  width: 100%;
-  text-align: center;
-  
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
+/* Dots indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -87,13 +84,22 @@ height: 100vh;
   background-color: #717171;
 }
 
-/* Fading animation */
+/* Animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+  animation: fade 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .slideshow-container {
+    height: 50vh;
+  }
+  .caption {
+    font-size: 24px;
+  }
 }

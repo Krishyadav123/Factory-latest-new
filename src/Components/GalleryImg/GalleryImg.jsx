@@ -168,7 +168,7 @@ const GalleryImg = () => {
     <div className='parent-gallary'>
       <br />
       <div className='gallary-center'>
-        <h1><center>Gallery</center></h1>
+        {/* <h1><center>Gallery</center></h1> */}
       </div>
       <div className="tabs">
         <button 

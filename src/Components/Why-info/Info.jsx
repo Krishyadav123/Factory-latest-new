@@ -54,28 +54,27 @@ const Info = () => {
             <div className="info-main-container">
             <div className="info-text">
                 <div className="info-text-main">
-                    <span>Lorem ipsum dolor sit amet.</span>
-                    <h2>Build better skills,faster</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis dicta reprehenderit, earum quia iste saepe.</p>
+                    <h2>Mission Statement</h2>
+                    <p>At Shree Insulations india Pvt Ltd, our mission is to lead the industry in providing innovative, high-quality stone wool solutions that enhance energy efficiency, safety, and environmental sustainability.</p>
                 </div>
             </div>
             <div className="info-boxs">
                 <div className="info-box-1">
                     <span><GiLaurelsTrophy />
                     </span>
-                    <h4>We Believe in Best Quality</h4>
-                    <p>Lorem ipsum dolor sit amet, lorem consectetur adipiscing elit.</p>
+                    <h4>Our Commitment</h4>
+                    {/* <p>Lorem ipsum dolor sit amet, lorem consectetur adipiscing elit.</p> */}
                 </div>
                 <div className="info-box-1">
                     <span><PiHandshakeLight /></span>
-                    <h4>We Believe in Good Relation</h4>
-                    <p>Lorem ipsum dolor sit amet, lorem consectetur adipiscing elit.</p>
+                    <h4>Our Expertise</h4>
+                    {/* <p>Lorem ipsum dolor sit amet, lorem consectetur adipiscing elit.</p> */}
                 </div>
                 <div className="info-box-1">
                     <span><LiaCertificateSolid />
                     </span>
-                    <h4>We Believe in Abilities</h4>
-                    <p>Lorem ipsum dolor sit amet, lorem consectetur adipiscing elit.</p>
+                    <h4>Join Us in Building a Better Future</h4>
+                    {/* <p>Lorem ipsum dolor sit amet, lorem consectetur adipiscing elit.</p> */}
                 </div>
             </div>
             </div>

@@ -24,6 +24,7 @@
 .product-title .category-heading {
   font-family: sans-serif;
   margin-top: 10px;
+  color: rgb(255, 115, 0);
 }
 .product-cards {
   background:#F8F8F8;
@@ -128,5 +129,6 @@
     font-family: sans-serif;
     margin-top: 10px;
     font-size: 25px;
+    color: rgb(255, 115, 0);
   }
 }

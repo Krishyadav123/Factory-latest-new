@@ -18,22 +18,24 @@
   .tabs{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 5px;
     margin-top: 10px;
+    width: 80%;
   }
   .tabs button{
     background: #000;
     border-radius: 5px;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 30px;
     border: none;
+    font-size: large;
   }
   .tabs button:hover{
     background: rgb(255, 115, 0);
     border-radius: 5px;
     color: white;
-    padding: 10px 20px;
+    padding: 18px 28px;
     border: none;
   }
   
@@ -157,7 +159,7 @@
   .tabs{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 5px;
     margin-top: 10px;
   }

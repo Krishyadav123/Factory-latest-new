@@ -39,7 +39,7 @@ const Hero = () => {
         
         <h1 > Welcome To The World <br /> Of Insulation </h1>
         <p>
-        WE ARE EXPERIENCED THERAMLINSULATION GROUP
+        WE ARE EXPERIENCED THERMALINSULATION GROUP
         </p>
         <button id='btn-animation'>Explore More</button>
 
