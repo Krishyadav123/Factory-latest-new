@@ -14,7 +14,7 @@ function Lrb() {
 
     return (
         <>
-          <Parelax heading={"Shreeinsul Lightly Resin Bonded Blanket"} backgroundImage={image03} />
+          <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundImage={image03} />
           <div className='separate-product'>
             <div className="separate-product-main-container">
               <div className="separate-product-card">
@@ -23,8 +23,8 @@ function Lrb() {
                 </div>
                 <div className="separate-product-text">
                   {/* <p className='separate-product-title'>{productData.title}</p> */}
-                  <h1>LRB</h1>
-                  <h2>Shreeinsul Lightly Resin Bonded Blanket</h2>
+                  <h1>Shreeinsul Blanket</h1>
+                  <h2>Shreeinsul Stone Wool Products</h2>
                   <a href={LrbPDF} download="Lrb.pdf">
                     <div className='download-pdf'>
                       <FaRegFilePdf className='download-pdf-icon' />
@@ -34,7 +34,7 @@ function Lrb() {
                 </div>
               </div>
               <div>
-                <p className='separate-product-desc'>Shreeinsul Lightly Resin Bonded (LRB) Blankets offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made  of molten stone wool bonded by a suitable resin and then stitching with GI wire mesh. This material complies to ASTM C592 & IS 8183
+                <p className='separate-product-desc'>Shreeinsul Lightly Resin Bonded (LRB) Blanket offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made  of molten stone wool fibres bonded by a suitable resin and then stitching with GI wire mesh. This material complies to ASTM C592 & IS 8183
                 </p>
               </div>
               <hr className='separate-product-hr' />
@@ -42,10 +42,11 @@ function Lrb() {
                 <div className="key-features">
                   <h3>Key Features:</h3>
                   <ul>
-                    <li><span>High density</span></li>
+                    <li><span>Superior Thermal Properties</span></li>
                     <li><span>Water repellent</span> </li>
-                    <li><span>Dimensionally stable</span> </li>
+                    <li><span>Nominal Thermal Conductivity</span> </li>
                     <li><span>Easy to handle and install</span> </li>
+                    <li><span>Fire Resistant</span></li>
                   </ul>
                 </div>
                 <div className='back-to-products-div'>

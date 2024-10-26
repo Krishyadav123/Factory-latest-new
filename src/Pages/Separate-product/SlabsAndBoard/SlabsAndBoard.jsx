@@ -34,7 +34,7 @@ function SlabsAndBoard() {
                 </div>
               </div>
               <div>
-                <p className='separate-product-desc'>Shreeinsul Lightly Resin Bonded (LRB) Blankets offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made  of molten stone wool bonded by a suitable resin and then stitching with GI wire mesh. This material complies to ASTM C592 & IS 8183
+                <p className='separate-product-desc'>Shreeinsul Stone Wool Resin Bonded Boards and Slabs are produced from loose stone wool and bonded with resin to form a robust and versatile insulation material. This unique composition results in a product that excels in thermal properties, sound absorption, and fire resistance.
                 </p>
               </div>
               <hr className='separate-product-hr' />
@@ -47,6 +47,7 @@ function SlabsAndBoard() {
                     <li><span>Fire resistance</span> </li>
                     <li><span>Sound absorption</span> </li>
                     <li><span>Moisture resistance</span> </li>
+                    <li><span>Dimensionally stable</span></li>
                   </ul>
                 </div>
                 <div className='back-to-products-div'>

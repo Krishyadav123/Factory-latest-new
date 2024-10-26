@@ -32,7 +32,8 @@ const BuildingRolls = () => {
                     </div>
                   </div>
                   <div>
-                    <p className='separate-product-desc'>Shreeinsul Lamella Batts are used in sandwich panels, sandwich Doors for thermal insulation and pressure resistance. Lamella Batts are placed between two metal sheets for used in the partitions, Roof panels. These are also used in cold storage rooms. Lamella Batts conforming to IS:8183:1993, ASTM C 612, BS:3958 (Part - 4) & EN:14303:2013. <br /> NOTE:  Water repellent boards are available on request
+                    <p className='separate-product-desc'>Shreeinsul Resin Bonded Roll With facings like Aluminium Foil (FSK), Black Glass Tissue viel (BGT) and White Glass Tissue veil (WGT). Are used for roof & wall insulation for thermal & acoustic properties. Building Rolls are generally used under or over the purlins in PEB & Pre Engineered houses, cold storages, Poultry forms. These are also used for HVAC application. And conforming to IS:8183:1993, ASTM C 612, BS:3958 (Part - 4) & EN:14303:2013. 
+                    <br /> NOTE:  Water repellent boards are available on request
 
 
                     </p>

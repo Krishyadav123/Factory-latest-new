@@ -113,10 +113,7 @@ const Phome = () => {
           <div className="content">
             <h1>WELCOM TO SHREEINSUL</h1>
             <p>
-              Welcome to La Pâtisserie Belle, where every bite is a journey into the
-              exquisite world of finely crafted pastries. Our patisserie is
-              dedicated to bringing you the most delicious and beautifully designed
-              haven for those who appreciate the finer things in life.
+            At Shreeinsul, we pride ourselves on delivering excellence through our diverse range of high-quality products. With a commitment to innovation and precision, we cater to a variety of industries, ensuring every solution meets the highest standards of performance and reliability. Explore our core product offerings below:
             </p>
             <button className="btn">Explore More</button>
           </div>

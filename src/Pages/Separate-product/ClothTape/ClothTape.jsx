@@ -12,7 +12,7 @@ const ClothTape = () => {
   let image ='https://res.cloudinary.com/dwvxuesrd/image/upload/v1727938668/shreeinsul/products/Ceramic%20Fiber%20Yarn/ndmkkamdswxntnbup4xq.jpg'
   return (
     <>
-    <Parelax heading={"ShreeCera Textile Products"} backgroundImage={image03} />
+    <Parelax heading={"Shreeinsul Textile Products"} backgroundImage={image03} />
           <div className='separate-product'>
             <div className="separate-product-main-container">
               <div className="separate-product-card">
@@ -21,8 +21,8 @@ const ClothTape = () => {
                 </div>
                 <div className="separate-product-text">
                   {/* <p className='separate-product-title'>{productData.title}</p> */}
-                  <h1>    ShreeCera Textile Products</h1>
-                  <h2>Shreeinsul Ceramic Cloth & tape </h2>
+                  <h1>    Shreeinsul Textile Products</h1>
+                  <h2>Shreeinsul Cloth & tape </h2>
                   <a href={ClothTapePDF} download="ClothTape.pdf">
                     <div className='download-pdf'>
                       <FaRegFilePdf className='download-pdf-icon' />
@@ -32,9 +32,7 @@ const ClothTape = () => {
                 </div>
               </div>
               <div>
-                <p className='separate-product-desc'>Shreecera Cloth/Tape are woven from Superior Quality ceramic fiber yarn and reinforced with Fiberglass/SS wire.  Cloth and Tapes have high temperature resistance. These cloths contain specific quantum of organic carrier which helps to establish physical formation of products which charred out at higher temperature. The continuous withstand temperature of the cloth & Tape is 1000° C 
-
-
+                <p className='separate-product-desc'>Shreeinsul Cloth/Tape are woven from Superior Quality ceramic fiber yarn and reinforced with Fiberglass/SS wire.  Cloth and Tapes have high temperature resistance. These cloths contain specific quantum of organic carrier which helps to establish physical formation of products which charred out at higher temperature. The continuous withstand temperature of the cloth & Tape is 1000° C 
                 </p>
               </div>
               <hr className='separate-product-hr' />

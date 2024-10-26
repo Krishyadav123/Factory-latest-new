@@ -43,11 +43,11 @@ function SectionalPipeCover() {
                     <div className="key-features">
                       <h3>Key Features:</h3>
                       <ul>
-                        <li><span>High-temperature insulation</span></li>
+                        <li><span>Dimensionally stable</span></li>
                         <li><span>Corrosion resistance</span> </li>
-                        <li><span>Cable or Pipe wrapping </span> </li>
                         <li><span>Lightweight</span> </li>
                         <li><span>Good compressive strength</span> </li>
+                        <li><span>Low Thermal Properties</span> </li>
                       </ul>
                     </div>
                     <div className='back-to-products-div'>

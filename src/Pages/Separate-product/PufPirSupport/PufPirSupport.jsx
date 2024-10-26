@@ -12,7 +12,7 @@ const PufPirSupport = () => {
   let image = "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727950930/shreeinsul/products/High%20Density%20PUFPIR%20Supports/ompddtbhi4tacwxdvuup.jpg"
     return (
         <>
-        <Parelax heading={"Shree Foam PIR /PUF Products"} backgroundImage={image03} />
+        <Parelax heading={"Shreeinsul PIR /PUF Products"} backgroundImage={image03} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">
@@ -21,7 +21,7 @@ const PufPirSupport = () => {
                     </div>
                     <div className="separate-product-text">
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
-                      <h1>Shreeinsul Foam PIR /PUF Products</h1>
+                      <h1>Shreeinsul PIR /PUF Products</h1>
                       <h2>High Density PUF/PIR Supports</h2>
                       <a href={PufPirSupportPDF} download="PufPirSupport.pdf">
                         <div className='download-pdf'>
@@ -32,9 +32,7 @@ const PufPirSupport = () => {
                     </div>
                   </div>
                   <div>
-                    <p className='separate-product-desc'>ShreeFoam offers a wide range of PUF supports. The density of PUF support ranges from 80 kg/m3 to 500 kg/m3. The higher density PUF supports can be made available against specific customer requirements. Shree Foam high density supports enable higher loads without increase in surface area. Shree Foam supports do not require sawing and shaping at site, the supports designed to suit exact pipe OD. Shree Foam supports are having excellent closed cell structure and it does not permit water / water vapour penetration.
-
-
+                    <p className='separate-product-desc'>Shreeinsul offers a wide range of PUF supports. The density of PUF support ranges from 80 kg/m3 to 500 kg/m3. The higher density PUF supports can be made available against specific customer requirements. Shree Foam high density supports enable higher loads without increase in surface area. Shree Foam supports do not require sawing and shaping at site, the supports designed to suit exact pipe OD. Shree Foam supports are having excellent closed cell structure and it does not permit water / water vapour penetration.
                     </p>
                   </div>
                   <hr className='separate-product-hr' />

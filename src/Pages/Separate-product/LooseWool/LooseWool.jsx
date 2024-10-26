@@ -23,7 +23,7 @@ function LooseWool() {
                     <div className="separate-product-text">
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
                       <h1>Shreeinsul Stone Wool Products</h1>
-                      <h2>Shree Insul Loose Wool</h2>
+                      <h2>Shreeinsul Loose Wool</h2>
                       <a href={LooseWoolPDF} download="LooseWool.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
@@ -33,9 +33,7 @@ function LooseWool() {
                     </div>
                   </div>
                   <div>
-                    <p className='separate-product-desc'>Loose wool insulation, also known as loose-fill wool insulation, is an eco-friendly insulation material made from natural rocks like basalt. Provides excellent thermal resistance, sound absorption, fire-resistant and ideal for filling cavity and un-even surface
-
-
+                    <p className='separate-product-desc'>Loose wool insulation, also known as loose-fill wool insulation, is an eco-friendly insulation material made from natural basalt rock. Provides excellent thermal resistance, sound absorption, fire-resistant and ideal for filling cavity and un-even surface
                     </p>
                   </div>
                   <hr className='separate-product-hr' />
@@ -44,13 +42,10 @@ function LooseWool() {
                       <h3>Key Features:</h3>
                       <ul>
                         <li><span>Excellent thermal insulation</span></li>
-                        <li><span>Fire resistance
-                        </span> </li>
+                        <li><span>Fire resistance</span> </li>
                         <li><span>Sound absorption </span> </li>
-                        <li><span>Moisture resistance
-                        </span> </li>
+                        <li><span>Moisture resistance</span> </li>
                         <li><span>Lightweight</span> </li>
-                        <li><span>Dimensionally stable</span> </li>
                       </ul>
                     </div>
                     <div className='back-to-products-div'>

@@ -13,7 +13,7 @@ const PUF = () => {
   let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727951337/shreeinsul/products/Polyurethane%20Foam%20%28PUF%29/p4rxuwtmck4lnurwxtyc.jpg'
     return (
         <>
-        <Parelax heading={"Shree Foam PIR /PUF Products"} backgroundImage={image03} />
+        <Parelax heading={"Shreeinsul PIR /PUF Products"} backgroundImage={image03} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">
@@ -22,7 +22,7 @@ const PUF = () => {
                     </div>
                     <div className="separate-product-text">
                       {/* <p className='separate-product-title'>{productData.title}</p> */}
-                      <h1>Shreeinsul Foam PIR /PUF Products</h1>
+                      <h1>Shreeinsul PIR /PUF Products</h1>
                       <h2>Polyisocyanurate Foam (PUF)</h2>
                       <a href={PufPdf} download="Puf.pdf">
                         <div className='download-pdf'>
@@ -33,9 +33,7 @@ const PUF = () => {
                     </div>
                   </div>
                   <div>
-                    <p className='separate-product-desc'>ShreeFoam rigid polyurethane foams have been successfully used for many years in the oil and gas industry for service temperatures of up to 110°C. This material is resistant to water ingress, provides much better insulation values than many other insulation materials and also offers structural support of the pipeline due to its high compressive strength. A polyurethane is polymer composed of a chain of organic units joined by carbamate (urethane) links.
-
-
+                    <p className='separate-product-desc'>Shreeinsul rigid polyurethane foams PUF have been successfully used for many years in the oil and gas industry for service temperatures of up to 110°C. This material is resistant to water ingress, provides much better insulation values than many other insulation materials and also offers structural support of the pipeline due to its high compressive strength. A polyurethane is polymer composed of a chain of organic units joined by carbamate (urethane) links. 
                     </p>
                 
                   </div>
@@ -48,7 +46,7 @@ const PUF = () => {
                         <li><span>Pre-Fabricated and ready to use
                         </span> </li>
                         <li><span>Fire retardant </span> </li>
-                        <li><span>Construction friendly
+                        <li><span>Available in Butt & Shiplap Joints
                         </span> </li>
                         <li><span>Sawing and Shaping not required at site</span> </li>
                         <li><span>Available in various density and dimensions as per customer requirement</span> </li>

@@ -12,7 +12,7 @@ const Yarn = () => {
   let image ='https://res.cloudinary.com/dwvxuesrd/image/upload/v1727938255/shreeinsul/products/Ceramic%20Fiber%20Yarn/yabr5zcpyys4kfh7lllm.jpg'
     return (
         <>
-        <Parelax heading={"ShreeCera Textile Products"} backgroundImage={image03} />
+        <Parelax heading={"Shreeinsul Textile Products"} backgroundImage={image03} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">
@@ -20,9 +20,9 @@ const Yarn = () => {
                       <img src={`${image}`} alt="" />
                     </div>
                     <div className="separate-product-text">
-                      {/* <p className='separate-product-title'>{productData.title}</p> */}
-                      <h1>    ShreeCera Textile Products</h1>
-                      <h2>ShreeCera Yarn </h2>
+                    
+                      <h1>Shreeinsul Textile Products</h1>
+                      <h2>Shreeinsul Yarn </h2>
                       <a href={YarnPDF} download="Yarn.pdf">
                         <div className='download-pdf'>
                           <FaRegFilePdf className='download-pdf-icon' />
@@ -32,8 +32,7 @@ const Yarn = () => {
                     </div>
                   </div>
                   <div>
-                    <p className='separate-product-desc'>ShreeCera Ceramic fiber Yarn are made from high quality Alumino silicate fibers with reinforcement of SS wire / continuous fiberglass filament to increase  handling strength during installation and enhance fiber durability. The fiberglass reinforcement has temperature rating of 650°C. These yarns are contain 15%  organic carrier which helps to establish physical formation of products. ShreeCera Ceramic fiber yarns are manufactured using advance technology and machinery of carding, spinning and doubling system. 
-
+                    <p className='separate-product-desc'>Shreeinsul Ceramic fiber Yarn are made from high quality Alumino silicate fibers with reinforcement of SS wire / continuous fiberglass filament to increase  handling strength during installation and enhance fiber durability. The fiberglass reinforcement has temperature rating of 650°C. These yarns are contain 15%  organic carrier which helps to establish physical formation of products. Shreeinsul Ceramic fiber yarns are manufactured using advance technology and machinery of carding, spinning and doubling system. 
                     </p>
                   </div>
                   <hr className='separate-product-hr' />
@@ -41,12 +40,12 @@ const Yarn = () => {
                     <div className="key-features">
                       <h3>Key Features:</h3>
                       <ul>
-                        <li><span> Production in textiles  </span></li>
-                        <li><span>Production in Ropes</span> </li>
-                        {/* <li><span>Cable or Pipe wrapping </span> </li> */}
-                        <li><span>Sewing thread for high temperature textiles </span> </li>
-                        <li><span>High temperature gaskets </span> </li>
-                        {/* <li><span>Refineries, Power plants and steel plants</span> </li> */}
+                        <li><span> High quality Alumino silicate fibers</span></li>
+                        <li><span>Advance mechanical twist for strength </span> </li>
+                     
+                        <li><span>Metalic & Non metallic yarns with higher Tensile strength</span> </li>
+                        <li><span>High Temperature resistance</span> </li>
+                     
                       </ul>
                     </div>
                     <div className='back-to-products-div'>

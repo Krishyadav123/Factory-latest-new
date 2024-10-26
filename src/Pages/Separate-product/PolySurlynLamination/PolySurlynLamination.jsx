@@ -34,7 +34,7 @@ function PolySurlynLamination() {
                   </div>
                   <div>
                     <p className='separate-product-desc'>
-                        We Provide heat sealed 3-mil thick PolySurlyn Laminated Weather Protection Jacketing in accordance with EIL specifications and conforming to ASTM C1729. PolySurlyn Lamination acts as a brilliant moisture barrier and prevents corrosion on the inner surface of the cladding and onto the insulated surface. 
+                    We Provide heat sealed 3-mil thick PolySurlyn Laminated Weather Protection Jacketing in accordance with EIL specifications and conforming to ASTM C1729. PolySurlyn Lamination acts as a brilliant moisture barrier and prevents corrosion on the inner surface of the cladding and onto the insulated surface. 
                     </p>
                   </div>
                   <hr className='separate-product-hr' />

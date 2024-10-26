@@ -35,6 +35,7 @@ function PolykraftLamination() {
                   <div>
                     <p className='separate-product-desc'>
                     We also provide Polykraft moisture barrier consisting of one layer of 1 mil high density polyethylene film with a protective layer of 40-pound minimum virgin Kraft paper heat laminated on the weather protection cladding inside our factory. This product compiles with EIL specifications and provides excellent protection to the cladding material. 
+                    
                     </p>
                   </div>
                   <hr className='separate-product-hr' />

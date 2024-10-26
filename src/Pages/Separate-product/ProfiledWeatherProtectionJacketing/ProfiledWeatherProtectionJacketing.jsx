@@ -34,7 +34,7 @@ function ProfiledWeatherProtectionJacketing() {
                   </div>
                   <div>
                     <p className='separate-product-desc'>
-                    Our State-of-the-art facility can provide Corrugated Aluminium, SS & GI sheets with 32/5 & 76/19 profiles. Lengths of the corrugated material can be customised as per the customer's requirements. We are capable to do profiling on thicknesses varying from 0.4 mm to 1.22 mm depending upon the nature of the material. Profiled sheets are also available with moisture barrier protective laminations. 
+                    Our State-of-the-art facility can provide Corrugated Aluminium, SS & GI sheets with 32/5 & 76/19 profiles. Lengths of the corrugated material can be customised as per the customer’s requirements. We are capable to do profiling on thicknesses varying from 0.4 mm to 1.22 mm depending upon the nature of the material. Profiled sheets are also available with moisture barrier protective laminations. 
                     </p>
                   </div>
                   <hr className='separate-product-hr' />

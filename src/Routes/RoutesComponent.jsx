@@ -11,7 +11,7 @@ import LooseWool from '../Pages/Separate-product/LooseWool/LooseWool';
 import BuildingRolls from '../Pages/Separate-product/BuildingRolls/BuildingRolls';
 import LamellaBatts from '../Pages/Separate-product/LamellaBatts/LamellaBatts';
 import ClothTape from '../Pages/Separate-product/ClothTape/ClothTape';
-import YarnBraidedRopes from '../Pages/Separate-product/YarnBraidedRopes/YarnBraidedRopes';
+import CeramicFiberRope from '../Pages/Separate-product/CeramicFiberRope/CeramicFiberRope';
 import TwistedRope from '../Pages/Separate-product/TwistedRope/TwistedRope';
 import Yarn from '../Pages/Separate-product/Yarn/Yarn';
 
@@ -50,7 +50,7 @@ const RoutesComponent = () => {
         <Route path='/products/building-rolls' element={<BuildingRolls/>} />
         <Route path='/products/lamella-batts' element={<LamellaBatts/>} />
         <Route path='/products/cloth-tape' element={<ClothTape/>} />
-        <Route path='/products/yarn-braided-ropes' element={<YarnBraidedRopes/>} />   
+        <Route path='/products/CeramicFiberRope' element={<CeramicFiberRope/>} />   
         <Route path='/products/twisted-ropes' element={<TwistedRope/>} />   
         <Route path='/products/yarns' element={<Yarn/>} />   
         <Route path='/products/pir' element={<PIR/>} />   

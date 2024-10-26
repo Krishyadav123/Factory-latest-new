@@ -56,14 +56,14 @@ const Footer = () => {
                         <div className="footer-content-right">
                             <h2>GET IN TOUCH</h2>
                             <ul>
-                                <li>+91-123*****89</li>
+                                <li>+91-87188 12605</li>
                                 <li>contact@xyz.com</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <hr className='footer-hr'/>
-                <p className='footer-copyright'>Copyright 2024 @ xyz.com - All Right Reserved.</p>
+                <p className='footer-copyright'>Copyright 2024 @ shreeinsul.com - All Right Reserved.</p>
             </div>
         </>
     )
