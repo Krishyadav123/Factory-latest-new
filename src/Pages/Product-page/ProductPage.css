@@ -13,6 +13,7 @@
 }
 .product-category-name {
   margin-top: 50px;
+  color: rgb(255, 115, 0);
 }
 .product-title p {
   font-family: sans-serif;
@@ -105,6 +106,7 @@
   }
   .product-category-name {
     margin-top: 50px;
+    color: rgb(255, 115, 0);
   }
   .product-card-one {
     width: 300px;

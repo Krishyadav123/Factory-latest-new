@@ -25,11 +25,6 @@ const GalleryImg = () => {
 
     { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837351/shreeInsul/images/khxkm45mkki2d8gnxw3v.png' },
 
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837343/shreeInsul/images/y30nrlgegx8m9ql0i9ja.jpg' },
-
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837341/shreeInsul/images/rx5m1cwtilrfvvkzr8fn.png' },
-
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837341/shreeInsul/images/jk5y7cohydi0s9flbrlz.png' },
 
     { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837338/shreeInsul/images/xcijq8m8n8mcekhvywzu.jpg' },
 

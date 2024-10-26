@@ -111,7 +111,7 @@ const Phome = () => {
     return (
         <main>
           <div className="content">
-            <h1>WELCOM TO SHREEINSUL</h1>
+            <h1>WELCOME TO SHREEINSUL</h1>
             <p>
             At Shreeinsul, we pride ourselves on delivering excellence through our diverse range of high-quality products. With a commitment to innovation and precision, we cater to a variety of industries, ensuring every solution meets the highest standards of performance and reliability. Explore our core product offerings below:
             </p>
