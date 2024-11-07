@@ -26,6 +26,11 @@ p {
   margin: 0;
 }
 
+.news h1 {
+  color: rgb(255, 115, 0);
+  
+}
+
 /* GLOBAL STYLES */
 .news {
   display: flex;
