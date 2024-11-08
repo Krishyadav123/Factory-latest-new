@@ -52,7 +52,7 @@
   height: 260px;
   border-radius: 25px 25px 0px 0px;
   /* border: 1px solid red; */
-  object-fit: cover;
+  /* object-fit: contain; */
 }
 .product-card-text {
   padding: 20px;

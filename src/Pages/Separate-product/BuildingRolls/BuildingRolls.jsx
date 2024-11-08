@@ -3,16 +3,20 @@ import '../ProductsCss.css'
 // import product01new from '../../../assets/product01new.jpg'
 import Parelax from '../../../Components/ParelaxEffect/Parelax'
 // import parelax from '../../../Components/ParelaxEffect/Parelax'
-import image03 from '../../../assets/AboutPageimg/image03.jpg'
+// import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import BuildingRollsPDF from '../../../assets/shree pdf/BuildingRolls.pdf';
 
+let image ='https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_550,c_scale,q_auto,f_auto/v1731049687/shreeInsul/PNG/xzfyol87mmfwph5ltsfq.png'
+
+let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731051891/shreeInsul/PNG/ataduek7gcenyconqeug.mp4"
+
 const BuildingRolls = () => {
-  let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727948560/shreeinsul/products/Shreeinsul%20Building%20Rolls/ix8wc0puozai93eyfppr.webp'
+
     return (
         <>
-        <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundImage={image03} />
+        <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundVideo={parelaxVideo} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">

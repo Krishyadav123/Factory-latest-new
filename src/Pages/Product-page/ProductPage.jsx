@@ -17,28 +17,28 @@ const ProductPage = () => {
       "categoryProducts": [
         {
           "id": 1,
-          "image": "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg",
+          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/b5f6ygv1nrhrpf8rzvyj.png",
           "name": "Shreeinsul Blanket ",
           "description": "Shreeinsul Lightly Resin Bonded (LRB) Blanket offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made  of molten stone wool fibres bonded by a suitable resin and then stitching with GI wire mesh. This material complies to ASTM C592 & IS 8183",
           "link": "/products/lrb"
         },
         {
           "id": 2,
-          "image": "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947390/shreeinsul/products/Shreeinsul%20Boards/euue7goxjeddg4sv1zdu.jpg",
+          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/w_300,h_300,c_scale,q_auto,f_auto/v1731049687/shreeInsul/PNG/z4c2r682f1b9scegfyay.png",
           "name": "Shreeinsul Boards",
           "description": "Shreeinsul Stone Wool Resin Bonded Boards and Slabs are produced from loose stone wool and bonded with resin to form a robust and versatile insulation material. This unique composition results in a product that excels in thermal properties, sound absorption, and fire resistance.",
           "link": "/products/slabs-and-boards"
         },
         {
           "id": 3,
-          "image": "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg",
+          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/w_500,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/ovpbmzfl02pd6uahncex.png",
           "name": "Shreeinsul Sectional Pipe Covers",
           "description": "Shreeinsul Sectional Pipe Covers (SPC) offers a quick solution for insulation needs, combining exceptional dimensional stability with durability and tuffness. These SPCs are made from long non-combustible rock fibres bonded with thermosetting resin binders. The SPC's are available plain or with FSK facings. This material conforms to ASTM C547 & IS 9842",
           "link": "/products/sectional-pipe-covers"
         },
         {
           "id": 4,
-          "image": "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727948560/shreeinsul/products/Shreeinsul%20Building%20Rolls/ix8wc0puozai93eyfppr.webp",
+          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_550,c_scale,q_auto,f_auto/v1731049687/shreeInsul/PNG/xzfyol87mmfwph5ltsfq.png",
           "name": "Shreeinsul Building Rolls",
           "description": "Shreeinsul Resin Bonded Roll With facings like Aluminium Foil (FSK), Black Glass Tissue viel (BGT) and White Glass Tissue veil (WGT). Are used for roof & wall insulation for thermal & acoustic properties. Building Rolls are generally used under or over the purlins in PEB & Pre Engineered houses, cold storages, Poultry forms. These are also used for HVAC application. And conforming to IS:8183:1993, ASTM C 612, BS:3958 (Part - 4) & EN:14303:2013.",
           "link": "/products/building-rolls"
@@ -52,7 +52,7 @@ const ProductPage = () => {
         // },
         {
           "id": 6,
-          "image": "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947920/shreeinsul/products/Shreeinsul%20Loose%20Wool/cqidur47sqctnipotnbq.jpg",
+          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049685/shreeInsul/PNG/t2dl7xb26qgtlxnxckuo.png",
           "name": "Shreeinsul Loose Wool",
           "description": "Loose wool insulation, also known as loose-fill wool insulation, is an eco-friendly insulation material made from natural basalt rock. Provides excellent thermal resistance, sound absorption, fire-resistant and ideal for filling cavity and un-even surface",
           "link": "/products/loose-wool"
@@ -65,7 +65,7 @@ const ProductPage = () => {
       "categoryProducts": [
         {
           "id": 1,
-          "image": "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727949297/shreeinsul/products/Shreeinsul%20Ceramic%20Yarn%20Braided%20Rope/tltrhylic1333ooex8hw.avif",
+          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/kowde6cnzmjr1vdkcplx.png",
           "name": "Shreeinsul Ceramic Fiber Rope",  
           "description": "Shreeinsul Ceramic Fiber Ropes are made from premium quality Ceramic fiber Yarn. The standard Rope segment consists of braided and twisted ropes and are available in both metallic and non-metallic categories. The braided ropes are available in round, square and rectangular shapes. SS wire or Fiber Glass reinforced to give the product excellent handling strength during application. These ropes contain 10 – 12% organic carrier which helps to establish physical formation of products and burns out at a temperature of about 400° C.",
           "link": "/products/CeramicFiberRope"
@@ -79,14 +79,14 @@ const ProductPage = () => {
         // },
         {
           "id": 3,
-          "image": "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727938255/shreeinsul/products/Ceramic%20Fiber%20Yarn/yabr5zcpyys4kfh7lllm.jpg",
+          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049674/shreeInsul/PNG/j5bcdpittcqczmlgezg1.png",
           "name": "Shreeinsul Yarn",
           "description": "Shreeinsul Ceramic fiber Yarn are made from high quality Alumino silicate fibers with reinforcement of SS wire / continuous fiberglass filament to increase  handling strength during installation and enhance fiber durability. The fiberglass reinforcement has temperature rating of 650°C. These yarns are contain 15%  organic carrier which helps to establish physical formation of products. Shreeinsul Ceramic fiber yarns are manufactured using advance technology and machinery of carding, spinning and doubling system.",
           "link": "/products/yarns"
         },
         {
           "id": 4,
-          "image": "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727938668/shreeinsul/products/Ceramic%20Fiber%20Yarn/ndmkkamdswxntnbup4xq.jpg",
+          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/v1731054456/shreeInsul/PNG/wmvhij4egrexpf2gvx48.png",
           "name": "Shreeinsul Cloth & tape",
           "description": "Shreeinsul Cloth/Tape are woven from Superior Quality ceramic fiber yarn and reinforced with Fiberglass/SS wire.  Cloth and Tapes have high temperature resistance. These cloths contain specific quantum of organic carrier which helps to establish physical formation of products which charred out at higher temperature. The continuous withstand temperature of the cloth & Tape is 1000° C.",
           "link": "/products/cloth-tape"
@@ -99,14 +99,14 @@ const ProductPage = () => {
       "categoryProducts": [
         {
           "id": 1,
-          "image": "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727938749/shreeinsul/products/PUF-PIR%20Products/ymtzfkmvj2jnihbv17ut.webp",
+          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_500,c_scale,q_auto,f_auto/v1731049679/shreeInsul/PNG/rjwjccdc1rjcaxxqfztq.png",
           "name": "Polyisocyanurate Foam (PIR)",
           "description": "Shreeinsul PIR CFC and HCFC free rigid insulation foam products having operating temperature range from -200°C to +150°C. Shreeinsul PIR foams are available in slab, pipe section and a choice of profiles & blocks. These are prefabricated using CNC machines from Free rise buns made in discontinous process. These foams are special purpose high strength insulating material adequate for low temperature installations as in LNG/LPG Pipelines & Equipments.",
           "link": "/products/pir"
         },
         {
           "id": 2,
-          "image": "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727951337/shreeinsul/products/Polyurethane%20Foam%20%28PUF%29/p4rxuwtmck4lnurwxtyc.jpg",
+          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049687/shreeInsul/PNG/stkpbuxaij5zohrj3glw.png",
           "name": "Polyurethane Foam (PUF)",
           "description": "Shreeinsul rigid polyurethane foams PUF have been successfully used for many years in the oil and gas industry for service temperatures of up to 110°C. This material is resistant to water ingress, provides much better insulation values than many other insulation materials and also offers structural support of the pipeline due to its high compressive strength. A polyurethane is polymer composed of a chain of organic units joined by carbamate (urethane) links. ",
           "link": "/products/puf"

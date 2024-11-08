@@ -4,16 +4,20 @@ import '../ProductsCss.css'
 // import product01new from '../../../assets/product01new.jpg'
 import Parelax from '../../../Components/ParelaxEffect/Parelax'
 // import parelax from '../../../Components/ParelaxEffect/Parelax'
-import image03 from '../../../assets/AboutPageimg/image03.jpg'
+// import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import LooseWoolPDF from '../../../assets/shree pdf/LooseWool.pdf';
 
+let image ='https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1731049685/shreeInsul/PNG/t2dl7xb26qgtlxnxckuo.png'
+
+let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731051891/shreeInsul/PNG/ataduek7gcenyconqeug.mp4"
+
 function LooseWool() {
-  let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727947920/shreeinsul/products/Shreeinsul%20Loose%20Wool/cqidur47sqctnipotnbq.jpg'
+
     return (
         <>
-        <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundImage={image03} />
+        <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundVideo={parelaxVideo} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">

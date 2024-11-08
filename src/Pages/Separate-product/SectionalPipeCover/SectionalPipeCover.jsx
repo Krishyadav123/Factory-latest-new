@@ -9,13 +9,16 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import SectionalPipeCoverPDF from '../../../assets/shree pdf/PipeCovers.pdf';
 
+let image ='https://res.cloudinary.com/dcsentl2f/image/upload/w_500,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/ovpbmzfl02pd6uahncex.png'
+
+let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731051891/shreeInsul/PNG/ataduek7gcenyconqeug.mp4"
+
 function SectionalPipeCover() {
 
-  let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg'
 
     return (
         <>
-        <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundImage={image03} />
+        <Parelax heading={"Shreeinsul Stone Wool Products"} backgroundVideo={parelaxVideo} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">
