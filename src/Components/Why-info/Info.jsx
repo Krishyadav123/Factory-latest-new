@@ -63,18 +63,19 @@ const Info = () => {
                     <span><GiLaurelsTrophy />
                     </span>
                     <h4>Our Commitment</h4>
-                    {/* <p>Lorem ipsum dolor sit amet, lorem consectetur adipiscing elit.</p> */}
+                    <p>At Shree Insulations Group, our commitment extends beyond producing high-quality products. We are dedicated to sustainability and environmental stewardship, utilizing eco-friendly practices throughout our manufacturing process. </p>
                 </div>
                 <div className="info-box-1">
                     <span><PiHandshakeLight /></span>
                     <h4>Our Expertise</h4>
-                    {/* <p>Lorem ipsum dolor sit amet, lorem consectetur adipiscing elit.</p> */}
+                    <p>With years of experience and a team of skilled professionals, we bring a wealth of expertise to every project. We collaborate closely with our clients to deliver tailored solutions that meet specific requirements and exceed expectations.</p>
                 </div>
                 <div className="info-box-1">
                     <span><LiaCertificateSolid />
                     </span>
                     <h4>Join Us in Building a Better Future</h4>
-                    {/* <p>Lorem ipsum dolor sit amet, lorem consectetur adipiscing elit.</p> */}
+                    <p>Explore the advantages of our stone wool solutions and discover how Shree Insulations can support your next project. Together, we can create spaces that are not only efficient and safe but also contribute to a more sustainable future.
+                    </p>
                 </div>
             </div>
             </div>

@@ -25,7 +25,7 @@ const Product = () => {
     {
       id: 2,
       image:
-        "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_500,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/ovpbmzfl02pd6uahncex.png",
+        "https://res.cloudinary.com/dcsentl2f/image/upload/w_500,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/ovpbmzfl02pd6uahncex.png",
       name: "Shreeinsul Sectional Pipe Covers",
       description:
         "Shreeinsul Sectional Pipe Covers (SPC) offers a quick solution for insulation needs, combining exceptional dimensional stability with durability and tuffness. These SPCs are made from long non-combustible rock fibres bonded with thermosetting resin binders. The SPC's are available plain or with FSK facings. This material conforms to ASTM C547 & IS 9842",
