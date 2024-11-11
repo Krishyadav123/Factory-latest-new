@@ -105,7 +105,7 @@ const Service = () => {
                             <p>Shreeinsul stone wool products, manufactured from volcanic rocks like basalt rock using modern technology, ensure superior insulation properties. Made from natural volcanic rock and recycled materials, our stone wool is a sustainable choice that minimizes environmental impact.</p>
                         </div>
                     </div>
-                    <div className="service-main-one service-main-three">
+                    {/* <div className="service-main-one service-main-three">
                         <div className="service-main-icon">
                             <IoBulbOutline />
                         </div>
@@ -114,7 +114,7 @@ const Service = () => {
                             <h4>Superior thermal properties</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi non pretium pur.</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="service-btn">
