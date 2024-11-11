@@ -6,15 +6,19 @@
 .service-container{
     width: 80%;
     margin: auto;
+    /* border: 1px solid rgb(208, 255, 0); */
 }
 .service-main{
     margin-top: 80px;
     display: flex;
+    /* align-items: center; */
+    justify-content: center;
     gap: 50px;
+    /* border: 1px solid red; */
 }
-.service-main-one service-main-two{
+/* .service-main-one .service-main-two{
     border: 1px solid red;
-}
+} */
 .info-text{
     /* width: 50%; */
     /* text-align: center; */
@@ -41,9 +45,10 @@
 }
 .service-main-one{
     display: flex;
-    /* width: 370px; */
+    width: 370px;
     text-align: end;
     gap: 25px;
+    /* border: 1px solid rgb(59, 36, 36); */
 }
 .service-main-text h4{
     font-size: 20px;
@@ -66,6 +71,7 @@
 }
 .service-main-two{
     margin-top: 40px;
+    
 }
 .service-main-three{
     margin-top: 40px;
@@ -177,7 +183,7 @@
         border-radius: 5px;
     }
 }
-@media(max-width:880px){
+@media(max-width:1000px){
     .service-main{
         margin-top: 80px;
         display: flex;
