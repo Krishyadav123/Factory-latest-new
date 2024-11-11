@@ -63,24 +63,16 @@ const Service = () => {
                 <div className="info-text-main info-text-main-1">
                     <span>SERVICE</span>
                     <h2>Build better skills,faster</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis dicta reprehenderit, earum quia iste saepe.</p>
+                    <p>Shreeinsul group Founded in 2004, Shreeinsul specializes in high-quality insulation solutions tailored for industrial and commercial needs.</p>
                 </div>
             </div>
             <div className="service-main">
                 <div className="service-main-content service-main-content-1">
-                    <div className="service-main-one">
-                        <div className="service-main-text">
-                            <h4>Innovation of Metallurgy</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi non pretium pur.</p>
-                        </div>
-                        <div className="service-main-icon">
-                            <IoBulbOutline />
-                        </div>
-                    </div>
+                    
                     <div className="service-main-one service-main-two">
                         <div className="service-main-text">
-                            <h4>Innovation of Metallurgy</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi non pretium pur.</p>
+                            <h4>Innovative Products & Services</h4>
+                            <p>Shreeinsul offers innovative insulation products and services, constantly adapting to evolving market demands./customer requirements</p>
                         </div>
                         <div className="service-main-icon">
                             <IoBulbOutline />
@@ -88,8 +80,8 @@ const Service = () => {
                     </div>
                     <div className="service-main-one service-main-three">
                         <div className="service-main-text">
-                            <h4>Innovation of Metallurgy</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi non pretium pur.</p>
+                            <h4>Advanced Manufacturing</h4>
+                            <p>The company uses state-of-the-art facilities to produce stone wool, which provides superior thermal insulation, soundproofing, and fire resistance.</p>
                         </div>
                         <div className="service-main-icon">
                             <IoBulbOutline />
@@ -102,24 +94,15 @@ const Service = () => {
                     </div>
                 </div>
                 <div className="service-main-content service-main-content-2">
-                    <div className="service-main-one">
-                        <div className="service-main-icon">
-                            <IoBulbOutline />
-                        </div>
-                        <div className="service-main-text service-text-last
-                        ">
-                            <h4>Innovation of Metallurgy</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi non pretium pur.</p>
-                        </div>
-                    </div>
+                    
                     <div className="service-main-one service-main-two">
                         <div className="service-main-icon">
                             <IoBulbOutline />
                         </div>
                         <div className="service-main-text service-text-last
                         ">
-                            <h4>Innovation of Metallurgy</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi non pretium pur.</p>
+                            <h4>Superior thermal properties</h4>
+                            <p>Shreeinsul stone wool products, manufactured from volcanic rocks like basalt rock using modern technology, ensure superior insulation properties. Made from natural volcanic rock and recycled materials, our stone wool is a sustainable choice that minimizes environmental impact.</p>
                         </div>
                     </div>
                     <div className="service-main-one service-main-three">
@@ -128,7 +111,7 @@ const Service = () => {
                         </div>
                         <div className="service-main-text service-text-last
                         ">
-                            <h4>Innovation of Metallurgy</h4>
+                            <h4>Superior thermal properties</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi non pretium pur.</p>
                         </div>
                     </div>
