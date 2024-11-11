@@ -55,34 +55,7 @@ const Phome = () => {
 
   }, []);
 
-  // const ProductImages = [
-  //   {
-  //     id: 1,
-  //     name: "Lrb",
-  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg"
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "PipeCover",
-  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg"
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "Slab",
-  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947390/shreeinsul/products/Shreeinsul%20Boards/euue7goxjeddg4sv1zdu.jpg"
-  //   },
-  //   {
-  //     id: 4,
-  //     name: "BraidedRopes",
-  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727949297/shreeinsul/products/Shreeinsul%20Ceramic%20Yarn%20Braided%20Rope/tltrhylic1333ooex8hw.avif"
-  //   },
-  //   {
-  //     id: 5,
-  //     name: "yarn",
-  //     image: "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727938255/shreeinsul/products/Ceramic%20Fiber%20Yarn/yabr5zcpyys4kfh7lllm.jpg"
-  //   },
 
-  // ]
 
 
 
@@ -122,35 +95,35 @@ const Phome = () => {
             <div className="productCard">
               <img
               className='productImg'
-                src={"https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg"}
+                src={"https://res.cloudinary.com/dcsentl2f/image/upload/w_300,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/b5f6ygv1nrhrpf8rzvyj.png"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={"https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg"}
+                src={"https://res.cloudinary.com/dcsentl2f/image/upload/w_300,h_400,c_scale,q_auto,f_auto/v1731049687/shreeInsul/PNG/z4c2r682f1b9scegfyay.png"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={"https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947390/shreeinsul/products/Shreeinsul%20Boards/euue7goxjeddg4sv1zdu.jpg"}
+                src={"https://res.cloudinary.com/dcsentl2f/image/upload/w_300,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/ovpbmzfl02pd6uahncex.png"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={"https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727949297/shreeinsul/products/Shreeinsul%20Ceramic%20Yarn%20Braided%20Rope/tltrhylic1333ooex8hw.avif"}
+                src={"https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_550,c_scale,q_auto,f_auto/v1731049687/shreeInsul/PNG/xzfyol87mmfwph5ltsfq.png"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-               src={"https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727938255/shreeinsul/products/Ceramic%20Fiber%20Yarn/yabr5zcpyys4kfh7lllm.jpg"}
+               src={"https://res.cloudinary.com/dcsentl2f/image/upload/w_300,h_400,c_scale,q_auto,f_auto/v1731049685/shreeInsul/PNG/t2dl7xb26qgtlxnxckuo.png"}
                 alt="" 
                 loading='lazy'/>
             </div> 
