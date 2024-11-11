@@ -8,11 +8,15 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import CeramicFiberRopePDF from '../../../assets/shree pdf/CeramicFiberRope.pdf';
 
+let image = 'https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/kowde6cnzmjr1vdkcplx.png'
+
+let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731051891/shreeInsul/PNG/ataduek7gcenyconqeug.mp4"
+
 const CeramicFiberRope = () => {
-  let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727949297/shreeinsul/products/Shreeinsul%20Ceramic%20Yarn%20Braided%20Rope/tltrhylic1333ooex8hw.avif'
+
     return (
         <>
-        <Parelax heading={"Shreeinsul Textile Products"} backgroundImage={image03} />
+        <Parelax heading={"Shreeinsul Textile Products"} backgroundVideo={parelaxVideo} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">
