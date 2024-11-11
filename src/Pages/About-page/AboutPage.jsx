@@ -214,7 +214,7 @@ const AboutPage = () => {
                                 <b>Stable Performance:</b> Even in damp conditions, our stone wool retains its insulating properties, providing consistent performance in various environments.</p>
                             </div>
                             <div className="about-page-content-one-img about-page-content-4-img">
-                                <img src="https://res.cloudinary.com/dcsentl2f/image/upload/v1731319333/shreeInsul/about%20page/qqwbxmreeykdia5me8nb.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dcsentl2f/image/upload/w_500,h_400,c_scale,q_auto,f_auto/v1731319333/shreeInsul/about%20page/qqwbxmreeykdia5me8nb.jpg" alt="" />
                             </div>
                         </div>
                         <div className="about-page-content-one about-page-content-three">
