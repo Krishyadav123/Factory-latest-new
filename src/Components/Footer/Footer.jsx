@@ -69,7 +69,7 @@ const Footer = () => {
                                     <li>👉🏻 Achievement</li>
                                 </Link>
 
-                                <Link to={"/contact"}>
+                                 <Link to={"/contact"}>
                                     <li>👉🏻 Contact</li>
                                 </Link>
                                 {/* <li>👉🏻 About us</li>

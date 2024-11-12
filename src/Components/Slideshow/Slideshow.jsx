@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Slideshow.css'; // Import your CSS file for styling
 
-const Slideshow = () => {
+const Slideshow = ({ image1, image2, image3}) => {
   const [slideIndex, setSlideIndex] = useState(1);
   const [autoSlide, setAutoSlide] = useState(true);
 
@@ -53,7 +53,7 @@ const Slideshow = () => {
         <div className="image-overlay"></div>
         <div className="caption">{captionText}</div>
         <img
-          src="https://res.cloudinary.com/dcsentl2f/image/upload/q_auto,f_auto/v1729837212/shreeInsul/images/nlvfwkmlesamtjls0yp3.jpg"
+          src={image1} 
           alt="Slide 1"
         />
       </div>
@@ -62,7 +62,7 @@ const Slideshow = () => {
         <div className="image-overlay"></div>
         <div className="caption">{captionText}</div>
         <img
-          src="https://res.cloudinary.com/dcsentl2f/image/upload/q_auto,f_auto/v1729849698/shreeInsul/images/ghmfmianlxxoytnrrgvu.jpg"
+          src={image2}
           alt="Slide 2"
         />
       </div>
@@ -71,7 +71,7 @@ const Slideshow = () => {
         <div className="image-overlay"></div>
         <div className="caption">{captionText}</div>
         <img
-          src="https://res.cloudinary.com/dcsentl2f/image/upload/c_scale,q_auto,f_auto/v1729837188/shreeInsul/images/xkqm6xeg9otf73s1zvcv.jpg"
+          src={image3}
           alt="Slide 3"
         />
       </div>

@@ -1,8 +1,5 @@
-import React from 'react'
 import './Service.css'
 import { IoBulbOutline } from "react-icons/io5";
-import midimage from '../../assets/mid-imae.jpg'
-import video02 from '../../assets/AboutPageimg/aboutpagevideo02.mp4'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/all"
@@ -90,7 +87,7 @@ const Service = () => {
                 </div>
                 <div className="service-main-mid-image">
                     <div className="service-img">
-                       <video src={video02} autoPlay loop muted />
+                       <video src={"https://res.cloudinary.com/dcsentl2f/video/upload/v1731404682/shreeInsul/videos/xt2uhqhxa7wcjuyseazp.mp4"} autoPlay loop muted />
                     </div>
                 </div>
                 <div className="service-main-content service-main-content-2">
