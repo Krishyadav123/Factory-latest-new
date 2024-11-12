@@ -156,7 +156,7 @@ const ProductPage = () => {
       <div className="product">
         <div className="product-main-container">
           <div className="product-title">
-            <p>--LATEST--</p>
+           
             <div>
               {productList.map((category) => (
                 <div key={category.categoryId}>

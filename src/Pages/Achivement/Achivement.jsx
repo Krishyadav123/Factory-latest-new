@@ -88,16 +88,18 @@ const Achivement = () => {
             <div>
                 {/* <Parelax heading={"Achievements"} backgroundImage={image03} /> */}
                 <Slideshow 
-                image1={"https://res.cloudinary.com/dcsentl2f/image/upload/v1729850814/shreeInsul/achivment/ayitiq9zxhixqdabm7aj.jpg"}
+                image1={"https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_400,c_scale,q_auto,f_auto/v1731405941/shreeInsul/achivment/kjameo77pflxcsi6eorh.png"}
                 image2={"https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729850808/shreeInsul/achivment/ytp2eofmz6cwi3mj7bsx.jpg"}
                 image3={"https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729850804/shreeInsul/achivment/rqevb6dpuessgw3dt1mm.jpg"}
                 // image4={"https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729850993/shreeInsul/achivment/uxfb3gxc8dqjabx4mzbb.jpg"}
+
+                heading='Achievements'
                 />
             </div>
             <div className='parent-gallary'>
                 <br />
                 <div className='gallary-center'>
-                    <h1><center>Achievements</center></h1>
+                   
                 </div>
                 {/* <div className="tabs">
                     <button

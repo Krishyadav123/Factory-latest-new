@@ -159,8 +159,8 @@ const AboutPage = () => {
             <div className='aboutpage'>
                 <div className="about-page-main">
                     <div className="about-page-title">
-                        <p>About us</p>
-                        <h1>Welcome to Shree Engineers</h1>
+                        
+                        <h1>Welcome to Shree Insulations</h1>
                     </div>
                     <div className="about-page-img">
                         <video src={headVideo} autoPlay muted loop></video>

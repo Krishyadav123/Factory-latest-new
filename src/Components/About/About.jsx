@@ -82,19 +82,19 @@ const About = () => {
             <div className="about-main">
                 <div className="about-main-img">
                     <div className="images first-img">
-                        <img src={`https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727946804/shreeinsul/products/LRB%20Mattress/tdlzml0hablf6ncaxa7g.jpg`} alt="" />
+                        <img src={`https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1731404907/shreeInsul/intro%20of%20us%20image/tjsqi8tq2sio6hbpni4h.jpg`} alt="" />
                     </div>
                     <div className="images mid-img">
-                    <img src={`https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947589/shreeinsul/products/Shreeinsul%20Sectional%20Pipe%20Covers/dx7xiiuf3dph8nu2ouyc.jpg`} alt="" />
+                    <img src={`https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1731404899/shreeInsul/intro%20of%20us%20image/ou1evizsnoiclntykhsr.jpg`} alt="" />
                     </div>
                     <div className="images last-img">
-                    <img src={`https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727948560/shreeinsul/products/Shreeinsul%20Building%20Rolls/ix8wc0puozai93eyfppr.webp`} alt="" />
+                    <img src={`https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1731405015/shreeInsul/intro%20of%20us%20image/zavdktquzqgpfvnlyojr.jpg`} alt="" />
                     </div>
                 </div>
                 <div className="about-main-img-container">
                     <div className="about-main-img-container-1">
                         <div className='about-img-4'>
-                        <img src={`https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947920/shreeinsul/products/Shreeinsul%20Loose%20Wool/cqidur47sqctnipotnbq.jpg`} alt="" />
+                        <img src={`https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1731405068/shreeInsul/intro%20of%20us%20image/gdbfojqtqvtzspmr5shv.jpg`} alt="" />
                         </div>
                         <div>
                             <p className='about-title'>--INTRODUCTION OF US</p>
@@ -104,7 +104,7 @@ const About = () => {
                     </div>
                     <div className="about-main-img-container-2">
                         <div className='about-img-5'>
-                        <img src={`https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1727947390/shreeinsul/products/Shreeinsul%20Boards/euue7goxjeddg4sv1zdu.jpg`} alt="" />
+                        <img src={`https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1731405072/shreeInsul/intro%20of%20us%20image/d5xolp2rbtsnqd9wxxoq.jpg`} alt="" />
                         </div>
                         <div>
                             <div className="about-correct">
