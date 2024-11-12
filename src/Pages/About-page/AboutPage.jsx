@@ -14,6 +14,8 @@ import Slider from '../../Components/Slider/Slider'
 
 const headVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731319351/shreeInsul/about%20page/ffuq7sxlmcjxkcf3ktcu.mov"
 
+let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731406708/shreeInsul/about%20page/omr1pe8ib3hjflzxgu0x.mov"
+
 
 const AboutPage = () => {
 
@@ -155,7 +157,7 @@ const AboutPage = () => {
 
     return (
         <>
-            <Parelax heading={"About Shree Engineers"} backgroundImage={image03} />
+            <Parelax heading={"About Shree Insulations"} backgroundVideo={parelaxVideo} />
             <div className='aboutpage'>
                 <div className="about-page-main">
                     <div className="about-page-title">
