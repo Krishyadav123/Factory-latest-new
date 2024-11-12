@@ -4,16 +4,19 @@ import '../ProductsCss.css'
 // import product01new from '../../../assets/product01new.jpg'
 import Parelax from '../../../Components/ParelaxEffect/Parelax'
 // import parelax from '../../../Components/ParelaxEffect/Parelax'
-import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import BarrierLaminationPDF from '../../../assets/shree pdf/BarrierLamination.pdf';
 
+let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1728041030/shreeinsul/products/Polykraft%20Lamination/zfcrmcfettsdxc0hka46.png'
+
+let video = "https://res.cloudinary.com/dcsentl2f/video/upload/w_800,h_400,c_scale,q_auto,f_auto/v1731389143/shreeInsul/PNG/nzirnw5p3hw90rhafik5.mp4"
+
 function PolykraftLamination() {
-  let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1728041030/shreeinsul/products/Polykraft%20Lamination/zfcrmcfettsdxc0hka46.png'
+
     return (
         <>
-        <Parelax heading={"Moisture Barrier Lamination"} backgroundImage={image03} />
+        <Parelax heading={"Moisture Barrier Lamination"} backgroundVideo={video} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">

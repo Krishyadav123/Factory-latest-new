@@ -9,14 +9,17 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import PirPdf from "../../../assets/shree pdf/PIR.pdf";
 
+let image = 'https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_500,c_scale,q_auto,f_auto/v1731049679/shreeInsul/PNG/rjwjccdc1rjcaxxqfztq.png'
+
+let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731393128/shreeInsul/PNG/qcx4vrvrzzvf8tpfvva8.mp4"
+
 const PIR = () => {
-  let image =
-    "https://res.cloudinary.com/dwvxuesrd/image/upload/v1727938749/shreeinsul/products/PUF-PIR%20Products/ymtzfkmvj2jnihbv17ut.webp";
+
   return (
     <>
       <Parelax
         heading={"Shreeinsul PIR /PUF Products"}
-        backgroundImage={image03}
+        backgroundVideo={parelaxVideo}
       />
       <div className="separate-product">
         <div className="separate-product-main-container">

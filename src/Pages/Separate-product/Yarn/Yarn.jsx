@@ -8,8 +8,12 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import YarnPDF from '../../../assets/shree pdf/Yarn.pdf';
 
+let image = 'https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049674/shreeInsul/PNG/j5bcdpittcqczmlgezg1.png'
+
+let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731051891/shreeInsul/PNG/ataduek7gcenyconqeug.mp4"
+
 const Yarn = () => {
-  let image ='https://res.cloudinary.com/dwvxuesrd/image/upload/v1727938255/shreeinsul/products/Ceramic%20Fiber%20Yarn/yabr5zcpyys4kfh7lllm.jpg'
+
     return (
         <>
         <Parelax heading={"Shreeinsul Textile Products"} backgroundImage={image03} />
