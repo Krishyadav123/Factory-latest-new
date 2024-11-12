@@ -94,7 +94,7 @@ const Footer = () => {
                             <h2>GET IN TOUCH</h2>
                             <ul>
                                 <li>+91-87188 12605</li>
-                                <li>contact@xyz.com</li>
+                                <li>Sales@shreeinsul.com</li>
                             </ul>
                         </div>
                     </div>
