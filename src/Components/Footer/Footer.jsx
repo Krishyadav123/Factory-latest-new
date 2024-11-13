@@ -1,8 +1,8 @@
-import React from "react";
+// import React from "react";
 import "./Footer.css";
 // import face from '../../assets/'
-import twi from "../../assets/twitter_icon.png";
-import linke from "../../assets/linkedin_icon.png";
+// import twi from "../../assets/twitter_icon.png";
+// import linke from "../../assets/linkedin_icon.png";
 import logo from "../../assets/logo shreeinsul.png";
 import { Link } from "react-router-dom";
 
