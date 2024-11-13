@@ -58,9 +58,9 @@ const Service = () => {
             <div className="service-container">
             <div className="info-text">
                 <div className="info-text-main info-text-main-1">
-                    <span>SERVICE</span>
+                    {/* <span>SERVICE</span> */}
                     <h2>Build better skills,faster</h2>
-                    <p>Shreeinsul group Founded in 2004, Shreeinsul specializes in high-quality insulation solutions tailored for industrial and commercial needs.</p>
+                    <p>Shree Insulations group Founded in 2004, Shreeinsul specializes in high-quality insulation solutions tailored for industrial and commercial needs.</p>
                 </div>
             </div>
             <div className="service-main">
