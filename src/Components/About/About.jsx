@@ -101,7 +101,7 @@ const About = () => {
                         <div>
                             {/* <p className='about-title'>--INTRODUCTION OF US</p> */}
                             <h1>Our Statement</h1>
-                            <p className='about-contain'>We are committed to sustainability, utilizing recycled materials and energy-efficient processes to minimize our environmental impact. Our focus is on providing durable, non-toxic solutions that promote healthier buildings and communities, contributing to a greener future.
+                            <p className='about-contain'>We are committed to sustainability, utilizing materials from nature and energy materials and energy-efficient processes to minimize our environmental impact. Our focus is on providing durable, non-toxic solutions that promote healthier buildings and communities, contributing to a greener future.
                             </p>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ const About = () => {
                             <div className="about-correct">
                                 <div className="icons-1">
                                     <span><FiCheckCircle /></span>
-                                    <p>We focus on sustainability, using recycled materials and energy-efficient processes to create durable, non-toxic solutions for healthier communities.
+                                    <p>We focus on sustainability, using materials from nature and energy processes to create durable, non-toxic solutions for healthier communities.
                                     </p>
                                 </div>
                                 <div className="icons-1 icons-2">

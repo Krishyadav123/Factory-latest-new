@@ -74,7 +74,7 @@ const Info = () => {
                     <span><LiaCertificateSolid />
                     </span>
                     <h4>Join Us in Building a Better Future</h4>
-                    <p>Explore the advantages of our stone wool solutions and discover how Shree Insulations can support your next project. Together, we can create spaces that are not only efficient and safe but also contribute to a more sustainable future.
+                    <p>Explore the advantages of our insulation solution and discover how Shree Insulations can support your next project. Together, we can create spaces that are not only efficient and safe but also contribute to a more sustainable future.
                     </p>
                 </div>
             </div>
