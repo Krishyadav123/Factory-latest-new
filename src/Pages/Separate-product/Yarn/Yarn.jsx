@@ -10,13 +10,13 @@ import YarnPDF from '../../../assets/shree pdf/Yarn.pdf';
 
 let image = 'https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049674/shreeInsul/PNG/j5bcdpittcqczmlgezg1.png'
 
-let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731051891/shreeInsul/PNG/ataduek7gcenyconqeug.mp4"
+let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731477991/shreeInsul/PNG/uxcnnwlpqnydt30woasl.mp4"
 
 const Yarn = () => {
 
     return (
         <>
-        <Parelax heading={"Shreeinsul Textile Products"} backgroundImage={image03} />
+        <Parelax heading={"Shreeinsul Textile Products"} backgroundVideo={parelaxVideo} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">

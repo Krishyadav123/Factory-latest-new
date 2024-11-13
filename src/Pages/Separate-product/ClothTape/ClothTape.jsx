@@ -10,7 +10,7 @@ import ClothTapePDF from '../../../assets/shree pdf/Cloth&Tape.pdf';
 
 let image ='https://res.cloudinary.com/dcsentl2f/image/upload/v1731054456/shreeInsul/PNG/wmvhij4egrexpf2gvx48.png'
 
-let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731051891/shreeInsul/PNG/ataduek7gcenyconqeug.mp4"
+let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731477991/shreeInsul/PNG/uxcnnwlpqnydt30woasl.mp4"
 
 const ClothTape = () => {
 

@@ -107,6 +107,12 @@
     margin-top: 25px;
 
 }
+
+.about-logo{
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
 @media(max-width:1200px){
   .about-main {
     display: flex;

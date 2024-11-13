@@ -128,7 +128,7 @@ const Product = () => {
     <div className="product">
       <div className="product-main-container">
         <div className="product-title">
-          <p className="latest">--Products--</p>
+          
           <h1 className="category-heading">Products</h1>
         </div>
         <div className="product-cards">

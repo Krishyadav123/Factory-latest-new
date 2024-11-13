@@ -7,11 +7,15 @@ import image03 from '../../../assets/AboutPageimg/image03.jpg'
 import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import TwistedRopePDF from '../../../assets/shree pdf/TwistedRope.pdf';
+
+let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727949488/shreeinsul/products/Shreeinsul%20Ceramic%20twisted%20Rope/sz0w29ptnzctfddq0bsb.jpg'
+
+let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731477991/shreeInsul/PNG/uxcnnwlpqnydt30woasl.mp4"
 const TwistedRope = () => {
-  let image = 'https://res.cloudinary.com/dwvxuesrd/image/upload/v1727949488/shreeinsul/products/Shreeinsul%20Ceramic%20twisted%20Rope/sz0w29ptnzctfddq0bsb.jpg'
+
     return (
         <>
-        <Parelax heading={"ShreeCera Textile Products"} backgroundImage={image03} />
+        <Parelax heading={"ShreeCera Textile Products"} video={parelaxVideo} />
               <div className='separate-product'>
                 <div className="separate-product-main-container">
                   <div className="separate-product-card">

@@ -54,7 +54,7 @@ const Info = () => {
             <div className="info-main-container">
             <div className="info-text">
                 <div className="info-text-main">
-                    <h2>Mission Statement</h2>
+                    <h2>Mission</h2>
                     <p>At Shree Insulations india Pvt Ltd, our mission is to lead the industry in providing innovative, high-quality stone wool solutions that enhance energy efficiency, safety, and environmental sustainability.</p>
                 </div>
             </div>
