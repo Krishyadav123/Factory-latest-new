@@ -157,7 +157,7 @@ const AboutPage = () => {
 
     return (
         <>
-            <Parelax heading={"About Shree Insulations"} backgroundVideo={parelaxVideo} />
+            <Parelax heading={"About"} backgroundVideo={parelaxVideo} />
             <div className='aboutpage'>
                 <div className="about-page-main">
                     <div className="about-page-title">

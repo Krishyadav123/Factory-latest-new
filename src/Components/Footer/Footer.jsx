@@ -29,12 +29,7 @@ const Footer = () => {
                         </div>
                         <div className="footer-content-left">
                             <p>
-                                SHREE ENGINEERS an ISO 9001:2008 Certified Organization pioneer
-                                in hot, cold, acoustic insulation and ducting work having
-                                experience of more than 18 years in almost all industrial
-                                segments. The company is managed by a team of qualified,
-                                energetic and dynamic Engineers who always are in search of
-                                better avenues.{" "}
+                            SHREEINSUL, an ISO 9001:2015 and 45001:2018 certified Group, is a leading provider of hot, cold, and acoustic insulation solutions. With more than 20 years of experience serving diverse industrial segments, our company is renowned for its expertise and commitment to excellence. Our team of highly qualified and experienced engineers is dedicated to continuous innovation and the pursuit of exceptional opportunities.{" "}
                             </p>
                             {/* <div className="footer-social-icon">
                                
