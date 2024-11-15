@@ -127,6 +127,25 @@
   font-weight: 500;
 }
 
+@media (min-width: 1924px) {
+
+  .hero-main h1 {
+    font-size: 5.5rem;
+  }
+
+  .hero-subheading {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
+  .hero-para {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
 @media (max-width: 1200px) {
   .hero-main {
     width: 100%;
