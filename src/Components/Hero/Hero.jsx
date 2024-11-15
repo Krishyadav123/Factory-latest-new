@@ -38,10 +38,12 @@ const Hero = () => {
         {/* <img src={backround} alt="" /> */}
         
         <h1 > Welcome To The World <br /> Of Insulation </h1>
-        <p>
-        WE ARE EXPERIENCED THERMAL INSULATION GROUP
+        <p className='hero-subheading'>
+        WE ARE PROMINENT THERMAL INSULATION GROUP
         </p>
-        <button id='btn-animation'>Explore More</button>
+
+        <p className='hero-para'>Shreeinsul, is a prominent thermal insulation group having in house manufacturing facilities of both hot and cold insulation materials and more than 20 years of expertise serving diverse industrial segments. Our group is renowned for its expertise and commitment to excellence. Our team of highly qualified and experienced engineers is dedicated to continuous innovation and the pursuit of exceptional opportunities.</p>
+        {/* <button id='btn-animation'>Explore More</button> */}
 
       </div>
     </div>

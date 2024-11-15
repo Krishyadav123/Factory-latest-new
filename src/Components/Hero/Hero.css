@@ -90,7 +90,7 @@
   } */
 }
 
-.hero-main p {
+.hero-subheading {
   color: #fbfbfb;
   font-size: 2.9rem;
   margin-top: 0;
@@ -112,6 +112,19 @@
 }
 #btn-animation:hover{
     background: rgb(255, 166, 0);
+}
+
+.hero-para {
+  width: 40%;
+  margin-top: 10px;
+  color: #e1e1e1;
+  font-size: 2.9rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  letter-spacing: 0.1em;
+  font-size: clamp(0.8rem, 8vw, 0.9rem);
+  font-family: sans-serif;
+  font-weight: 500;
 }
 
 @media (max-width: 1200px) {
