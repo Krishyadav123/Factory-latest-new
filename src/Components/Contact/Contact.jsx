@@ -13,9 +13,9 @@ const Contact = () => {
 
     const facebookLink = "https://www.facebook.com/profile.php?id=61566026194334"
 
-    const whatsappNumber = "87188 12605"
+    const whatsappNumber = "918718812605"
 
-    const whatsappLink = `https://api.whatsapp.com/send/?phone=${whatsappNumber}&text=I+am+interested+in+your+products.+Please+share+the+details.&type=phone_number&app_absent=0`
+    const whatsappLink = `https://wa.me/${whatsappNumber}?text=I+am+interested+in+your+products.+Please+share+the+details`
 
     const linkedinLink = "https://www.linkedin.com/company/shree-insulation/about/?viewAsMember=true"
 
