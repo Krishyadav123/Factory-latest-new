@@ -96,10 +96,15 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <a href='https://shreeengineers.in/services.php' target="_blank" rel="noopener noreferrer">
+          <NavLink to='/services' activeClassName="active-nav"  onClick={() => setMenuOpen(false)}>
+            Services
+          </NavLink>
+        </li>
+        {/* <li>
+          <a href='services' target="_blank" rel="noopener noreferrer">
             Services
           </a>
-        </li>
+        </li> */}
         <li>
           <NavLink to='/about' activeClassName="active-nav"  onClick={() => setMenuOpen(false)}>
             About
