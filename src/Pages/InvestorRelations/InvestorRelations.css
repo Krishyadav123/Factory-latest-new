@@ -1,0 +1,128 @@
+.investor-relations-page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* HERO IMAGE SECTION */
+.investor-hero {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dark overlay for text readability */
+.investor-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.investor-hero-overlay h1 {
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+/* CURVE */
+.investor-curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  z-index: 3;
+}
+
+/* WHITE SECTION */
+.investor-white-section {
+  background-color: #ffffff;
+  padding: 10px 20px 40px 20px;
+  text-align: center;
+}
+
+.investor-white-section h2 {
+  font-size: 40px;
+  color: #ff8c00;
+  margin-bottom: 20px;
+}
+
+.investor-white-section p {
+  max-width: 53vw;
+  margin: auto;
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.7;
+
+  /* 👈 keeps text in one line */
+  overflow: hidden; /* optional */
+  text-overflow: ellipsis; /* optional: shows ... if too long */
+}
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .investor-hero {
+    height: 450px;
+  }
+
+  .investor-hero-overlay h1 {
+    font-size: 32px;
+  }
+
+  .investor-white-section h2 {
+    font-size: 26px;
+  }
+
+  .investor-white-section p {
+    font-size: 16px;
+  }
+}
+
+.investor-right-only {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.investor-right-only h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Table */
+.investor-right-only table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.investor-right-only th,
+.investor-right-only td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.investor-right-only th {
+  font-weight: 600;
+}
+
+.pdf-img-icon {
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+  background: transparent;
+  padding: 0;
+}

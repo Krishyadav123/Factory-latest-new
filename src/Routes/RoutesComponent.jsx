@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import ServicePage from '../Pages/Service-page/ServicePage';
 import Scrollup from './Scrollup';
 import Achivement from '../Pages/Achivement/Achivement';
+import InvestorRelations from '../Pages/InvestorRelations/InvestorRelations'; 
 import Lrb from '../Pages/Separate-product/LRB/Lrb';
 import SlabsAndBoard from '../Pages/Separate-product/SlabsAndBoard/SlabsAndBoard';
 import SectionalPipeCover from '../Pages/Separate-product/SectionalPipeCover/SectionalPipeCover';
@@ -43,6 +44,7 @@ const RoutesComponent = () => {
         <Route path='/gallery' element={<Gallary />} />
         <Route path='/products' element={<ProductPage />} />
         <Route path='/achievement' element={<Achivement />} />
+        <Route path='/investor-relations' element={<InvestorRelations />}/>
         <Route path='/products/lrb' element={<Lrb />} />
         <Route path='/products/slabs-and-boards' element={<SlabsAndBoard />} />
         <Route path='/products/sectional-pipe-covers' element={<SectionalPipeCover />} />
