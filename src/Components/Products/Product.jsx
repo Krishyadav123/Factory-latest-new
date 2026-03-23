@@ -16,7 +16,7 @@ const Product = () => {
     {
       id: 1,
       image:
-        "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/b5f6ygv1nrhrpf8rzvyj.png",
+        "https://res.cloudinary.com/dinknhjnp/image/upload/v1774260808/WhatsApp_Image_2026-03-23_at_3.41.24_PM_hrpeaj.jpg",
       name: "Shreeinsul Blanket",
       description:
         "Shreeinsul Lightly Resin Bonded (LRB) Blanket offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made  of molten stone wool fibres bonded by a suitable resin and then stitching with GI wire mesh. This material complies to ASTM C592 & IS 8183",
@@ -25,7 +25,7 @@ const Product = () => {
     {
       id: 2,
       image:
-        "https://res.cloudinary.com/dcsentl2f/image/upload/w_500,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/ovpbmzfl02pd6uahncex.png",
+        "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/ovpbmzfl02pd6uahncex.png",
       name: "Shreeinsul Sectional Pipe Covers",
       description:
         "Shreeinsul Sectional Pipe Covers (SPC) offers a quick solution for insulation needs, combining exceptional dimensional stability with durability and tuffness. These SPCs are made from long non-combustible rock fibres bonded with thermosetting resin binders. The SPC's are available plain or with FSK facings. This material conforms to ASTM C547 & IS 9842",

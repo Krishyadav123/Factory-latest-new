@@ -95,7 +95,7 @@ const Phome = () => {
             <div className="productCard">
               <img
               className='productImg'
-                src={"https://res.cloudinary.com/dcsentl2f/image/upload/w_300,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/b5f6ygv1nrhrpf8rzvyj.png"}
+                src={"https://res.cloudinary.com/dinknhjnp/image/upload/w_300,h_400,c_scale,q_auto,f_auto/v1774260808/WhatsApp_Image_2026-03-23_at_3.41.24_PM_hrpeaj.jpg"}
                 alt="" 
                 loading='lazy'/>
             </div>

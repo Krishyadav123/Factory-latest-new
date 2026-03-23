@@ -17,7 +17,7 @@ const ProductPage = () => {
       "categoryProducts": [
         {
           "id": 1,
-          "image": "https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/b5f6ygv1nrhrpf8rzvyj.png",
+          "image": "https://res.cloudinary.com/dinknhjnp/image/upload/v1774260808/WhatsApp_Image_2026-03-23_at_3.41.24_PM_hrpeaj.jpg",
           "name": "Shreeinsul Blanket ",
           "description": "Shreeinsul Lightly Resin Bonded (LRB) Blanket offers an advanced solution for insulation needs, combining exceptional thermal efficiency with flexibility for different surface shapes and sizes. These matteresses are made  of molten stone wool fibres bonded by a suitable resin and then stitching with GI wire mesh. This material complies to ASTM C592 & IS 8183",
           "link": "/products/lrb"
