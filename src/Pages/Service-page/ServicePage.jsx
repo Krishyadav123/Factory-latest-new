@@ -122,7 +122,7 @@ const ServicePage = () => {
           <div className="service-page-content-img-info-container">
             <div className="service-page-content-img-info-img">
               <img
-                src="https://shreeengineers.in/assets/img/service/serv-1.jpg"
+                src="https://res.cloudinary.com/dinknhjnp/image/upload/v1740481978/WhatsApp_Image_2025-02-25_at_16.40.52_10fd7afc_o8qnx2.jpg "
                 alt="service1"
                 // className="service-page-content-img-info-img"
               />
@@ -202,7 +202,7 @@ const ServicePage = () => {
             </div>
             <div className="service-page-content-img-info-img">
               <img
-                src="https://shreeengineers.in/assets/img/service/serv-2.jpg"
+                src="https://res.cloudinary.com/dinknhjnp/image/upload/v1740481978/WhatsApp_Image_2025-02-25_at_16.40.52_18a0e15c_rieq54.jpg "
                 alt="service1"
                 // className="service-page-content-img-info-img"
               />
@@ -211,7 +211,7 @@ const ServicePage = () => {
           <div className="service-page-content-img-info-container">
             <div className="service-page-content-img-info-img">
               <img
-                src="https://shreeengineers.in/images2/gallery/2.jpg"
+                src="https://res.cloudinary.com/dinknhjnp/image/upload/v1740481978/WhatsApp_Image_2025-02-25_at_16.40.52_cf6aef61_edyszv.jpg "
                 alt="service1"
                 // className="service-page-content-img-info-img"
               />
