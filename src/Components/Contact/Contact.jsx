@@ -8,6 +8,7 @@ import facebook from './../Contact/facebook.png';
 import whatsapp from './../Contact/whatsapp.png';
 import linkedin from './../Contact/linkedin.png';
 import call from './../Contact/call.png';
+import location from './../Contact/location.png';
 
 const Contact = () => {
 
@@ -152,7 +153,7 @@ const Contact = () => {
                             <div className="contact-page-left-info">
 
                                 <div className="contact-page-left-info-img">
-                                    <img style={{width: '50px'}} src={call} alt="" />
+                                    <img style={{width: '50px'}} src={location} alt="" />
                                 </div>
 
                                 <div className="contact-page-left-info-text">
@@ -161,13 +162,13 @@ const Contact = () => {
 
                                     <p>{hyderabadOfficeAddress}</p>
 
-                                    <p style={{ marginTop: "10px" }}>
+                                    {/* <p style={{ marginTop: "10px" }}>
                                         SIIPL Registration : <span style={{ fontWeight: "bold" }}>{siiplRegistrationNumber}</span>
                                     </p>
 
                                     <p>
                                         Contact Person : <span style={{ fontWeight: "bold" }}>{contactPerson}</span>
-                                    </p>
+                                    </p> */}
 
                                 </div>
 
