@@ -95,56 +95,39 @@ const Phome = () => {
             <div className="productCard">
               <img
               className='productImg'
-                src={"https://res.cloudinary.com/dinknhjnp/image/upload/w_300,h_400,c_scale,q_auto,f_auto/v1774260808/WhatsApp_Image_2026-03-23_at_3.41.24_PM_hrpeaj.jpg"}
+                src={"https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177676/lrb_ps57jy.png"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={"https://res.cloudinary.com/dcsentl2f/image/upload/w_300,h_400,c_scale,q_auto,f_auto/v1731049687/shreeInsul/PNG/z4c2r682f1b9scegfyay.png"}
+                src={"https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177665/board_1_ovafdp.png"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={"https://res.cloudinary.com/dcsentl2f/image/upload/w_300,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/ovpbmzfl02pd6uahncex.png"}
+                src={"https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177713/CERAMIC_YARN_ta7mfw.png"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-                src={"https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_550,c_scale,q_auto,f_auto/v1731049687/shreeInsul/PNG/xzfyol87mmfwph5ltsfq.png"}
+                src={"https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177679/loose_wool_vaxjoi.png"}
                 alt="" 
                 loading='lazy'/>
             </div>
             <div className="productCard">
               <img
               className='productImg'
-               src={"https://res.cloudinary.com/dcsentl2f/image/upload/w_300,h_400,c_scale,q_auto,f_auto/v1731049685/shreeInsul/PNG/t2dl7xb26qgtlxnxckuo.png"}
+               src={"https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177666/pipe_section_ligvc1.png"}
                 alt="" 
                 loading='lazy'/>
             </div> 
 
-            {/* {
-              ProductImages.map((item, key) => {
-                return (
-                  <div className="productCard" key={key}>
-                    <img
-                    className='productImg'
-                      src={item.image}
-                      alt="" />
-                  </div>
-                )
-              })
-            } */}
-            {/* <div className="productCard">
-              <img
-                src={product01new}
-                alt="" />
-            </div> */}
           </div>
         </main>
       );

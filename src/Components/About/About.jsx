@@ -79,7 +79,7 @@ const About = () => {
         <div className="about-main-img">
           <div className="images first-img">
             <img
-              src={`https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1731405072/shreeInsul/intro%20of%20us%20image/d5xolp2rbtsnqd9wxxoq.jpg`}
+              src={`https://res.cloudinary.com/dhf8eyjee/image/upload/v1781185247/Screenshot_2026-06-11_191021_ron31e.png`}
               alt=""
             />
           </div>
@@ -91,7 +91,7 @@ const About = () => {
           </div>
           <div className="images last-img">
             <img
-              src={`https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1731405015/shreeInsul/intro%20of%20us%20image/zavdktquzqgpfvnlyojr.jpg`}
+              src={`https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177665/boards_klcxrr.png`}
               alt=""
             />
           </div>
@@ -100,7 +100,7 @@ const About = () => {
           <div className="about-main-img-container-1">
             <div className="about-img-4">
               <img
-                src={`https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1731405068/shreeInsul/intro%20of%20us%20image/gdbfojqtqvtzspmr5shv.jpg`}
+                src={`https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177679/loose_wool_vaxjoi.png`}
                 alt=""
               />
             </div>

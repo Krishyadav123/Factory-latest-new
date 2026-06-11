@@ -28,23 +28,26 @@ const GalleryImg = () => {
 
     { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837338/shreeInsul/images/xcijq8m8n8mcekhvywzu.jpg' },
 
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837338/shreeInsul/images/wurolxabq7eyo8kugw55.png' },
+    { type: 'image', src: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781185246/Screenshot_2026-06-11_190948_yskgh2.png' },
 
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837337/shreeInsul/images/vtnv90h7hszudurz4fc2.png' },
+    { type: 'image', src: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781185247/Screenshot_2026-06-11_191005_v0hqgy.png' },
 
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837336/shreeInsul/images/xmedpiuhpu7lbhni8jty.png' },
+    { type: 'image', src: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781185247/Screenshot_2026-06-11_191021_ron31e.png' },
 
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837336/shreeInsul/images/i5jhg0nl3kkzenfjlqga.png' },
+    { type: 'image', src: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177724/CERAMIC_TAPE_CLOTH_cvfeie.png' },
 
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837247/shreeInsul/images/jb18filzg4pzyrq28kyc.png' },
+    { type: 'image', src: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177713/CERAMIC_YARN_ta7mfw.png' },
 
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837225/shreeInsul/images/kj2j9ysnpp1xqc2sngvn.png' },
+    { type: 'image', src: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177706/CERAMIC_ROPE_zk6hmq.png' },
 
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837225/shreeInsul/images/pbddr7gjoekzccde2fuo.png' },
+    { type: 'image', src: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177679/loose_wool_vaxjoi.png' },
 
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837224/shreeInsul/images/vgofehga6iffdixwbzor.png' },
+    { type: 'image', src: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177676/lrb_ps57jy.png' },
 
-    { type: 'image', src: 'https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729837222/shreeInsul/images/xy3dej6iv6kj6uhpwnxz.png' },
+    { type: 'image', src: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177669/roll_xrphkc.png' },
+
+    { type: 'image', src: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177665/boards_klcxrr.png' },
+
 
 
 
