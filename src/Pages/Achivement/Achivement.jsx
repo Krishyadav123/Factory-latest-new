@@ -93,7 +93,7 @@ const Achivement = () => {
                 image3={"https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729850804/shreeInsul/achivment/rqevb6dpuessgw3dt1mm.jpg"}
                 // image4={"https://res.cloudinary.com/dcsentl2f/image/upload/w_600,h_500,c_scale,q_auto,f_auto/v1729850993/shreeInsul/achivment/uxfb3gxc8dqjabx4mzbb.jpg"}
 
-                heading='Achievements'
+                heading=''
                 />
             </div>
             <div className='parent-gallary'>

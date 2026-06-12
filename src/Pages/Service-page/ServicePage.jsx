@@ -13,7 +13,7 @@ const ServicePage = () => {
 
   return (
     <div className="service-page">
-      <Parelax heading={"Service Page"} backgroundVideo={parelaxVideo} />
+      <Parelax  backgroundVideo={parelaxVideo} />
       {/* <Service />
       <div className="service-page-countdown">
         <CounterSection />
@@ -202,7 +202,7 @@ const ServicePage = () => {
             </div>
             <div className="service-page-content-img-info-img">
               <img
-                src="https://res.cloudinary.com/dinknhjnp/image/upload/v1740481978/WhatsApp_Image_2025-02-25_at_16.40.52_18a0e15c_rieq54.jpg "
+                src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1781270856/WhatsApp_Image_2026-06-12_at_4.51.21_PM_zw48id.jpg"
                 alt="service1"
                 // className="service-page-content-img-info-img"
               />
@@ -211,7 +211,7 @@ const ServicePage = () => {
           <div className="service-page-content-img-info-container">
             <div className="service-page-content-img-info-img">
               <img
-                src="https://res.cloudinary.com/dinknhjnp/image/upload/v1740481978/WhatsApp_Image_2025-02-25_at_16.40.52_cf6aef61_edyszv.jpg "
+                src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1781270973/WhatsApp_Image_2026-06-12_at_4.52.31_PM_sctdrh.jpg"
                 alt="service1"
                 // className="service-page-content-img-info-img"
               />

@@ -29,7 +29,7 @@ const Footer = () => {
                         </div>
                         <div className="footer-content-left">
                             <p>
-                            SHREEINSUL, an ISO 9001:2015 and 45001:2018 certified Group, is a leading provider of hot, cold, and acoustic insulation solutions. With more than 20 years of experience serving diverse industrial segments, our company is renowned for its expertise and commitment to excellence. Our team of highly qualified and experienced engineers is dedicated to continuous innovation and the pursuit of exceptional opportunities.{" "}
+                            SHREEINSUL, an ISO 9001:2015 and 45001:2018 certified Group, is a leading provider of hot, cold, and acoustic insulation solutions. With more than 20 years of experience serving diverse industrial segments, our group is renowned for its expertise and commitment to excellence. Our team of highly qualified and experienced professionals is dedicated to continuous innovation and the pursuit of exceptional opportunities.{" "}
                             </p>
                             {/* <div className="footer-social-icon">
                                
@@ -95,7 +95,7 @@ const Footer = () => {
                         <div className="footer-content-right">
                             <h2>GET IN TOUCH</h2>
                             <ul>
-                                <li>+91-87188 12605</li>
+                                <li>+91 8818819200 <br />+91 8817020851</li>
                                 <li>Sales@shreeinsul.com</li>
                             </ul>
                         </div>

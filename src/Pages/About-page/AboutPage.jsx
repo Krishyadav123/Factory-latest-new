@@ -157,7 +157,7 @@ const AboutPage = () => {
 
     return (
         <>
-            <Parelax heading={"About"} backgroundVideo={parelaxVideo} />
+            <Parelax  backgroundVideo={parelaxVideo} />
             <div className='aboutpage'>
                 <div className="about-page-main">
                     <div className="about-page-title">

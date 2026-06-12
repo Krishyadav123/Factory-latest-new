@@ -15,7 +15,7 @@ const InvestorRelations = () => {
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="investor-hero-overlay">
-          <h1>Investor Relations</h1>
+          {/* <h1>Investor Relations</h1> */}
         </div>
 
         <svg

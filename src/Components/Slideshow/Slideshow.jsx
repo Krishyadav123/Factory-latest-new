@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Slideshow.css'; // Import your CSS file for styling
 
-const Slideshow = ({ image1, image2, image3, heading="Gallery"}) => {
+const Slideshow = ({ image1, image2, image3, heading=""}) => {
   const [slideIndex, setSlideIndex] = useState(1);
   const [autoSlide, setAutoSlide] = useState(true);
 

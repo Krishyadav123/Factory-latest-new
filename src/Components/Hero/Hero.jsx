@@ -22,7 +22,9 @@ const Hero = () => {
       }); // <-- automatically reverted
     },);
 
-    const heroVideo = "https://res.cloudinary.com/dwvxuesrd/video/upload/v1728118257/shreeinsul/Hero%20Header%20Video/o284uxy4ixw58lhegukl.mp4"
+    // const heroVideo = "https://res.cloudinary.com/dwvxuesrd/video/upload/v1728118257/shreeinsul/Hero%20Header%20Video/o284uxy4ixw58lhegukl.mp4"
+    // const heroVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731319351/shreeInsul/about%20page/ffuq7sxlmcjxkcf3ktcu.mov"
+    const heroVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731406708/shreeInsul/about%20page/omr1pe8ib3hjflzxgu0x.mov"
 
     const backgroundImage = "https://res.cloudinary.com/dwvxuesrd/image/upload/w_400,h_300,c_scale,q_auto,f_auto/v1728118933/shreeinsul/Hero%20Header%20Video/ytajb6kr7ayjhzgtdhsj.jpg"
  
