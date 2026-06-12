@@ -8,7 +8,7 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import SlabsAndBoardPDF from '../../../assets/shree pdf/ShreeinsulBoards.pdf';
 
-  let image ='https://res.cloudinary.com/dcsentl2f/image/upload/w_500,h_400,c_scale,q_auto,f_auto/v1731049687/shreeInsul/PNG/z4c2r682f1b9scegfyay.png'
+  let image ='https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177665/boards_klcxrr.png'
 
   let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731051891/shreeInsul/PNG/ataduek7gcenyconqeug.mp4"
 function SlabsAndBoard() {

@@ -8,7 +8,7 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import YarnPDF from '../../../assets/shree pdf/Yarn.pdf';
 
-let image = 'https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049674/shreeInsul/PNG/j5bcdpittcqczmlgezg1.png'
+let image = 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177713/CERAMIC_YARN_ta7mfw.png'
 
 let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731477991/shreeInsul/PNG/uxcnnwlpqnydt30woasl.mp4"
 

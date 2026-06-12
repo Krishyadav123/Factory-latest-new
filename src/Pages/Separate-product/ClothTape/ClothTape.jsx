@@ -8,7 +8,7 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import ClothTapePDF from '../../../assets/shree pdf/Cloth&Tape.pdf';
 
-let image ='https://res.cloudinary.com/dcsentl2f/image/upload/v1731054456/shreeInsul/PNG/wmvhij4egrexpf2gvx48.png'
+let image ='https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177724/CERAMIC_TAPE_CLOTH_cvfeie.png'
 
 let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731477991/shreeInsul/PNG/uxcnnwlpqnydt30woasl.mp4"
 

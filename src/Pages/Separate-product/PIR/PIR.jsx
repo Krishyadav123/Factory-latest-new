@@ -9,7 +9,7 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import PirPdf from "../../../assets/shree pdf/PIR.pdf";
 
-let image = 'https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_500,c_scale,q_auto,f_auto/v1731049679/shreeInsul/PNG/rjwjccdc1rjcaxxqfztq.png'
+let image = 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781185247/Screenshot_2026-06-11_191005_v0hqgy.png'
 
 let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731393128/shreeInsul/PNG/qcx4vrvrzzvf8tpfvva8.mp4"
 

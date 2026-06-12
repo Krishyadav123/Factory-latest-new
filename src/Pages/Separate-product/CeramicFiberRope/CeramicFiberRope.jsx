@@ -8,7 +8,7 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import CeramicFiberRopePDF from '../../../assets/shree pdf/CeramicFiberRope.pdf';
 
-let image = 'https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_400,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/kowde6cnzmjr1vdkcplx.png'
+let image = 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177706/CERAMIC_ROPE_zk6hmq.png'
 
 let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731477991/shreeInsul/PNG/uxcnnwlpqnydt30woasl.mp4"
 

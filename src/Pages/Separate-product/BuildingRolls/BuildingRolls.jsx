@@ -8,7 +8,7 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import BuildingRollsPDF from '../../../assets/shree pdf/BuildingRolls.pdf';
 
-let image ='https://res.cloudinary.com/dcsentl2f/image/upload/w_400,h_550,c_scale,q_auto,f_auto/v1731049687/shreeInsul/PNG/xzfyol87mmfwph5ltsfq.png'
+let image ='https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177665/building_rolls_vhfazh.png'
 
 let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731051891/shreeInsul/PNG/ataduek7gcenyconqeug.mp4"
 

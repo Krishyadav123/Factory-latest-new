@@ -8,7 +8,7 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import LrbPDF from '../../../assets/shree pdf/Shree Form.pdf';
 
-  let image = 'https://res.cloudinary.com/dcsentl2f/image/upload/w_500,h_500,c_scale,q_auto,f_auto/v1731049681/shreeInsul/PNG/b5f6ygv1nrhrpf8rzvyj.png'
+  let image = 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177676/lrb_ps57jy.png'
 
   let parelaxVideo = "https://res.cloudinary.com/dcsentl2f/video/upload/v1731051891/shreeInsul/PNG/ataduek7gcenyconqeug.mp4"
 function Lrb() {
