@@ -56,11 +56,11 @@ const Navbar = () => {
             Services
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink to='/about' activeClassName="active-nav" onClick={() => setMenuOpen(false)}>
             About
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink to='/gallery' activeClassName="active-nav" onClick={() => setMenuOpen(false)}>
             Gallery

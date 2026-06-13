@@ -139,9 +139,10 @@ const Contact = () => {
                                 <div className="contact-page-left-info-text">
                                     <h2>Phone Number:</h2>
 
-                                    <p>Head-Office : {headOfficeNumber}</p>
+                                    {/* <p>Head-Office : {headOfficeNumber}</p>
 
-                                    <p>Branch-Office : {BranchOfficeNumber}</p>
+                                    <p>Branch-Office : {BranchOfficeNumber}</p> */}
+                                    <p>+91 8818819200 <br />+91 8817020851</p>
                                 </div>
 
                             </div>
