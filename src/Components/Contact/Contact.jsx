@@ -223,6 +223,7 @@ const Contact = () => {
                                     <div className="contact-page-left-info-text">
                                         <h2>Whatsapp</h2>
                                         <p>+91 {whatsappNumber}</p>
+                                        <p>+91 8817020851</p>
                                     </div>
 
                                 </div>
