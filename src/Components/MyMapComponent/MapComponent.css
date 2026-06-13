@@ -13,6 +13,12 @@
   border-radius: 20px;
 }
 
+.map-heading{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(56, 56, 56);
+  margin-top: 10px;
+}
 
 @media (max-width: 1200px){
   .row{

@@ -15,6 +15,9 @@ const MapComponent = () => {
           title="Map of Rajwada Palace, Indore"
         ></iframe>
       </div>
+      <div>
+        <h2 className="map-heading">Head Office</h2>
+      </div>
     </div>
 
     <div className="col-12">
@@ -27,6 +30,9 @@ const MapComponent = () => {
           referrerPolicy="no-referrer-when-downgrade"
           title="Map of Rajwada Palace, Indore"
         ></iframe>
+      </div>
+      <div>
+        <h2 className="map-heading">Manufacturing Unit</h2>
       </div>
     </div>
     </div>
